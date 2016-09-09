@@ -1,0 +1,1219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>兲朝新书推荐——《中国文明的反思》 - 开放社会资料室 -  1984bbs.com </title>
+<meta name="keywords" content="" />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<link rel="archives" title="1984bbs.com" href="https://1984bbs.com/archiver/" />
+	<link rel="stylesheet" type="text/css" href="forumdata/cache/style_1_viewthread.css" />
+	<link rel="stylesheet" type="text/css" href="forumdata/cache/style_1_common.css" />
+<script type="text/javascript">
+	var discuz_uid = 13019;var IMGDIR = 'images/default';var attackevasive = '0';var gid = 0;var STYLEID = '1';
+	gid = parseInt('3');var fid = parseInt('21');var tid = parseInt('23310');
+</script>
+<script src="include/javascript/common.js" type="text/javascript"></script>
+
+<style>
+ .ChatAutoRefreshStyle {margin-right:0px;}
+ .ChatSubmitButtonStyle {margin-right:0px;}
+ .gwt-Button {margin-right:0px;}
+</style>
+<!-- <script src="../OnlineChat/port.for1984.OnlineChat.nocache.js" type="text/javascript"></script> -->
+<script src="/onlinechat.new/onlinechat.nocache.js" type="text/javascript"></script> 
+
+<script type="text/javascript" language="javascript">
+
+var chat_button;
+var mynickname;
+
+var chat_start_num=0;
+var chat_refresh;
+
+
+
+function getChatViewPage(){
+ return chat_start_num;
+}
+
+function sendChatRefreshButtonObjct(o)
+{
+chat_refresh=o;
+}
+
+function chat_reply_action(Sender)
+{
+ document.getElementById('chat_msg').value=
+ "@"+unescape(Sender)+","+document.getElementById('chat_msg').value;
+}
+
+function receiveChatViewPage(i)
+{
+ chat_start_num=i;
+ var nextpage=document.getElementById('chat_next_page');
+ if (i==0) { 
+   nextpage.style.display = "none";
+   nextpage.style.visibility = "hidden";
+  }
+  else
+  {
+   nextpage.style.display = "inline";   
+   nextpage.style.visibility = "visible";
+  }
+}
+
+function chat_page_next()
+{
+chat_start_num-=getChatListLimit(100);
+if (chat_start_num<0) chat_start_num=0;
+chat_refresh.click();
+}
+
+function chat_page_prev()
+{
+chat_start_num+=getChatListLimit(100);
+chat_refresh.click();
+}
+
+
+function setMyChatNickName(o)
+{
+mynickname=o;
+}
+
+function handleChatChange()
+{
+      try{
+      q=140-document.getElementById('chat_msg').value.length;
+      document.getElementById('chat_msg_length').innerHTML = ""+q;
+      } catch(e) {
+	}
+}
+
+var chat_check_timer;
+
+
+function handleChatEnterKey(e) {
+    if (e.keyCode == 13 || e.keyCode == 10) {
+        if (!chat_button.disabled)
+             chat_button.click();
+        return false;
+    }
+    else 
+   {
+        handleChatChange();
+   }
+}
+
+function getChatRefreshTime()
+{
+ return 6;
+}
+
+function runClearChatBox()
+{
+document.getElementById('chat_msg').value = "";
+}
+
+function replaceButtonText(button, text)
+{
+    if (button)
+    {
+      if (button.childNodes[0])
+      {
+        button.childNodes[0].nodeValue=text;
+      }
+      else if (button.value)
+      {
+        button.value=text;
+      }
+      else //if (button.innerHTML)
+      {
+        button.innerHTML=text;
+      }
+    }
+}
+
+
+function sendChatCommentButtonObjct(o)
+{
+ chat_button=o;
+ replaceButtonText(chat_button, "提交");
+ chat_check_timer= setInterval("handleChatChange()",3000);
+}
+
+function replaceURLWithHTMLLinks(text) {
+var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+return text.replace(exp,"<a href='$1' target='_blank'>$1</a>");
+}
+
+function getChatItemWriteString(Id,Sender,Msg,Time,Reply)
+{
+ var msg;
+ try
+ {
+ msg=replaceURLWithHTMLLinks(Msg.substr(0,140));
+ }
+ catch(e) {
+ msg=Msg.substr(0,140);
+ }
+ h="<span style='width:200px;white-space:normal; word-break:break-all;overflow:hidden;word-wrap:break-word;OVERFLOW-X:hidden;'>";
+   if (Sender==mynickname) {
+  h+="<font color=#ff0000>"+Sender+"</font>(<i>"+Time.substr(11)+"</i>) "+"<font color=#444444>"+msg+"</font>"+"<hr style='border-top-width:0px;border-bottom-width:1px;border-color:#eeeeee;border-right-width:0px;border-left-width:0px;' />";
+   }
+   else {
+      h+="<font color=#000000><b>"+Sender+"</b></font>(<i>"+Time.substr(11)+"</i>) "+"<font color=#555555>"+msg+"</font>"+"<img src='1984chat_re.jpg' border=0 onclick='chat_reply_action(\""+escape(Sender)+"\");'/>"+"<hr style='border-top-width:0px;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;border-color:#eeeeee;' />";
+   } 
+  h+="</span>";
+   return h;
+}
+
+function getChatItemWriteStart()
+{
+ try {
+　document.getElementById('online_chat_box').style.visibility = "visible";
+　document.getElementById('online_chat_loading').style.visibility = "hidden";
+　document.getElementById('online_chat_loading').style.display = "none";
+ } catch(e) {};
+  return "";
+}
+
+function getChatItemWriteEnd()
+{
+return "";
+}
+
+function getChatListLimit(i)
+{
+        return 15;
+}
+</script>
+
+</head>
+
+<body onkeydown="if(event.keyCode==27) return false;">
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+	<div class="wrap">
+		<div id="header">
+			<h2><a href="index.php" title="1984bbs.com"><img src="images/default/logo.gif" alt="1984bbs.com" border="0" /></a></h2>
+			<div id="ad_headerbanner"><b>能截图的截图，喜欢备份的备份。2010年10月12日的某时某刻，1984bbs将关闭。对不起各位，我力所不能及。<br>希望1984bbs再见面的时候，这个世界上再也没有共产党。</b>——张书记 1984bbs</div>
+		</div>
+		<div id="menu">
+			<span class="avataonline">
+							<cite><a class="dropmenu" id="viewpro">vos2010</a></cite>
+				<a href="logging.php?action=logout&amp;formhash=823c9fa2">退出</a>
+						</span>
+					<ul>
+			<li><a href="my.php?item=threads">话题</a></li>
+			<li><a href="my.php?item=polls&amp;type=poll">投票</a></li>
+			<li><a href="my.php?item=posts">回复</a></li>
+			<li><a href="my.php?item=favorites&amp;type=thread">收藏</a></li>
+			<li><a href="pm.php" id="pmnotice" onclick="pmwin('open')"><font style="color:#FF0000">您有新短消息</font></a></li>
+									<li><a href="search.php?srchfid=21">搜索</a></li>									
+				<li><a href="memcp.php?action=profile">个人资料</a></li>				<li><a href="invite.php">邀请</a></li>																<!--				<li><a href="faq.php">关于我们</a></li> -->
+			</ul>
+		</div>
+
+<style type="text/css">
+.defaultpost { height: auto !important; height:120px; min-height:120px !important; }
+.signatures { height: expression(signature(this)); max-height: 100px; }
+</style>
+
+<script src="include/javascript/viewthread.js" type="text/javascript"></script>
+<script type="text/javascript">zoomstatus = parseInt(1);</script>
+
+<div id="foruminfo">
+	<div id="nav">
+		<div class="userinfolist">
+			<p><a href="index.php" id="forumlist" onmouseover="showMenu(this.id)" class="dropmenu">1984bbs.com</a> &raquo; <a href="forumdisplay.php?fid=21">开放社会资料室</a> &raquo; 兲朝新书推荐——《中国文明的反思》</p>
+		</div>
+	</div>
+	<div id="headsearch">
+			</div>
+</div>
+
+<div class="ad_text" id="ad_text"><table summary="Text Ad" cellpadding="0" cellspacing="1"><tr><td width="100%"><b>发布新话题与讨论建议及审查说明</b><br>
+欢迎发布有讨论和阅读价值的话题；不欢迎嘲弄宗教、种族、地缘、性取向等话题。<br> 
+推崇布拉格公民论坛《对话守则》：对话的目的是寻求真理，不是为了斗争；不做人身攻击；保持主题；辩论时要用证据；要分清对话与只准自己讲话的区别；尽量理解对方。<br>
+遵循《世界人权宣言》第十九条不对用户已发表言论进行删除处理；用户有权限删除本人已发表言论；编辑会合并重复话题。</td></tr>
+</table></div>
+<div class="pages_btns">
+	<div class="threadflow"><a href="redirect.php?fid=21&amp;tid=23310&amp;goto=nextoldset"> &#8249;&#8249; 上一主题</a> | <a href="redirect.php?fid=21&amp;tid=23310&amp;goto=nextnewset">下一主题 &#8250;&#8250;</a></div>
+				<span class="postbtn" id="newspecial" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu(this.id)"><a href="post.php?action=newthread&amp;fid=21&amp;extra="><img src="images/default/newtopic.gif" border="0" alt="发新话题" title="发新话题" /></a></span>
+		<span class="replybtn"><a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;extra="><img src="images/default/reply.gif" border="0" alt="" /></a></span></div>
+
+	<ul class="popupmenu_popup newspecialmenu" id="newspecial_menu" style="display: none">
+		<li><a href="post.php?action=newthread&amp;fid=21&amp;extra=">发新话题</a></li>
+															</ul>
+
+<form method="post" name="modactions">
+	<input type="hidden" name="formhash" value="823c9fa2" />
+	<div class="mainbox viewthread">
+		<span class="headactions">
+					<a href="my.php?item=favorites&amp;tid=23310" id="ajax_favorite" onclick="ajaxmenu(event, this.id, 3000, 0)">收藏</a>
+			<a href="my.php?item=subscriptions&amp;subadd=23310" id="ajax_subscription" onclick="ajaxmenu(event, this.id, 3000, null, 0)">订阅</a>
+			<a href="misc.php?action=emailfriend&amp;tid=23310" id="emailfriend" onclick="ajaxmenu(event, this.id, 9000000, null, 0)">推荐</a>
+				<a href="viewthread.php?action=printable&amp;tid=23310" target="_blank" class="notabs">打印</a>
+				</span>
+		<h1><a href="forumdisplay.php?fid=21&amp;filter=type&amp;typeid=27">[图书]</a> 兲朝新书推荐——《中国文明的反思》		</h1>
+				<ins>
+						<a href="misc.php?action=viewthreadmod&amp;tid=23310" title="主题操作记录" target="_blank">本主题由 张书记 于 2009-12-14 15:29 分类</a>								</ins>
+							<table id="pid256238" summary="pid256238" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7002" target="_blank" id="userinfo256238" class="dropmenu" onmouseover="showMenu(this.id)">luugoo</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">拖延心理学：向与生俱来的行为顽症宣战】https://1984bbs.com/viewthread.php?tid=60185</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7002">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7002&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_0" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum256238" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=23310&page=1#pid256238', '话题链接已经复制到剪贴板')">1楼</strong>
+													<em onclick="$('postmessage_256238').className='t_bigfont'">大</em>							<em onclick="$('postmessage_256238').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_256238').className='t_smallfont'">小</em>												发表于 2009-9-25 00:32&nbsp;																					<a href="viewthread.php?tid=23310&amp;page=1&amp;authorid=7002" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_0"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_0"></div><div id="ad_thread4_0"></div>
+													<h2>兲朝新书推荐——《中国文明的反思》</h2>
+						
+						
+																											<div id="postmessage_256238" class="t_msgfont">voa<br />
+记者： 斯洋 <br />
+香港<br />
+Sep 24, 2009<br />
+&nbsp;&nbsp;<br />
+<br />
+在中国共产党庆祝建政60周年之际，一本反思中国传统文明和价值，探讨中国未来如何走向民主和宪政的书即将在香港出版。作者也因此受到官方的压力。这本书的大陆版本两年前在出版后立即被当局定为禁书。<br />
+<br />
+<img src="http://i34.tinypic.com/2gtni8m.jpg" border="0" onclick="zoom(this, this.src)" onload="attachimg(this, 'load')" alt="" /><br />
+中国文明的反思 <br />
+<br />
+《中国文明的反思》一书下星期将由香港新世纪出版社出版，作者是《湖南日报》社的资深编辑肖建生。上星期，肖建生被官方要求取消这本书在香港的出版计划，并交代他与新世纪出版社出版人鲍朴的关系。<br />
+<br />
+鲍朴的父亲是已故前中共总书记Zhao Ziyang的秘书鲍彤。鲍朴今年出版了Zhao Ziyang的回忆录《改革历程》，引起世界关注。<br />
+<br />
+肖建生著作的《中国文明的反思 》2007年1月曾在中国大陆出了删简版，但出版后立即被当局禁止发行。<br />
+<br />
+*用民主、宪政、自由以及人权的观点解读中国文明史*<br />
+<br />
+肖建生在书中运用民主、宪政、自由以及人权等现代文明观点重新解读了中国的文明历史，对中国一元化文明，也即暴力和专制的起源、发展、强化以及转型失败的过程和原因进行了深刻的分析和思考。<br />
+<br />
+鲍朴在接受美国之音采访时表示，之所以出版这本书是因为觉得书中的某些观点新颖，同时也为了弥补因本书在大陆被禁留下的空白。他说：“我实在搞不懂，这本书为什么被禁。我看了以后觉得，如果这本书被禁的话，那么还有什么书可以正正当当的发表呢？”<br />
+<br />
+书中的一些观点完全颠覆了中国人的传统史观，例如，作者认为秦始皇用暴力统一中国，建立高度专制的大一统国家并不是历史的进步。他还认为中国文明的颠峰时期是被很多史学家认为的落后和羸弱的宋朝，因为这个朝代政治开放，人权和私有财产得到了一定的保障，因此才能为人类贡献四大发明。<br />
+<br />
+*作者：民主宪政才是中国未来的走向*<br />
+<br />
+作者肖建生提出，实行民主和宪政才是中国未来发展的方向，因为这种制度可以对权力进行有效的制约。肖建生在接受美国之音采访时表示，“ 我认为民主宪政对权力的制约是比较成功的，所以中国应该借鉴和加强这方面的制度建设，我认为这是正确的方向。但是中国传统中也有好的东西，所以要结合中国的实践，借鉴西方、模仿西方。”<br />
+<br />
+*中国有利于民主宪政发展的三个条件*<br />
+<br />
+他解释说，他写本书的一个初衷就是觉得中国经济发展后，权力缺乏制约，官员腐败，道德沦丧，因此需要对中国传统的文明和文化价值进行反思。不过，他表示，中国要实现民主和宪政还有相当长的一段路要走。中国目前具备推动民主和宪政的三个有利条件：第一，是基督信仰的传播，基督教的博爱和平等的观念对中国的民主会有好的推动作用；第二是台湾，中国大陆要与实行了民主宪政的台湾统一，必须进行政治改革； 第三是互联网的传播，对政府的权力起到监督和制衡的作用。<br />
+<br />
+*从‘仁政’走向‘宪政’*<br />
+肖建生补充说，中国现在比较客观和现实的做法是从“仁政”走向宪政。也就是，政府通过一种开明的制度过渡到宪政制度，这样可以避免朝代更替，从而实现民族和解，化解矛盾，走向长治久安。<br />
+<br />
+*南华早报：河殇的继承和补充*<br />
+<br />
+香港《南华早报》认为，《中国文明的反思》一书继承了《河殇》对中国文明和价值的批判。《河殇》是1988年中国中央电视推出的一个电视记录片，对中国传统的长城和黄河农耕文明、官本位、闭关锁国、文字狱等文化价值进行了全面的批判和否定，被认为是1989年June Fourth事件的思想前导。<br />
+<br />
+肖建生认为《河殇》由于时代的局限没有能够以现代的观点来看待历史，例如，电视片中没有提到人权、民主宪政、权力制衡以及中央集权的专制制度等。<br />
+<br />
+[<i> 本帖最后由 luugoo 于 2009-9-25 00:40 编辑 </i>]</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_256238"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo256238_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=7002" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;repquote=256238&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 256238)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_0"></div>				</div>
+			</td>
+		</tr>
+		</table>
+		</div><div class="ad_column" id="ad_interthread"><a href="/viewthread.php?tid=54699" target="_blank" style="color:red;">1984bbs是一个非营利项目，它需要您的捐助！</font></a>		</div>
+	<div class="mainbox viewthread">
+			<table id="pid256244" summary="pid256244" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7002" target="_blank" id="userinfo256244" class="dropmenu" onmouseover="showMenu(this.id)">luugoo</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">拖延心理学：向与生俱来的行为顽症宣战】https://1984bbs.com/viewthread.php?tid=60185</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7002">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7002&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_1" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum256244" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=23310&page=1#pid256244', '话题链接已经复制到剪贴板')">2楼</strong>
+													<em onclick="$('postmessage_256244').className='t_bigfont'">大</em>							<em onclick="$('postmessage_256244').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_256244').className='t_smallfont'">小</em>												发表于 2009-9-25 00:36&nbsp;																					<a href="viewthread.php?tid=23310&amp;page=1&amp;authorid=7002" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_1"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_1"></div><div id="ad_thread4_1"></div>
+													<h2>《中國文明的反思》</h2>
+						
+						
+																											<div id="postmessage_256244" class="t_msgfont">发布: 2009-9-24 15:26 | 发布者: 明鏡書店 | <br />
+<br />
+這是一部用民主、憲政、自由、人權等現代文明觀點對中國文明歷史進行系統、全面反思的著作，堪稱當代中國的《盛世危言》。 <br />
+<br />
+书名拼音：Zhongguo Wenming de Fansi <br />
+作者：蕭建生 <br />
+页数：472 <br />
+出版社：新世紀出版社 <br />
+出版时间：2009.9 <br />
+书号ISBN：978-988-17202-6-9 <br />
+定价：US$35.00 （包含邮杂费）<br />
+<br />
+内容提要<br />
+<br />
+很多人把春秋戰國看成是一個諸侯割據、軍閥混戰的分裂混亂的黑暗時代；那麽一個黑暗的社會，怎麼會出現百家爭鳴、百花齊放的局面？怎麼會產生那麼多偉大的思想家、政治家、軍事家、文學家和科學家？<br />
+<br />
+很多人把秦始皇暴力統一六國、建立皇帝專制的大統一國家看成是歷史的偉大進步；既然是偉大的進步，為什麼秦滅六國之後，中國沒有再出現像老子、孔子、孟子等偉大的思想家？<br />
+<br />
+很多人把宋朝看成是一個專制的、腐敗的、落後的、貧弱的朝代；可是既然是這麼專制、腐敗、落後、貧弱的社會，那麼，它為什麼會對全人類貢獻出火藥、指南針、活字印刷術等偉大的發明？為什麼宋朝會出現繁榮的商品經濟？為什麼宋朝人會產生「先天下之憂而憂，後天下之樂而樂」的偉大情操？……<br />
+<br />
+本書的作者以其豐富的學識、犀利生動的文字，引述大量翔實史料，闡述了中國文明曾經有過的輝煌及衰落；重新解讀了中國的文明歷史；同時結合了東西方的經驗，對中國一元化文明的起源、發展、強化及其轉型失敗的過程和原因，進行了深刻的分析和思考；其結果是徹底顛覆了中國傳統的歷史觀，對於今天推動中國的政治體制改革，加快中國文明的進步，有不可忽視的價值。<br />
+<br />
+總之，這是一部用民主、憲政、自由、人權等現代文明觀點對中國文明歷史進行系統、全面反思的著作，堪稱當代中國的《盛世危言》。<br />
+<br />
+本書的作者用了20多年的時間收集材料，研究分析，寫成此書，期間反覆修改補充達20餘次。本書的刪節版，幾經周折，在中國大陸出版之際，卻被禁止發行。新世紀出版社現推出海外未刪節版，希望讀者在讀後受到強烈震撼之餘，還能得到深刻的人文啟迪。<br />
+--------------------------------------------------------------------------------<br />
+<br />
+目录<br />
+前言<br />
+<br />
+天無二日 民無二主——古代神話傳說與中國文明的起源<br />
+天地人起源的傳說與原始文化<br />
+大同社會的傳說與原始民主制<br />
+小康社會的傳說與王權的產生<br />
+堯舜禹「禪讓」的傳說與聖人時代<br />
+強權和暴力形成的原因<br />
+<br />
+偉大時代的悲劇——春秋戰國與專制主義的勝利<br />
+西周分封自治制度對人權的保護<br />
+春秋戰國時代人權的勃興<br />
+春秋戰國沒有走向民主社會的原因<br />
+商鞅變法與專制獨裁者的崛起<br />
+百家爭鳴與學術思想的歷史局限性<br />
+<br />
+暴力與專制的災難——秦朝大一統與一元化文明的確立<br />
+秦滅六國的非正義性<br />
+政治結構設計思想的失敗<br />
+秦朝法律對人權的嚴重摧殘<br />
+大一統扼殺了國際外交競爭<br />
+大一統扼殺了國際貿易競爭<br />
+大一統扼殺了國際人才競爭<br />
+大一統與秦始皇的極端腐敗和暴政<br />
+大一統與官僚體制的黑暗<br />
+<br />
+繁榮背後的危機——雄漢盛唐與皇權強化<br />
+蒙鳩築巢的啟示<br />
+中國人接受皇權專制的心理過程<br />
+皇權強化的主要措施<br />
+君相分權互制政治設計的嚴重缺陷<br />
+地方官吏制度設計的弊端<br />
+漢唐的盛衰是人治的結果<br />
+漢唐經濟的崩潰是人治的必然<br />
+<br />
+古代中國文明的頂峰——宋朝文明的偉大與消亡<br />
+輝煌的大宋文明不應否定<br />
+以文立國與中央集權加仁政的制度設計<br />
+宋朝政治設計的成就和局限性<br />
+宋朝和平發展基本國策的得失<br />
+空前繁榮的商品經濟和物質文明<br />
+自由開放和積極健康的多元化社會<br />
+對中國和人類文明的巨大貢獻<br />
+<br />
+皇權登天 人權落地——元明清的黑暗政治與文明的衰落<br />
+英國《自由大憲章》與蒙古軍隊的大屠殺<br />
+中國古典文明的終結<br />
+明清社會黑暗的專制政治<br />
+皇權強化與愚民政策<br />
+專制皇權對人權的摧殘<br />
+皇權強化與閉關鎖國<br />
+<br />
+畸形社會與畸形人生——專制制度與中國人的生存方式<br />
+萬惡的宮廷制度<br />
+野蠻的宦官制度<br />
+可怕的奸臣現象<br />
+靈魂扭曲的中國<br />
+江湖習氣和流氓文化的蔓延<br />
+官逼民反與週期性大動亂<br />
+<br />
+不成功的文明轉型——近代中國與文明革新<br />
+「中學為體 西學為用」的破產<br />
+戊戌維新與第一次文明轉型的失敗<br />
+君主立憲與第二次文明轉型的失敗<br />
+民國建立與第三次文明轉型的失敗<br />
+辛亥革命的沉痛教訓和嚴重後果<br />
+五四運動與第四次文明轉型的失敗<br />
+聯省自治與第五次文明轉型的失敗<br />
+1946年憲政運動與第六次文明轉型的失敗<br />
+1949年國共和談和政協會議的反思<br />
+<br />
+歷史的奇觀：超頑強文明——東西方文明轉型的比較<br />
+兩種中國文明轉型的觀點<br />
+教會是推動西方文明轉型的決定力量<br />
+中國沒有出現制約皇權的教會組織<br />
+人權和契約觀念是西方文明轉型的關鍵<br />
+中國傳統文化缺乏人權和契約觀念<br />
+民主思想家和政治家的偉大作用<br />
+西方文明轉型的其它重要因素<br />
+<br />
+民族性格和民族文化的悲劇——東西方文明轉型的再比較<br />
+中國人缺乏宗教信仰<br />
+中國人一再忘記保護弱者和失敗者<br />
+中國人失敗後不願意主動認輸<br />
+中國人容易遺忘歷史<br />
+中國人喜歡歌頌而不喜歡批評<br />
+中國人容忍強搶豪奪<br />
+「新瓶裝舊酒」的傳統慣性<br />
+<br />
+奠定現代文明的根基——中國文明的展望<br />
+中國文明在各方利益的博弈中演進<br />
+樹立偉大的信仰才有偉大的文明<br />
+大宋文明的啟示：從仁政到憲政<br />
+<br />
+後記<br />
+<br />
+--------------------------------------------------------------------------------<br />
+<br />
+作者介绍<br />
+蕭建生，1955年生，土家族，中國湖南省鳳凰縣人；1972年開始從事編輯、記者工作，中央廣播電視大學漢語言文學專業畢業，《湖南日報》資深編輯，發表過《百萬生靈大消亡》等新聞、文學和理論作品共300多萬字，著有《民國總理熊希齡》、《血淚鑄成的炒股原則》、《投機：巨富時代的動力》。<br />
+<br />
+<a href="http://www.mirrorbooks.com/news/?action-viewnews-itemid-3207" target="_blank">http://www.mirrorbooks.com/news/?action-viewnews-itemid-3207</a><br />
+<br />
+[<i> 本帖最后由 luugoo 于 2009-9-25 00:38 编辑 </i>]</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_256244"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo256244_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=7002" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;repquote=256244&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 256244)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_1"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid256780" summary="pid256780" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7002" target="_blank" id="userinfo256780" class="dropmenu" onmouseover="showMenu(this.id)">luugoo</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">拖延心理学：向与生俱来的行为顽症宣战】https://1984bbs.com/viewthread.php?tid=60185</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7002">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7002&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_2" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum256780" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=23310&page=1#pid256780', '话题链接已经复制到剪贴板')">3楼</strong>
+													<em onclick="$('postmessage_256780').className='t_bigfont'">大</em>							<em onclick="$('postmessage_256780').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_256780').className='t_smallfont'">小</em>												发表于 2009-9-25 10:59&nbsp;																					<a href="viewthread.php?tid=23310&amp;page=1&amp;authorid=7002" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_2"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_2"></div><div id="ad_thread4_2"></div>
+													<h2>萧建生︰《中国文明的反思》前言</h2>
+						
+						
+																											<div id="postmessage_256780" class="t_msgfont">作者 : 萧建生 打印此文&nbsp; &nbsp;告诉好友2009-09-25 2:00 AM<br />
+<br />
+1980 年代，我在写作《民国总理熊希龄》的时候，曾有过系统地反思中国历史的想法。那时候，许多人还是习惯于用阶级和阶级斗争的观点来看待历史，把活生生的历史套在阶级和阶级斗争的框框里，随便加以歪曲，把人分成「革命」和「反动」两大类来进行评价，不尊重历史的事实。我觉得这种现象把历史简单化和庸俗化了。<br />
+<br />
+如今几十年过去了，中国的历史学有了很大的进步。但是，在许多重大的问题上，中国的历史学依然没有实质性的变化，依然还处在一种思想混乱的状态。中国人不愿意彻底地反思自己的历史，所以不能够正确地认识中国历史上的文明成就，不能够从历史上吸取真正的有益的经验教训。对哪些是应该抛弃的，哪些是应该继承和发展的，没有一个正确的认识。结果，该抛弃的东西没有被抛弃，反而作为文明的精华被继承下来，而应该继承和发展的文明精神，反而被认为是糟粕被抛弃了。<br />
+<br />
+例如，在中国古代，老子就提倡「敬天顺道」、「无为而治」的主张，儒家提倡「仁者爱人」、「己所不欲，勿施于人」的宽容态度，墨家提倡博爱、平等、反战的思想等等。这些本来非常好的思想和政治主张，却长期被人们否定，而暴力和专制思想以及后来的江湖习气等不良文化，却长期被人们所肯定和继承。由于中国历史上的文明精华没有得到继承和发展，结果使得中国的文明没有走上健康发展的轨道。<br />
+<br />
+一个民族必须正确地认识自己的历史。只有正确地认识自己的文明史，才能清醒地意识到自己文明的精华和糟粕，从而为民族的生存和发展找到一条正确的道路。而一个不能够彻底反思自己文明历史的民族，很难说是一个有希望的民族。事情很明显，一个民族连自己的文明历史都不能够正确地对待，又怎么能够期望这个民族以伟大的胸怀面向未来？<br />
+<br />
+直到今天，很多人还是把春秋战国看成是一个诸侯割据、军阀混战的分裂、混乱的黑暗时代，他们根本没有去想一想，一个黑暗的社会，怎么会出现百家争鸣、百花齐放的局面？怎么会产生那么多伟大的思想家、政治家、军事家、文学家和科学家？怎么会使社会的政治、经济、文化等各项事业出现蓬勃发展的欣欣向荣的景象？<br />
+<br />
+直到今天，很多人还是依然把秦始皇以暴力统一六国、建立高度大一统的皇帝专制制度的国家看成是历史的伟大进步。可是他们没有去想一想，既然是伟大的进步，那么，为什么秦灭六国之后，中国没有再出现像老子、孔子、孟子等等伟大的思想家？为什么中国总是出现周期性的动乱而无法走出这个怪圈？为什么中国人在秦朝社会生活得那么痛苦？为什么秦朝社会迅速天下大乱而走向崩溃？<br />
+<br />
+直到今天，很多人还是依然把宋朝看成是一个专制的、腐败的、落后的、贫弱的朝代，对宋朝所创造的文明成就采取全盘否定的态度。可是他们没有想一想，既然是这么专制、腐败、落后、贫弱的社会，那么，它为什么会创造出领先世界上百年的先进文明？为什么会对全人类社会贡献出火药、指南针、活字印刷术等伟大的发明？为什么宋朝会出现像《清明上河图》所描绘的那样繁荣的商品经济？为什么宋朝人会产生「先天下之忧而忧，后天下之乐而乐」的伟大情操？为什么宋朝人会产生「人生自古谁无死，留取丹心照汗青」那样崇高的民族气节？<br />
+<br />
+直到今天，很多人还在对所谓的「康干盛世」津津乐道。可是他们没有去想一想，既然康干盛世那么进步繁荣，那么为什么干隆皇帝死后仅仅41年，中国就在外国人的大炮轰击之下割地赔款、丧权辱国？中国人为什么从此被人视为东亚病夫，被人视为脑后拖着猪尾巴的怪物和白痴？为什么龚自珍会写出「九州岛生气持风雷，万马齐喑究可哀，我劝天公重抖擞，不拘一格降人才」的悲惨的诗句？<br />
+<br />
+现在人们都说要复兴伟大的中华文明。可是人们在说这个话的时候，是否真正想过，什么是伟大的中华文明？中华文明的伟大表现在那些方面？今天要复兴什么样的中华文明？有谁真正弄清楚了这些问题？如果连中华文明伟大在什么地方都搞不清楚，又怎么谈得上去复兴伟大的中华文明呢？<br />
+<br />
+等等这些问题，都不能不让人产生一种强烈的感觉，这就是，虽然经过了几十年的改革开放，中国人依然对自己的文明历史没有清醒的认识，还处在蒙昧状态。对哪些是先进的，哪些是落后的，哪些是文明的，哪些是野蛮的，完全没有弄清楚。如果说，在改革开放前的文革时代，由于阶级和阶级斗争的理论在控制着人们的思想，不能够正确地认识自己的历史还是情有可原的话，那么，如今已经改革开放几十年了，国人还是这样无动于衷，麻木不仁，就很不应该了。一个国家、一个民族怎么能够长期处在这样的状态？这怎么能够吸取自己文明的精华，继往开来？<br />
+<br />
+正是由于这样的原因，使我感到用民主、法治、自由和人权等等现代文明的观点，来系统地彻底地反思中国文明史的必要性。我觉得，面对着中国的经济迅速发展的形势，必须要对国家的文明历史进行深刻地反思。古人说，以史为镜，可以知兴替。只有用现代文明的观点来深刻反思自己的文明史，才能知道今天的中国为什么会是这个样子，才能知道中国人在哪些地方做对了，哪些地方做错了，为什么中国人会犯那样的错误，从而吸取有益的经验教训。如果中国人连自己的文明历史都弄不清楚，连中华文明的伟大在什么地方都懵懂无知，又怎么可能建设出世界一流大国和创造出领先世界的文明呢？<br />
+<br />
+一个最现实的问题，就是如何改革目前的政治体制，以适应我国快速发展的经济形势，从而建立起一个民主、法治、公平、自由和和谐的社会。有人认为，中国要有效地进行地进行政治体制改革，就必须模仿西方的民主政治模式，实行全民竞选、政党轮替、三权分离等等民主宪政体制，也就是要全盘西化。但是也有人认为，西方的政治模式不适合中国的国情，中国的政治体制改革绝对不能走全盘西化的道路。<br />
+<br />
+那么，中国到底能不能走全盘西化的道路？如果中国的政治体制改革不能走全盘西化的道路，那又该走什么样的道路？说要建设具有中国特色的社会主义社会，那么这个社会的政治体制该是什么样子？如果说中国目前的政治制度，是很完善的制度设计，不需要改革的话，那么，为什么会发生像「反右」、「大跃进」和「文革」那样的历史大悲剧？为什么面对如此惨重的民族灾难而我们的制度却没有任何反抗？当国家主席刘少奇等许多领导人以及知识分子和民众被冤屈而死的时候，为什么我们的制度不能进行有力的保护？为什么当前官商勾结、权钱交易、化公为私、挥霍浪费、买官卖官、黑社会猖獗等等腐败现象以及决策失误、分配不公、道德堕落、资源浪费、环境恶化等等问题，不能得到有效地解决？所以，从现实的情况看，中国的政治体制不仅必须要改革，而且必须要加快改革的进程。不然的话，要把中国建设成为真正民主、法治、自由和和谐的社会，要实现中国的长治久安和经济长期稳定健康发展的目标，是不可想象的。<br />
+<br />
+历史证明，经济的发展不能解决社会的一切问题，只有建设一个良好的政治制度，一个国家才能走上健康发展的轨道，实现长治久安。著名经济学家杨小凯写过一篇《后发劣势》的文章，就是指出了这样一个问题。他认为，落后国家由于发展比较迟，所以有很多东西可以模仿发达国家。模仿有两种形式，一种是模仿制度，另一种是模仿技术和工业化的模式。由于是后发国家，所以，可以在没有基础制度的情况下，通过技术模仿实现快速发展。但是，这种摹仿虽然可以使落后国家在短期内取得非常好的发展，但是会给长期的发展留下许多隐患，甚至长期发展可能失败，其原因就是没有一个良好的制度建设作为其保证。所以，他希望中国不要走拉美国家的道路，由于没有建立一个自由、公平的社会制度，虽然繁荣一时，但最终衰落，而是要正视中国的后发劣势，通过基础性的制度建设，来实现「制度兴国。」<br />
+<br />
+杨小凯认为，自「五四」以来,中国人更多地倡导民主和科学，却忽略了自由与共和。他认为，在某种意义上，自由和共和比民主和科学更加重要，也就是说，只有建立起宪政规则和政府可信的承诺机制，限制政府机会主义行为，保证社会的公正公平，保障个人的权利和自由，充分发挥个人的创造力，才是中国走向繁荣富强的根本。<br />
+<br />
+1989年June Fourth事件之后，中国社会发生了巨大变化。一方面是国家的实力越来越增强了，一些基础设施，如通讯设施、能源设施、高速公路和城市建设，已经接近或者达到了一些发达国家的水平，人民的生活水平总的来说，还是提高了很多。如果不带偏见的话，都不会否认这些事实。但另一方面是，这种由国家集中资源主导投资的模式，由于缺乏良好的制度建设，缺乏社会强有力的监督，结果也有其巨大的负面作用，那就是官员利用手中的权力在干部提拔、土地征收、工程招标建设中大肆地贪污受贿，导致官僚机构的日益膨胀和腐败，加之社会分配不公以及人们道德水平下降，造成了非常突出的社会问题。如今的中国犹如一条巨龙，其肉体的膨胀和精神的麻木，同样令世界惊异。这是中国政治改革滞后所带来的必然结果。<br />
+<br />
+面对着这样一个经济高速发展和精神、道德日益沦落的社会，许多有识之士都呼吁中国要加快政治体制改革，逐步建立民主宪政制度，保障人民言论、思想、信仰、出版、集会、结社等各项宪法规定的自由和权利，使中国走上民主与法治的轨道，实现国家的长治久安和文明进步，使中国不仅有一个繁荣的物质文明，而且有一个伟大的精神文明。<br />
+<br />
+历史证明，世界上没有任何一种制度、任何一种文明是十全十美的。在民主共和立宪制度之下，社会依然有腐败、贪污、官商勾结、行贿受贿等等的问题发生，依然有行政效率低下以及不公平、不合理的现象存在。但是，在民主宪政制度之下，这些现象不会构成整个官僚体制的系统性腐败，不会危及到国家行政的正常运行，而且也容易被迅速地揭露出来，得到改正。但中央集权的专制制度的最大弊端，就是整个官僚系统自上而下的腐败堕落和对人民的欺骗控制剥夺，而且不容易被揭露出来，因为权力没有受到有效地监督。<br />
+<br />
+所以，至少到目前为止，西方民主政治的模式，是比较先进的，对权力的制约和对腐败的打击是比较有效的，具有普世的价值，并没有「姓社」或者「姓资」的区别。人类社会至今还没有发明出一种更好的制度，来取代民主宪政制度。因此，这些人类优秀的文明成果，中国人是应该努力学习和模仿的。既然火药、指南针、活字印刷术以及科举制度等，能为西方国家学习和采用，那么，为什么西方民主宪政制度就不能为中国学习和采用呢？<br />
+<br />
+按照中共前总书记Zhao Ziyang录音整理、并在香港出版的《改革历程》一书，记录了Zhao Ziyang晚年的思想。他在书中明确地说︰「当然将来哪一天也许会出现比议会民主制更好、更高级的政治制度，但那是将来的事情，现在还没有。基于这一点就可以说，一个国家要实现现代化，不仅要实行市场经济，发展现代的文明，还必须实行议会民主制这种政治制度。不然的话，这个国家就不可能使它的市场经济成为健康的、现代化的市场经济；也不可能实现现代的法治社会。就会像许多发展中国家（包括中国）一样，出现权力市场化、社会腐败成风、社会两极分化严重的情况。」<br />
+<br />
+Zhao Ziyang作为中共前总书记，晚年痛定思痛，得出了这样的政治结论，绝对不会是偶然的，而是其长期政治实践经验的总结，是他对中国发展道路深刻反思的结果。因此他的这些看法值得人们格外的重视。<br />
+<br />
+当然，在中国这个幅员辽阔、人口众多并具有几千年专制传统的国家，要贸然进行全盘西方化的改造肯定是有困难的。因为在中国几千年的历史上，没有真正产生过实行西方民主政治的社会基础，而且在近代史上，中国也曾经实行过君主立宪和建立中华民国的大规模的西方化改造，中国人并为此付出了巨大的牺牲，但结果不但没有成功，反而使中国社会后来陷于了更加深刻的危机之中。<br />
+<br />
+所以，如何在坚持社会稳定的前提下，去有效地推进政治体制的改革，实现中国文明的革新和进步？就成为当前一个最重要的问题。如何找到这个问题的答案，应该是当前社会科学的神圣职责。这使人感到，历史研究不能仅仅就历史讲历史，也不能对历史采取全面否定的虚无主义态度，更不能厚古薄今或者借古讽今，而是要从历史的经验教训中，找到变革今天中国文明的成功模式。而要成功地进行中国政治体制改革的设计，就应该既要学习西方先进的政治模式，也要吸取中国历史上的有益经验和教训。因为中国政治模式的确立，是源于其悠久的历史传统。<br />
+<br />
+正是出于这样的动机，在这本书中，我对照西方文明发展的历史，着重研究了以下一些问题︰为什么中国古代只能产生出君主专制的一元化文明，而没有产生古希腊、罗马那样民主的多元化文明？中国的一元化专制文明是怎样产生的，又是怎样发展和强化的？为什么在君主专制的社会里，中国人在唐宋时期，特别是在宋朝时期，创造出了领先世界上百年的先进文明？为什么西方能够产生立宪政治？西方中世纪的一元化文明为什么能够成功地实现向多元化文明的转型？而中国的一元化文明为什么没有在近代实现向多元化文明的转型？其中文明转型失败的根本原因在哪里？等等。<br />
+<br />
+在此同时，本人根据现代文明的基本观点，还对西周社会、春秋战国、秦、汉、唐、宋、元、明、清等主要朝代的文明状况进行了分析，对商鞅变法、秦灭六国以及近代的鸦片战争、戊戌维新、君主立宪、辛亥革命、五四运动、1921的联省自治、1946年的宪政运动等一系列重大事件进行了重新分析和评价，对儒家思想等传统文化和中国人的思维方式进行了重新的探讨，等等。<br />
+<br />
+由于自己水平有限，许多观点和看法不一定是正确的。但是我觉得，个人的看法正确与否并不是最重要的，重要的是，对中国文明史的深刻反思，将有助于人们重新客观认识自己的历史，有助于人们探索政治体制改革的成功经验和模式，这对于提高民族素质，促进中国文明的进步，推动中国今天的现代化建设，有积极意义。<br />
+<br />
+现代文明的核心，是限制政府公权力的滥用，保障个人的权利和自由。1946年6月26日通过的《联合国宪章》，将「增进并激励对于全体人类之人权及基本自由之尊重」作为联合国的宗旨之一。1948年12月10日联合国通过的《世界人权宣言》，第一句话就是︰「对人类家庭所有成员的固有尊严及其平等的和不移的权利的承认，乃是世界自由、正义与和平的基础......一个人人享受言论和信仰自由并免于恐惧和匮乏的世界的来临，已被宣布为普通人民的最高愿望」。<br />
+<br />
+中国人民是世界人类的一部分，中国也是《联合国宪章》和《世界人权宣言》的签字国。当时国民党执政的中华民国政府固然应该承担落实这些原则的义务，毛泽东也在1945年10月以中共中央主席的身份宣布，中国要实现「林肯的民有、民治、民享的原则和罗斯福的四大自由」。在1945年国共谈判签署的《双十协议》和1946年国民党、共产党、民盟、青年党以及社会贤达联合召开的政治协商会议上签署的《和平建国纲领》等一系列协议中，都将在中国实行民主宪政制度和把中国建设成为一个民主、自由、和平、富强的国家作为目标。<br />
+<br />
+一个国家的兴衰成败，取决于这个国家的个人自由的程度，取决于这个国家的个人实现由臣民到公民转变的程度。严复说过︰「国贵自主，民贵自由」，他认为个人「自由不自由」，是一个国家兴衰成败的关键。一个国家的个人有没有自由之思想、独立之人格，乃是一个国家能不能走上现代化道路的根本，是一个国家成为世界大国的根本，也是一个国家的人民能否成为公民的根本。<br />
+<br />
+有人认为，生存权就是最大的人权。现在中国人已经充分享受到了生存的权利，就是得到了人权。这个看法是错误的。生存权不是人类独有的权利，猪、狗等动物也有一个生存权的问题。蚂蚁也有生命，也有生存的权力。把吃喝拉撒这样动物界普遍的生理需要和求生本能当成人权，这是对人权的曲解，是对人权的亵渎。人权是人类独有的权利，它有非常清楚的含义，那就是思想言论自由、宗教信仰自由、出版自由、集会结社自由，等等。这些才是宪法规定的人权的内容。而要保障这些人权的实现，就必须开放政治。没有政治的开放，就谈不上人权的保障。<br />
+<br />
+如今台湾已经走上了民主宪政之路，而中国大陆也应该履行承诺，逐步地稳妥地开放政治，走向民主宪政的现代文明。民主宪政建设不能遥遥无期，成为中国人心头的画饼；而是应该有一个时间表，有一个路线图，以此来振奋民族的精神，提升人民对中国未来的信心以及对祖国的爱，凝聚人心。这对于建设一个伟大的国家是至关重要的。<br />
+<br />
+今天，当我们回顾历史的时候，不能不对未来的中国寄予无限的希望，但也不能不对历史的变化产生很深的感慨︰成王败寇的改朝换代模式让中国人蒙受了太多的苦难，强权和暴力应该被终结；而贪泉汹涌的背后是严重的制度缺陷，权力缺乏制约使官员可以肆意妄为。官员权利的无限扩张，已成为社会进步的障碍和社会不稳定的根源。一个国家无论建立什么样的制度，采取什么政治模式，都必须将民主宪政作为国家基本的必不可少的制度安排，都必须将对政府权利的限制和对个人权利、自由的尊重放到首位。<br />
+<br />
+一个文明的国家，必须在民主、法治的基础上解决问题，任何人都应该在宪法的范围内活动。一个公民不应该在被暴力强制的情况下做违背自己意愿的事情。如果一个公民被强迫说违心的话，做违心的事，那么就没有自由可言。一个公民只要不违反宪法和法律，那么，他就不应该被强制。正如英国思想家波普尔（Karl R. Popper）的名言所说的那样︰「每一个人只有为自己可选择的志业而牺牲的权利，但任何人都没有权利去鼓励别人为一个理想而牺牲。」这应该是一个文明社会必须遵循的基本原则。<br />
+<br />
+西方民主宪政制度的建立，源于一个重要的思想，就是基于对权力的不信任，也就是对人治的不信任。按照《圣经》的意思，「除了上帝之外，没有人是良善的。」既然人不可靠，那么，就必须对人掌握的权力进行制约。所以西方国家设计了种种的程序，将权力分散，并让权力之间相互进行制衡，从而防止政府滥用权力。其中如民主选举、新闻自由、多党政治、地方自治、三权（立法、行政、司法）分立、独立检察官、陪审团、大法官，军队国家化等等。这些制度的设计、建立和完善，经过了几百年的时间，其中的根本思想，就是为了保障个人的权利和自由不受政府的侵犯。这些制度也许不是解决一切问题的灵丹妙药，但却是人类追求的理想的生活模式，是一个国家、一个民族走向兴盛的关键。<br />
+<br />
+近代以来，为了在中国实现民主宪政的伟大目标，中国人前赴后继，谭嗣同、宋教仁等许多先烈抛头洒血，付出了巨大的代价，但民主宪政对中国人来说，依然如水中之月，镜中之花，可望而不可及。1911年，中国建立了亚洲第一个共和国，随后在1949年，中国再次建立了共和国。当时的中国人都以为民主真的降临到了中国。然而，到头来也依然是成王败寇、改朝换代，中国人民主自由的梦想依然是泡影，依然是竹篮打水一场空。<br />
+<br />
+为什么中国实现民主自由就这么困难呢？为什么中国人与民主自由就这样无缘呢？这是一个千古诘问。为了解答这个问题，近代以来，很多人都进行了深入地探讨，但是至今还没有人作出令人信服的回答。本书在前人探讨的基础上，从政治、经济、文化、宗教、民族性格等各个方面再次进行分析和探讨，意图寻找出中国能够走向现代文明的证据和走向现代文明的途径。希望本书的观点能给人们提供一些有益的启示和帮助。<br />
+<br />
+萧建生<br />
+<br />
+2009年8月20日<br />
+<br />
+新世纪</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_256780"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo256780_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=7002" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;repquote=256780&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 256780)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_2"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid256854" summary="pid256854" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7156" target="_blank" id="userinfo256854" class="dropmenu" onmouseover="showMenu(this.id)">zq19871127</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7156">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7156&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_3" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum256854" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=23310&page=1#pid256854', '话题链接已经复制到剪贴板')">4楼</strong>
+													<em onclick="$('postmessage_256854').className='t_bigfont'">大</em>							<em onclick="$('postmessage_256854').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_256854').className='t_smallfont'">小</em>												发表于 2009-9-25 11:23&nbsp;																					<a href="viewthread.php?tid=23310&amp;page=1&amp;authorid=7156" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_3"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_3"></div><div id="ad_thread4_3"></div>
+						
+						
+																											<div id="postmessage_256854" class="t_msgfont">不知道现在哪里可以买来看看那</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_256854"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo256854_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=7156" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;repquote=256854&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 256854)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_3"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid256867" summary="pid256867" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7927" target="_blank" id="userinfo256867" class="dropmenu" onmouseover="showMenu(this.id)">落花飞扬</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7927">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7927&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_4" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum256867" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=23310&page=1#pid256867', '话题链接已经复制到剪贴板')">5楼</strong>
+													<em onclick="$('postmessage_256867').className='t_bigfont'">大</em>							<em onclick="$('postmessage_256867').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_256867').className='t_smallfont'">小</em>												发表于 2009-9-25 11:28&nbsp;																					<a href="viewthread.php?tid=23310&amp;page=1&amp;authorid=7927" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_4"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_4"></div><div id="ad_thread4_4"></div>
+						
+						
+																											<div id="postmessage_256867" class="t_msgfont">想看大江大海1949</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_256867"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo256867_menu" style="display: none;">
+										<div class="imicons">
+												<a href="http://wpa.qq.com/msgrd?V=1&amp;Uin=313003889&amp;Site=1984bbs.com&amp;Menu=yes" target="_blank"><img src="images/default/qq.gif" alt="QQ" /></a>																							</div>
+										<dl></dl>
+											<p><a href="http://blog.sina.com.cn/fujie" target="_blank">查看个人网站</a></p>
+										<p><a href="space.php?uid=7927" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;repquote=256867&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 256867)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_4"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid256882" summary="pid256882" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=8756" target="_blank" id="userinfo256882" class="dropmenu" onmouseover="showMenu(this.id)">路边社射边路</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">路边社社边路边社边路边路边社边路边路边社边路边路边社边路边路边社边路边路边社边路边路边社边路边路边社边路边路边社边路</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=8756">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=8756&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_5" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum256882" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=23310&page=1#pid256882', '话题链接已经复制到剪贴板')">6楼</strong>
+													<em onclick="$('postmessage_256882').className='t_bigfont'">大</em>							<em onclick="$('postmessage_256882').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_256882').className='t_smallfont'">小</em>												发表于 2009-9-25 11:33&nbsp;																					<a href="viewthread.php?tid=23310&amp;page=1&amp;authorid=8756" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_5"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_5"></div><div id="ad_thread4_5"></div>
+						
+						
+																											<div id="postmessage_256882" class="t_msgfont">说实话，用完全现代的眼光来看古代史，有点荒唐</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_256882"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo256882_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=8756" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;repquote=256882&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 256882)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_5"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid256936" summary="pid256936" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=8782" target="_blank" id="userinfo256936" class="dropmenu" onmouseover="showMenu(this.id)">weizhisheng</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=8782">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=8782&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_6" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum256936" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=23310&page=1#pid256936', '话题链接已经复制到剪贴板')">7楼</strong>
+													<em onclick="$('postmessage_256936').className='t_bigfont'">大</em>							<em onclick="$('postmessage_256936').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_256936').className='t_smallfont'">小</em>												发表于 2009-9-25 11:53&nbsp;																					<a href="viewthread.php?tid=23310&amp;page=1&amp;authorid=8782" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_6"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_6"></div><div id="ad_thread4_6"></div>
+						
+						
+																											<div id="postmessage_256936" class="t_msgfont">太贵了。有没有35台币的</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_256936"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo256936_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=8782" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;repquote=256936&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 256936)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_6"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid257041" summary="pid257041" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=6899" target="_blank" id="userinfo257041" class="dropmenu" onmouseover="showMenu(this.id)">网络低俗风</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">1984BBS四书五经党元首，专注于昏暗油灯下的考据工作</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=6899">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=6899&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_7" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum257041" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=23310&page=1#pid257041', '话题链接已经复制到剪贴板')">8楼</strong>
+													<em onclick="$('postmessage_257041').className='t_bigfont'">大</em>							<em onclick="$('postmessage_257041').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_257041').className='t_smallfont'">小</em>												发表于 2009-9-25 12:44&nbsp;																					<a href="viewthread.php?tid=23310&amp;page=1&amp;authorid=6899" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_7"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_7"></div><div id="ad_thread4_7"></div>
+						
+						
+																											<div id="postmessage_257041" class="t_msgfont">说实话《河殇》的水平当时看来不错，现在看来很一般</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_257041"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo257041_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=6899" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;repquote=257041&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 257041)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_7"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid258561" summary="pid258561" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=8798" target="_blank" id="userinfo258561" class="dropmenu" onmouseover="showMenu(this.id)">e_pu</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=8798">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=8798&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_8" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum258561" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=23310&page=1#pid258561', '话题链接已经复制到剪贴板')">9楼</strong>
+													<em onclick="$('postmessage_258561').className='t_bigfont'">大</em>							<em onclick="$('postmessage_258561').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_258561').className='t_smallfont'">小</em>												发表于 2009-9-26 11:00&nbsp;																					<a href="viewthread.php?tid=23310&amp;page=1&amp;authorid=8798" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_8"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_8"></div><div id="ad_thread4_8"></div>
+						
+						
+																											<div id="postmessage_258561" class="t_msgfont">坐等电子书</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_258561"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo258561_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=8798" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;repquote=258561&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 258561)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_8"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid258632" summary="pid258632" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=2930" target="_blank" id="userinfo258632" class="dropmenu" onmouseover="showMenu(this.id)">SrAcer</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">党强加于人的世界观在无法理解它的人们那里最容易被接受。——《１９８４》</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=2930">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=2930&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_9" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum258632" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=23310&page=1#pid258632', '话题链接已经复制到剪贴板')">10楼</strong>
+													<em onclick="$('postmessage_258632').className='t_bigfont'">大</em>							<em onclick="$('postmessage_258632').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_258632').className='t_smallfont'">小</em>												发表于 2009-9-26 11:54&nbsp;																					<a href="viewthread.php?tid=23310&amp;page=1&amp;authorid=2930" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_9"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_9"></div><div id="ad_thread4_9"></div>
+						
+						
+																											<div id="postmessage_258632" class="t_msgfont">我总觉得这类反思中国文化的书像愤青书。看看南韩、日本和台湾，有事实摆着，太深的道理不需讲很多。</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_258632"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo258632_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=2930" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;repquote=258632&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 258632)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_9"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid262982" summary="pid262982" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=691" target="_blank" id="userinfo262982" class="dropmenu" onmouseover="showMenu(this.id)">shell.x</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=691">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=691&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_10" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum262982" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=23310&page=1#pid262982', '话题链接已经复制到剪贴板')">11楼</strong>
+													<em onclick="$('postmessage_262982').className='t_bigfont'">大</em>							<em onclick="$('postmessage_262982').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_262982').className='t_smallfont'">小</em>												发表于 2009-9-29 11:48&nbsp;																					<a href="viewthread.php?tid=23310&amp;page=1&amp;authorid=691" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_10"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_10"></div><div id="ad_thread4_10"></div>
+						
+						
+																											<div id="postmessage_262982" class="t_msgfont">相比《来生不做中国人》，活脱脱一副书呆子样。</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_262982"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo262982_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=691" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;repquote=262982&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 262982)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_10"></div>				</div>
+			</td>
+		</tr>
+		</table>
+		</div>
+</form>
+
+
+
+
+
+<div class="pages_btns">
+	<div class="threadflow"><a href="redirect.php?fid=21&amp;tid=23310&amp;goto=nextoldset"> &#8249;&#8249; 上一主题</a> | <a href="redirect.php?fid=21&amp;tid=23310&amp;goto=nextnewset">下一主题 &#8250;&#8250;</a></div>
+				<span class="postbtn" id="newspecialtmp" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu(this.id)"><a href="post.php?action=newthread&amp;fid=21&amp;extra="><img src="images/default/newtopic.gif" border="0" alt="发新话题" title="发新话题" /></a></span>
+		<span class="replybtn"><a href="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;extra="><img src="images/default/reply.gif" border="0" alt="" /></a></span></div>
+
+<!--精华贴打标记-->
+
+	<script src="include/javascript/post.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	var postminchars = parseInt('2');
+	var postmaxchars = parseInt('1000000');
+	var disablepostctrl = parseInt('0');
+	var charset = 'gbk';
+	function validate(theform) {
+		if(theform.message.value == '' && theform.subject.value == '') {
+			alert("请完成标题或内容栏。");
+			theform.message.focus();
+			return false;
+		} else if(mb_strlen(theform.subject.value) > 80) {
+			alert("您的标题超过 80 个字符的限制。");
+			theform.subject.focus();
+			return false;
+		}
+		if(!disablepostctrl && ((postminchars != 0 && mb_strlen(theform.message.value) < postminchars) || (postmaxchars != 0 && mb_strlen(theform.message.value) > postmaxchars))) {
+			alert("您的话题长度不符合要求。\n\n当前长度: "+mb_strlen(theform.message.value)+" 字节\n系统限制: "+postminchars+" 到 "+postmaxchars+" 字节");
+			return false;
+		}
+		if(!fetchCheckbox('parseurloff')) {
+			theform.message.value = parseurl(theform.message.value, 'bbcode');
+		}
+		theform.replysubmit.disabled = true;
+		return true;
+	}
+	</script>
+<!--精华贴打标记-->
+
+	<form method="post" id="postform" action="post.php?action=reply&amp;fid=21&amp;tid=23310&amp;extra=&amp;replysubmit=yes" onSubmit="return validate(this)">
+		<input type="hidden" name="formhash" value="823c9fa2" />
+		<div id="quickpost" class="box">
+			
+			<h4>快速回复主题</h4>
+			<div class="postoptions">
+&nbsp;
+			</div>
+			<div class="postform">
+				<h5><label>标题
+				<input type="text" name="subject" value="" tabindex="1"></label></h5>
+				<p><label>内容</label>
+				<textarea rows="7" cols="80" class="autosave" name="message" id="message" onKeyDown="ctlent(event);" tabindex="2"></textarea>
+				</p>
+				<p class="btns">
+					<button type="submit" name="replysubmit" id="postsubmit" value="replysubmit" tabindex="3">发表话题</button>[完成后可按 Ctrl+Enter 发布]&nbsp;
+					<a href="###" id="previewpost" onclick="$('postform').action=$('postform').action + '&previewpost=yes';$('postform').submit();">预览话题</a>&nbsp;
+					<a href="###" id="restoredata" title="恢复上次自动保存的数据" onclick="loadData()">恢复数据</a>&nbsp;
+					<a href="###" onclick="$('postform').reset()">清空内容</a>
+				</p>
+			</div>
+						<script type="text/javascript">
+				var textobj = $('message');
+				window.onbeforeunload = function () {saveData(textobj.value)};
+				if(is_ie >= 5 || is_moz >= 2) {
+					lang['post_autosave_none'] = "没有可以恢复的数据！";
+					lang['post_autosave_confirm'] = "此操作将覆盖当前话题内容，确定要恢复数据吗？";
+				} else {
+					$('restoredata').style.display = 'none';
+				}
+			</script>
+		</div>
+	</form>
+	<div class="popupmenu_popup" id="forumlist_menu" style="display: none">
+		<dl><dt><a href="index.php?gid=3">沙龙</a></dt><dd><ul><li><a href="forumdisplay.php?fid=2">自由新闻社</a></li><li><a href="forumdisplay.php?fid=37">雅典学院</a></li><li class="current"><a href="forumdisplay.php?fid=21">开放社会资料室</a></li><li><a href="forumdisplay.php?fid=26">国家局域网研究所</a></li><li><a href="forumdisplay.php?fid=35">罗马假日公寓</a></li><li><a href="forumdisplay.php?fid=40">Live!大讲堂</a></li></ul></dd></dl><dl><dt><a href="index.php?gid=11">站务</a></dt><dd><ul><li><a href="forumdisplay.php?fid=9">多功能小黑屋</a></li></ul></dd></dl>	</div>
+
+<script type="text/javascript">
+var maxpage = 1;
+if(maxpage > 1) {
+	document.onkeyup = function(e){
+		e = e ? e : window.event;
+		var tagname = is_ie ? e.srcElement.tagName : e.target.tagName;
+		if(tagname == 'INPUT' || tagname == 'TEXTAREA') return;
+		actualCode = e.keyCode ? e.keyCode : e.charCode;
+					}
+}
+</script></div>	<div class="ad_footerbanner" id="ad_footerbanner1"></div>
+	<div class="ad_footerbanner" id="ad_footerbanner2"><b> 顾问</b>：莫之许、北风、不锈钢老鼠、温克坚、艾未未、冉云飞、安替、崔卫平、闾丘露薇、章立凡 <b> 形象代言</b>：宋石男  <b>法律顾问</b>：浦志强  <b> <br>编辑</b>：张书记、上肛上腺、抑扬、musicool、王祖贤、alix001、核子力量、四夕亚日、炽鸢侯、木火 <br><b>技术</b>：库存袈裟、麦圆、散光     <br> </div>
+	<div class="ad_footerbanner" id="ad_footerbanner3"></div>
+
+<div id="footer">
+	<div class="wrap">
+		<div id="footlinks">
+
+			<p>
+				<a href="viewthread.php?tid=23826" target="_blank">浏览器支持说明</a>　|　<a href="member.php?action=clearcookies&amp;formhash=823c9fa2">清除 Cookies</a>
+				
+							</p>
+		</div>
+		<p id="copyright">
+			CopyRight &#169; 1984bbs.com </p><p id="debuginfo">Processed in  second(s),  queries, Gzip enabled.</p>
+
+	</div>
+</div>
+</body>
+</html>

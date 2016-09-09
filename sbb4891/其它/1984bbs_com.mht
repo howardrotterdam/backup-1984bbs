@@ -1,0 +1,3453 @@
+From: <ÓÉ Windows Internet Explorer 8 ±£´æ>
+Subject: 1984bbs.com
+Date: Tue, 12 Oct 2010 05:19:05 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_008A_01CB69CC.FD913D30"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3664
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_008A_01CB69CC.FD913D30
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://1984bbs.com/index.php
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML =
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>1984bbs.com</TITLE>
+<META content=3D"text/html; charset=3Dgbk" http-equiv=3DContent-Type>
+<META name=3Dkeywords content=3D"">
+<META name=3DMSSmartTagsPreventParsing content=3DTrue>
+<META content=3DYes http-equiv=3DMSThemeCompatible><LINK =
+title=3D1984bbs.com=20
+rel=3Darchives href=3D"https://1984bbs.com/archiver/"><LINK =
+rel=3Dstylesheet=20
+type=3Dtext/css =
+href=3D"https://1984bbs.com/forumdata/cache/style_1_common.css">
+<SCRIPT type=3Dtext/javascript>=0A=
+	var discuz_uid =3D 13019;var IMGDIR =3D 'images/default';var =
+attackevasive =3D '0';var gid =3D 0;var STYLEID =3D '1';=0A=
+	gid =3D parseInt('0');var fid =3D parseInt('0');var tid =3D =
+parseInt('0');=0A=
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"https://1984bbs.com/include/javascript/common.js"></SCRIPT>
+
+<STYLE>.ChatAutoRefreshStyle {
+	MARGIN-RIGHT: 0px
+}
+.ChatSubmitButtonStyle {
+	MARGIN-RIGHT: 0px
+}
+.gwt-Button {
+	MARGIN-RIGHT: 0px
+}
+</STYLE>
+<!-- <script src=3D"../OnlineChat/port.for1984.OnlineChat.nocache.js" =
+type=3D"text/javascript"></script> -->
+<SCRIPT type=3Dtext/javascript=20
+src=3D"https://1984bbs.com/onlinechat.new/onlinechat.nocache.js"></SCRIPT=
+>
+
+<SCRIPT language=3Djavascript type=3Dtext/javascript>=0A=
+=0A=
+var chat_button;=0A=
+var mynickname;=0A=
+=0A=
+var chat_start_num=3D0;=0A=
+var chat_refresh;=0A=
+=0A=
+=0A=
+=0A=
+function getChatViewPage(){=0A=
+ return chat_start_num;=0A=
+}=0A=
+=0A=
+function sendChatRefreshButtonObjct(o)=0A=
+{=0A=
+chat_refresh=3Do;=0A=
+}=0A=
+=0A=
+function chat_reply_action(Sender)=0A=
+{=0A=
+ document.getElementById('chat_msg').value=3D=0A=
+ "@"+unescape(Sender)+","+document.getElementById('chat_msg').value;=0A=
+}=0A=
+=0A=
+function receiveChatViewPage(i)=0A=
+{=0A=
+ chat_start_num=3Di;=0A=
+ var nextpage=3Ddocument.getElementById('chat_next_page');=0A=
+ if (i=3D=3D0) { =0A=
+   nextpage.style.display =3D "none";=0A=
+   nextpage.style.visibility =3D "hidden";=0A=
+  }=0A=
+  else=0A=
+  {=0A=
+   nextpage.style.display =3D "inline";   =0A=
+   nextpage.style.visibility =3D "visible";=0A=
+  }=0A=
+}=0A=
+=0A=
+function chat_page_next()=0A=
+{=0A=
+chat_start_num-=3DgetChatListLimit(100);=0A=
+if (chat_start_num<0) chat_start_num=3D0;=0A=
+chat_refresh.click();=0A=
+}=0A=
+=0A=
+function chat_page_prev()=0A=
+{=0A=
+chat_start_num+=3DgetChatListLimit(100);=0A=
+chat_refresh.click();=0A=
+}=0A=
+=0A=
+=0A=
+function setMyChatNickName(o)=0A=
+{=0A=
+mynickname=3Do;=0A=
+}=0A=
+=0A=
+function handleChatChange()=0A=
+{=0A=
+      try{=0A=
+      q=3D140-document.getElementById('chat_msg').value.length;=0A=
+      document.getElementById('chat_msg_length').innerHTML =3D ""+q;=0A=
+      } catch(e) {=0A=
+	}=0A=
+}=0A=
+=0A=
+var chat_check_timer;=0A=
+=0A=
+=0A=
+function handleChatEnterKey(e) {=0A=
+    if (e.keyCode =3D=3D 13 || e.keyCode =3D=3D 10) {=0A=
+        if (!chat_button.disabled)=0A=
+             chat_button.click();=0A=
+        return false;=0A=
+    }=0A=
+    else =0A=
+   {=0A=
+        handleChatChange();=0A=
+   }=0A=
+}=0A=
+=0A=
+function getChatRefreshTime()=0A=
+{=0A=
+ return 6;=0A=
+}=0A=
+=0A=
+function runClearChatBox()=0A=
+{=0A=
+document.getElementById('chat_msg').value =3D "";=0A=
+}=0A=
+=0A=
+function replaceButtonText(button, text)=0A=
+{=0A=
+    if (button)=0A=
+    {=0A=
+      if (button.childNodes[0])=0A=
+      {=0A=
+        button.childNodes[0].nodeValue=3Dtext;=0A=
+      }=0A=
+      else if (button.value)=0A=
+      {=0A=
+        button.value=3Dtext;=0A=
+      }=0A=
+      else //if (button.innerHTML)=0A=
+      {=0A=
+        button.innerHTML=3Dtext;=0A=
+      }=0A=
+    }=0A=
+}=0A=
+=0A=
+=0A=
+function sendChatCommentButtonObjct(o)=0A=
+{=0A=
+ chat_button=3Do;=0A=
+ replaceButtonText(chat_button, "=CC=E1=BD=BB");=0A=
+ chat_check_timer=3D setInterval("handleChatChange()",3000);=0A=
+}=0A=
+=0A=
+function replaceURLWithHTMLLinks(text) {=0A=
+var exp =3D =
+/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=3D~_|!:,.;]*[-A-Z0-9+&@#\/%=3D=
+~_|])/ig;=0A=
+return text.replace(exp,"<a href=3D'$1' target=3D'_blank'>$1</a>");=0A=
+}=0A=
+=0A=
+function getChatItemWriteString(Id,Sender,Msg,Time,Reply)=0A=
+{=0A=
+ var msg;=0A=
+ try=0A=
+ {=0A=
+ msg=3DreplaceURLWithHTMLLinks(Msg.substr(0,140));=0A=
+ }=0A=
+ catch(e) {=0A=
+ msg=3DMsg.substr(0,140);=0A=
+ }=0A=
+ h=3D"<span style=3D'width:200px;white-space:normal; =
+word-break:break-all;overflow:hidden;word-wrap:break-word;OVERFLOW-X:hidd=
+en;'>";=0A=
+   if (Sender=3D=3Dmynickname) {=0A=
+  h+=3D"<font =
+color=3D#ff0000>"+Sender+"</font>(<i>"+Time.substr(11)+"</i>) "+"<font =
+color=3D#444444>"+msg+"</font>"+"<hr =
+style=3D'border-top-width:0px;border-bottom-width:1px;border-color:#eeeee=
+e;border-right-width:0px;border-left-width:0px;' />";=0A=
+   }=0A=
+   else {=0A=
+      h+=3D"<font =
+color=3D#000000><b>"+Sender+"</b></font>(<i>"+Time.substr(11)+"</i>) =
+"+"<font color=3D#555555>"+msg+"</font>"+"<img src=3D'1984chat_re.jpg' =
+border=3D0 =
+onclick=3D'chat_reply_action(\""+escape(Sender)+"\");'/>"+"<hr =
+style=3D'border-top-width:0px;border-bottom-width:1px;border-left-width:0=
+px;border-right-width:0px;border-color:#eeeeee;' />";=0A=
+   } =0A=
+  h+=3D"</span>";=0A=
+   return h;=0A=
+}=0A=
+=0A=
+function getChatItemWriteStart()=0A=
+{=0A=
+ try {=0A=
+=A1=A1document.getElementById('online_chat_box').style.visibility =3D =
+"visible";=0A=
+=A1=A1document.getElementById('online_chat_loading').style.visibility =
+=3D "hidden";=0A=
+=A1=A1document.getElementById('online_chat_loading').style.display =3D =
+"none";=0A=
+ } catch(e) {};=0A=
+  return "";=0A=
+}=0A=
+=0A=
+function getChatItemWriteEnd()=0A=
+{=0A=
+return "";=0A=
+}=0A=
+=0A=
+function getChatListLimit(i)=0A=
+{=0A=
+        return 15;=0A=
+}=0A=
+</SCRIPT>
+
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18928"></HEAD>
+<BODY onkeydown=3D"if(event.keyCode=3D=3D27) return false;">
+<DIV id=3Dappend_parent></DIV>
+<DIV id=3Dajaxwaitid></DIV>
+<DIV class=3Dwrap>
+<DIV id=3Dheader>
+<H2><A title=3D1984bbs.com href=3D"https://1984bbs.com/index.php"><IMG =
+border=3D0=20
+alt=3D1984bbs.com =
+src=3D"https://1984bbs.com/images/default/logo.gif"></A></H2>
+<DIV=20
+id=3Dad_headerbanner><B>=C4=DC=BD=D8=CD=BC=B5=C4=BD=D8=CD=BC=A3=AC=CF=B2=BB=
+=B6=B1=B8=B7=DD=B5=C4=B1=B8=B7=DD=A1=A32010=C4=EA10=D4=C212=C8=D5=B5=C4=C4=
+=B3=CA=B1=C4=B3=BF=CC=A3=AC1984bbs=BD=AB=B9=D8=B1=D5=A1=A3=B6=D4=B2=BB=C6=
+=F0=B8=F7=CE=BB=A3=AC=CE=D2=C1=A6=CB=F9=B2=BB=C4=DC=BC=B0=A1=A3<BR>=CF=A3=
+=CD=FB1984bbs=D4=D9=BC=FB=C3=E6=B5=C4=CA=B1=BA=F2=A3=AC=D5=E2=B8=F6=CA=C0=
+=BD=E7=C9=CF=D4=D9=D2=B2=C3=BB=D3=D0=B9=B2=B2=FA=B5=B3=A1=A3</B>=A1=AA=A1=
+=AA=D5=C5=CA=E9=BC=C7=20
+1984bbs</DIV></DIV>
+<DIV id=3Dmenu><SPAN class=3Davataonline><CITE><A id=3Dviewpro=20
+class=3Ddropmenu>vos2010</A></CITE> <A=20
+href=3D"https://1984bbs.com/logging.php?action=3Dlogout&amp;formhash=3D84=
+4355af">=CD=CB=B3=F6</A>=20
+</SPAN>
+<UL>
+  <LI><A =
+href=3D"https://1984bbs.com/my.php?item=3Dthreads">=BB=B0=CC=E2</A> =
+</LI>
+  <LI><A =
+href=3D"https://1984bbs.com/my.php?item=3Dpolls&amp;type=3Dpoll">=CD=B6=C6=
+=B1</A> </LI>
+  <LI><A =
+href=3D"https://1984bbs.com/my.php?item=3Dposts">=BB=D8=B8=B4</A> </LI>
+  <LI><A =
+href=3D"https://1984bbs.com/my.php?item=3Dfavorites&amp;type=3Dthread">=CA=
+=D5=B2=D8</A>=20
+  </LI>
+  <LI><A id=3Dpmnotice onclick=3D"pmwin('open')"=20
+  href=3D"https://1984bbs.com/pm.php"><FONT=20
+  style=3D"COLOR: =
+#ff0000">=C4=FA=D3=D0=D0=C2=B6=CC=CF=FB=CF=A2</FONT></A> </LI>
+  <LI><A href=3D"https://1984bbs.com/search.php">=CB=D1=CB=F7</A> </LI>
+  <LI><A =
+href=3D"https://1984bbs.com/memcp.php?action=3Dprofile">=B8=F6=C8=CB=D7=CA=
+=C1=CF</A> </LI>
+  <LI><A href=3D"https://1984bbs.com/invite.php">=D1=FB=C7=EB</A> <!--			=
+	<li><a href=3D"faq.php">=B9=D8=D3=DA=CE=D2=C3=C7</a></li> =
+--></LI></UL></DIV>
+<DIV id=3Dforuminfo>
+<DIV id=3Duserinfo>
+<DIV id=3Dnav></DIV>
+<P>=C4=FA=C9=CF=B4=CE=B7=C3=CE=CA=CA=C7=D4=DA: <EM>2010-10-12 01:26</EM> =
+<A=20
+href=3D"https://1984bbs.com/search.php?srchfrom=3D15000&amp;searchsubmit=3D=
+yes">=B2=E9=BF=B4=D0=C2=CC=FB</A>=20
+<A id=3Dajax_markread onclick=3D"ajaxmenu(event, this.id)"=20
+href=3D"https://1984bbs.com/member.php?action=3Dmarkread">=B1=EA=BC=C7=D2=
+=D1=B6=C1</A> </P></DIV>
+<DIV id=3Dforumstats>
+<P>=BD=F1=C8=D5: <EM>721</EM>, =D7=F2=C8=D5: <EM>1930</EM>, =
+=D7=EE=B8=DF=C8=D5: <EM>4792</EM> &nbsp; <!--<a =
+href=3D"digest.php">=BB=F0=D0=C7=CC=FB=C7=F8</a>--></P>
+<P>=D6=F7=CC=E2: <EM>51614</EM>, =BB=B0=CC=E2: <EM>846537</EM>, =
+=BB=E1=D4=B1: <EM>14571</EM>, =BB=B6=D3=AD=D0=C2=BB=E1=D4=B1 <CITE><A=20
+href=3D"https://1984bbs.com/space.php?username=3Dsong431">song431</A></CI=
+TE></P></DIV></DIV><!--helloworld-->
+<TABLE border=3D1 cellSpacing=3D0 borderColor=3D#dddddd cellPadding=3D3 =
+width=3D"100%"=20
+bgColor=3D#ffffff>
+  <TBODY>
+  <TR style=3D"BACKGROUND-COLOR: #fffff2">
+    <TD width=3D"33%"><FONT style=3D"COLOR: =
+#000000"><B>&nbsp;&nbsp;=D7=D4=D3=C9=D0=C2=CE=C5=C9=E7 Top=20
+      3</B></FONT></TD>
+    <TD width=3D"33%" #000000? =
+COLOR:><B>&nbsp;&nbsp;=D1=C5=B5=E4=D1=A7=D4=BA Top 3</B></FONT></TD>
+    <TD width=3D"33%" #000000? =
+COLOR:><B>&nbsp;&nbsp;=C2=DE=C2=ED=BC=D9=C8=D5 Top =
+3</B></FONT></TD></TR>
+  <TR>
+    <TD style=3D"PADDING-LEFT: 8px"><A =
+title=3D=D6=D0=B9=FA=CA=B1=D5=FE=D0=C2=CE=C5=CD=F8=D5=BE1984bbs=BD=AB=B9=D8=
+=B1=D5=20
+      href=3D"https://1984bbs.com/viewthread.php?tid=3D60835"=20
+      =
+target=3D_blank>=D6=D0=B9=FA=CA=B1=D5=FE=D0=C2=CE=C5=CD=F8=D5=BE1984bbs=BD=
+=AB=B9=D8=B1=D5</A><BR><A =
+title=3D=C1=F5=CF=FE=B2=A8=A3=BA=BA=CD=C6=BD=BD=B1=B8=F8=C1=F9=CB=C4=CD=F6=
+=C1=E9=20
+      href=3D"https://1984bbs.com/viewthread.php?tid=3D60784"=20
+      =
+target=3D_blank>=C1=F5=CF=FE=B2=A8=A3=BA=BA=CD=C6=BD=BD=B1=B8=F8=C1=F9=CB=
+=C4=CD=F6=C1=E9</A><BR><A =
+title=3D"=D4=D0=B8=BE=B1=BB=D2=BD=D4=BA=D0=FB=B2=BC=CB=C0=CD=F61=D0=A1=CA=
+=B1=BA=F3=BF=AA=BF=DA=BA=F4=BE=C8 =D5=C9=B7=F2=B9=F2=C7=F3=BE=C8=C8=CB"=20
+      href=3D"https://1984bbs.com/viewthread.php?tid=3D60794"=20
+      =
+target=3D_blank>=D4=D0=B8=BE=B1=BB=D2=BD=D4=BA=D0=FB=B2=BC=CB=C0=CD=F61=D0=
+=A1=CA=B1=BA=F3=BF=AA=BF=DA=BA=F4=BE=C8 =
+=D5=C9=B7=F2=B9=F2=C7=F3=BE=C8=C8=CB</A><BR></TD>
+    <TD style=3D"PADDING-LEFT: 8px"><A title=3D"=C1=F4=CF=C2twitter =
+=CE=D2=C3=C7=D4=D9=CF=E0=BE=DB"=20
+      href=3D"https://1984bbs.com/viewthread.php?tid=3D60830"=20
+      target=3D_blank>=C1=F4=CF=C2twitter =
+=CE=D2=C3=C7=D4=D9=CF=E0=BE=DB</A><BR><A =
+title=3D=D2=BB=C8=CB=B6=D41984bbs=CB=B5=D2=BB=BE=E4=BB=B0=A1=AA=A1=AA=D7=EE=
+=BA=F3=B5=C4=D2=BB=BE=E4=20
+      href=3D"https://1984bbs.com/viewthread.php?tid=3D60900"=20
+      =
+target=3D_blank>=D2=BB=C8=CB=B6=D41984bbs=CB=B5=D2=BB=BE=E4=BB=B0=A1=AA=A1=
+=AA=D7=EE=BA=F3=B5=C4=D2=BB=BE=E4</A><BR><A =
+title=3D=D2=BB=B8=F6=BD=A8=D2=E9=A1=AB=D3=C3=D2=D4=CA=B6=B1=F01984=B5=C4=BE=
+=C9=D3=D1=20
+      href=3D"https://1984bbs.com/viewthread.php?tid=3D60939"=20
+      =
+target=3D_blank>=D2=BB=B8=F6=BD=A8=D2=E9=A1=AB=D3=C3=D2=D4=CA=B6=B1=F0198=
+4=B5=C4=BE=C9=D3=D1</A><BR></TD>
+    <TD style=3D"PADDING-LEFT: 8px"><A =
+title=3D"=D7=AA=C8=C3=B1=B1=CD=E2=CD=D0=B8=A3=C8=AB=C8=D5=D6=C6=B0=E0=BF=CE=
+=B3=CC=A3=A811=D4=C222=C8=D5=BF=AA=BF=CE=A3=A9 =
+=CE=D2=D2=F2=B9=CA=CE=DE=B7=A8=C9=CF=BF=CE=C1=CB"=20
+      href=3D"https://1984bbs.com/viewthread.php?tid=3D60815"=20
+      =
+target=3D_blank>=D7=AA=C8=C3=B1=B1=CD=E2=CD=D0=B8=A3=C8=AB=C8=D5=D6=C6=B0=
+=E0=BF=CE=B3=CC=A3=A811=D4=C222=C8=D5=BF=AA=BF=CE=A3=A9 =
+=CE=D2=D2=F2=B9=CA=CE=DE=B7=A8=C9=CF=BF=CE=C1=CB</A><BR><A =
+title=3D=BC=D9=C8=E784=B9=D8=B1=D5=C1=CB=A1=A3=A1=A3=A1=A3=20
+      href=3D"https://1984bbs.com/viewthread.php?tid=3D60824"=20
+      =
+target=3D_blank>=BC=D9=C8=E784=B9=D8=B1=D5=C1=CB=A1=A3=A1=A3=A1=A3</A><BR=
+><A =
+title=3D=B8=F884=A3=AC=B8=F8=C4=E3=CF=B2=BB=B6=B5=C48=D3=D1=C1=F4=D2=BB=BE=
+=E4=BB=B0=B0=C9=20
+      href=3D"https://1984bbs.com/viewthread.php?tid=3D60863"=20
+      =
+target=3D_blank>=B8=F884=A3=AC=B8=F8=C4=E3=CF=B2=BB=B6=B5=C48=D3=D1=C1=F4=
+=D2=BB=BE=E4=BB=B0=B0=C9</A><BR></TD></TR></TBODY></TABLE>
+<DIV id=3Dad_text></DIV>
+<TABLE class=3Dportalbox cellSpacing=3D1 summary=3DHeadBox =
+cellPadding=3D0>
+  <TBODY>
+  <TR></TR></TBODY></TABLE>
+<DIV class=3D"mainbox forumlist"><SPAN class=3Dheadactions><IMG =
+id=3Dcategory_3_img=20
+title=3D=CA=D5=C6=F0/=D5=B9=BF=AA =
+onclick=3D"toggle_collapse('category_3');" =
+alt=3D=CA=D5=C6=F0/=D5=B9=BF=AA=20
+src=3D"https://1984bbs.com/images/default/collapsed_no.gif"> </SPAN>
+<H3><A =
+href=3D"https://1984bbs.com/index.php?gid=3D3">=C9=B3=C1=FA</A></H3>
+<TABLE id=3Dcategory_3 cellSpacing=3D0 summary=3Dcategory3 =
+cellPadding=3D0>
+  <THEAD class=3Dcategory>
+  <TR>
+    <TH>=B0=E6=BF=E9</TH>
+    <TD class=3Dnums>=D6=F7=CC=E2</TD>
+    <TD class=3Dnums>=CC=FB=CA=FD</TD>
+    <TD class=3Dlastpost>=D7=EE=BA=F3=B7=A2=B1=ED</TD></TR></THEAD>
+  <TBODY id=3Dforum2>
+  <TR>
+    <TH class=3Dnew>
+      <H2><A =
+href=3D"https://1984bbs.com/forumdisplay.php?fid=3D2">=D7=D4=D3=C9=D0=C2=CE=
+=C5=C9=E7</A><EM>=20
+      (=BD=F1=C8=D5: 124)</EM></H2>
+      <P>=CA=B1=CA=C2=B1=A8=B5=C0=D3=EB=C6=C0=CB=B5</P></TH>
+    <TD class=3Dnums>22277</TD>
+    <TD class=3Dnums>415215</TD>
+    <TD class=3Dlastpost><A=20
+      =
+href=3D"https://1984bbs.com/redirect.php?tid=3D60835&amp;goto=3Dlastpost#=
+lastpost">=D6=D0=B9=FA=CA=B1=D5=FE=D0=C2=CE=C5=CD=F8=D5=BE1984bbs=BD=AB=B9=
+=D8=B1=D5</A>=20
+      <CITE>by <A=20
+      =
+href=3D"https://1984bbs.com/space.php?username=3D%A1%AD%A1%AD">=A1=AD=A1=AD=
+</A> -=20
+      2010-10-12 05:05</CITE> </TD></TR></TBODY>
+  <TBODY id=3Dforum37>
+  <TR>
+    <TH class=3Dnew>
+      <H2><A =
+href=3D"https://1984bbs.com/forumdisplay.php?fid=3D37">=D1=C5=B5=E4=D1=A7=
+=D4=BA</A><EM>=20
+      (=BD=F1=C8=D5: 369)</EM></H2>
+      <P>=B9=DB=B5=E3=B7=A2=B1=ED=D3=EB=CD=C6=BC=F6</P></TH>
+    <TD class=3Dnums>16215</TD>
+    <TD class=3Dnums>244193</TD>
+    <TD class=3Dlastpost><A=20
+      =
+href=3D"https://1984bbs.com/redirect.php?tid=3D61062&amp;goto=3Dlastpost#=
+lastpost">=BF=AA=B7=C5=C9=E7=BB=E1=D7=CA=C1=CF=CA=D2=20
+      =CA=E9=B5=A5 =
+=BA=CD=B2=BF=B7=D6LIVE=B4=F3=BD=B2=CC=C3=D5=FB=C0=ED</A> <CITE>by <A=20
+      =
+href=3D"https://1984bbs.com/space.php?username=3D%D0%A1%C0%F2%C0%F2">=D0=A1=
+=C0=F2=C0=F2</A> -=20
+      2010-10-12 05:17</CITE> </TD></TR></TBODY>
+  <TBODY id=3Dforum21>
+  <TR>
+    <TH>
+      <H2><A =
+href=3D"https://1984bbs.com/forumdisplay.php?fid=3D21">=BF=AA=B7=C5=C9=E7=
+=BB=E1=D7=CA=C1=CF=CA=D2</A><EM>=20
+      (=BD=F1=C8=D5: 26)</EM></H2>
+      <P>=D3=B0=D2=F4=CA=E9=B5=C8=D7=CA=C1=CF=B7=D6=CF=ED</P></TH>
+    <TD class=3Dnums>2824</TD>
+    <TD class=3Dnums>31236</TD>
+    <TD class=3Dlastpost><A=20
+      =
+href=3D"https://1984bbs.com/redirect.php?tid=3D61067&amp;goto=3Dlastpost#=
+lastpost">=A1=AA=A1=AA=B9=D8=B1=D5=BA=F3=C8=A5=C4=C4=C0=EF=A3=BF=BC=D3=B4=
+=CB=C8=BA=A1=AA=A1=AA</A>=20
+      <CITE>by <A=20
+      =
+href=3D"https://1984bbs.com/space.php?username=3Dvos2010">vos2010</A> -=20
+      2010-10-12 04:29</CITE> </TD></TR></TBODY>
+  <TBODY id=3Dforum26>
+  <TR>
+    <TH>
+      <H2><A =
+href=3D"https://1984bbs.com/forumdisplay.php?fid=3D26">=B9=FA=BC=D2=BE=D6=
+=D3=F2=CD=F8=D1=D0=BE=BF=CB=F9</A><EM>=20
+      (=BD=F1=C8=D5: 37)</EM></H2>
+      <P>=CD=F8=C2=E7=BC=BC=CA=F5=BD=BB=C1=F7</P></TH>
+    <TD class=3Dnums>2444</TD>
+    <TD class=3Dnums>30679</TD>
+    <TD class=3Dlastpost><A=20
+      =
+href=3D"https://1984bbs.com/redirect.php?tid=3D61066&amp;goto=3Dlastpost#=
+lastpost">=A1=AA=A1=AA=B9=D8=B1=D5=BA=F3=C8=A5=C4=C4=C0=EF=A3=BF=BC=D3=B4=
+=CB=C8=BA=A1=AA=A1=AA</A>=20
+      <CITE>by <A=20
+      =
+href=3D"https://1984bbs.com/space.php?username=3Dvos2010">vos2010</A> -=20
+      2010-10-12 04:29</CITE> </TD></TR></TBODY>
+  <TBODY id=3Dforum35>
+  <TR>
+    <TH class=3Dnew>
+      <H2><A =
+href=3D"https://1984bbs.com/forumdisplay.php?fid=3D35">=C2=DE=C2=ED=BC=D9=
+=C8=D5=B9=AB=D4=A2</A><EM>=20
+      (=BD=F1=C8=D5: 105)</EM></H2>
+      <P>=C9=FA=B4=E6=BC=BC=C4=DC=BB=A5=D6=FA</P></TH>
+    <TD class=3Dnums>2228</TD>
+    <TD class=3Dnums>55645</TD>
+    <TD class=3Dlastpost><A=20
+      =
+href=3D"https://1984bbs.com/redirect.php?tid=3D61055&amp;goto=3Dlastpost#=
+lastpost">=C2=E3=D5=D5=C1=F4=C4=EE=A3=AC=BC=C084=BA=CD=C7=E0=B4=BA</A>=20
+      <CITE>by <A=20
+      =
+href=3D"https://1984bbs.com/space.php?username=3D%B9%DB%C6%E5%B2%BB%D3%EF=
+">=B9=DB=C6=E5=B2=BB=D3=EF</A>=20
+      - 2010-10-12 04:48</CITE> </TD></TR></TBODY>
+  <TBODY id=3Dforum40>
+  <TR>
+    <TH>
+      <H2><A=20
+href=3D"https://1984bbs.com/forumdisplay.php?fid=3D40">Live!=B4=F3=BD=B2=CC=
+=C3</A></H2>
+      <P>=D3=EB=BC=CE=B1=F6=B6=D4=BB=B0</P></TH>
+    <TD class=3Dnums>17</TD>
+    <TD class=3Dnums>1991</TD>
+    <TD class=3Dlastpost><A=20
+      =
+href=3D"https://1984bbs.com/redirect.php?tid=3D52954&amp;goto=3Dlastpost#=
+lastpost">=D3=EB=D3=CE=BE=AB=D3=D3=CE=E2=BB=AA=D3=A2=B9=F9=B1=A6=B7=E5=C1=
+=F5=CF=FE=D4=AD=C0=EE=B7=BD=C6=BD=B6=D4=CC=B8=A1=B0=B8=A3=20
+      ...</A> <CITE>by <A=20
+      =
+href=3D"https://1984bbs.com/space.php?username=3D%D3%CE%BE%AB%D3%D3">=D3=CE=
+=BE=AB=D3=D3</A> -=20
+      2010-8-27 22:04</CITE> </TD></TR></TBODY></TABLE></DIV>
+<DIV id=3Dad_intercat_3></DIV>
+<DIV class=3D"mainbox forumlist"><SPAN class=3Dheadactions><IMG =
+id=3Dcategory_11_img=20
+title=3D=CA=D5=C6=F0/=D5=B9=BF=AA =
+onclick=3D"toggle_collapse('category_11');" =
+alt=3D=CA=D5=C6=F0/=D5=B9=BF=AA=20
+src=3D"https://1984bbs.com/images/default/collapsed_no.gif"> </SPAN>
+<H3><A =
+href=3D"https://1984bbs.com/index.php?gid=3D11">=D5=BE=CE=F1</A></H3>
+<TABLE id=3Dcategory_11 cellSpacing=3D0 summary=3Dcategory11 =
+cellPadding=3D0>
+  <THEAD class=3Dcategory>
+  <TR>
+    <TH>=B0=E6=BF=E9</TH>
+    <TD class=3Dnums>=D6=F7=CC=E2</TD>
+    <TD class=3Dnums>=CC=FB=CA=FD</TD>
+    <TD class=3Dlastpost>=D7=EE=BA=F3=B7=A2=B1=ED</TD></TR></THEAD>
+  <TBODY id=3Dforum9>
+  <TR>
+    <TH>
+      <H2><A =
+href=3D"https://1984bbs.com/forumdisplay.php?fid=3D9">=B6=E0=B9=A6=C4=DC=D0=
+=A1=BA=DA=CE=DD</A><EM>=20
+      (=BD=F1=C8=D5: 60)</EM></H2>
+      <P>=D5=BE=CE=F1=D7=C9=D1=AF</P></TH>
+    <TD class=3Dnums>5387</TD>
+    <TD class=3Dnums>64626</TD>
+    <TD class=3Dlastpost><A=20
+      =
+href=3D"https://1984bbs.com/redirect.php?tid=3D61036&amp;goto=3Dlastpost#=
+lastpost">=A1=AA=A1=AA=B9=D8=B1=D5=BA=F3=C8=A5=C4=C4=C0=EF=A3=BF=BC=D3=B4=
+=CB=C8=BA=A1=AA=A1=AA</A>=20
+      <CITE>by <A=20
+      =
+href=3D"https://1984bbs.com/space.php?username=3Dvos2010">vos2010</A> -=20
+      2010-10-12 04:45</CITE> </TD></TR></TBODY></TABLE></DIV>
+<DIV id=3Dad_intercat_11></DIV></DIV>
+<DIV id=3Dad_footerbanner1 class=3Dad_footerbanner></DIV>
+<DIV id=3Dad_footerbanner2 class=3Dad_footerbanner></DIV>
+<DIV id=3Dad_footerbanner3 class=3Dad_footerbanner></DIV>
+<DIV id=3Dfooter>
+<DIV class=3Dwrap>
+<DIV id=3Dfootlinks>
+<P><A href=3D"https://1984bbs.com/viewthread.php?tid=3D23826"=20
+target=3D_blank>=E4=AF=C0=C0=C6=F7=D6=A7=B3=D6=CB=B5=C3=F7</A>=A1=A1|=A1=A1=
+<A=20
+href=3D"https://1984bbs.com/member.php?action=3Dclearcookies&amp;formhash=
+=3D844355af">=C7=E5=B3=FD=20
+Cookies</A> </P></DIV>
+<P id=3Dcopyright>CopyRight &copy; 1984bbs.com </P>
+<P id=3Ddebuginfo>Processed in second(s), queries, Gzip=20
+enabled.</P></DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_008A_01CB69CC.FD913D30
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://1984bbs.com/images/default/logo.gif
+
+R0lGODlh8AA8APcAALq6uqCgoPv38Pzisf/p/fzfqv+y+JCQkDU1NY6Ojnp6enh4ePvRhlFRUf/T
++/+Y9RERESUlJbKysomJiQkJCaysrAUFBURERMnJyf725yEhIYqKikhISGhoaFxcXP3oxEBAQJ6e
+nn19ff+c9qqqqnFxcRwcHGBgYHV1df7v00JCQri4uGk+Zf736VdXV//+/WZmZqSkpEZGRv+++U5O
+TlpaWioqKmtra//K+hQUFPrIcDIyMiwsLExMTJiYmP+m9y8vL21tbYSEhEpKSjAwMP+8+frNexgY
+GAwMDFhYWBYWFjg4OP/f/F5eXhsbG8x3xA4ODv+5+PvYmSgoKPvSiP+q9/rLdzs7OwEBAfrIb/+V
+9cDAwL6+vqenp+zs7Dw8PD8/P2JiYoGBgXJycjc3N7GxsYODg7y8vOLi4pWVlf7+/tfX18/Pz29v
+b52dnc7OzmVlZebm5qOjo4eHh9bW1q6ursrKyvz8/ICAgPLy8n9/f/n5+c3NzcbGxtnZ2fb29uDg
+4GRkZP39/dra2u/v7+rq6sLCwtDQ0MTExDY2NtXV1eXl5frMedvb2/Dw8PvWlMPDw/j4+Ojo6La2
+tuHh4efn5+7u7svLy/f399jY2PHx8aKiouvr6729vdzc3O3t7fT09PvWlbW1tX5+fr+/v93d3eTk
+5JSUlJKSksHBwePj442NjampqbCwsIKCgvr6+vv7+6ampsXFxYyMjJaWlv/9/3Nzc/X19fPz85yc
+nNPT07S0tK+vrz4+Pv/w/unp6T09PZeXl9/f39HR0cfHx7e3t5qamt7e3qioqJOTk/zZnTsiOf/+
+///s/f3nwf/4/szMzIaGhvrKdP/0/m5ubtLS0gkFCf/H+plZk7Fnqtp/0fWP6//6/+PW4v70431L
+eOLP4P3rzP7z4G1nbRYNFf/79Orp505JTg0IDPr49fz48f757//89v+W9fzbof/y/v+g9tvWzP+a
+9eWG3P+b9v/Y+/z6/DMeMf/9+v/X+6hiof/3/v/P+vvXlQAAAP///yH5BAAAAAAALAAAAADwADwA
+AAj/AP8JHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuX
+MGPKnEmzps2bOHNy/LOFi89OihwO6+SzqNGinbZIYqiGDdGjUI+ScqSz6sxSWPxp9WdBBTGFXK5Y
+2Eq27FYltqginEQmq9m3ZTWkUcMwT5w4he4g/HPXi9W/ED29pZAL4YGxcBP7IyLsoBnFkLe62KMQ
+EwIoUBDcQlgBMwfAoBnG4QAGRCLEXHcZ7EKWwhIQYGLLnh2BLBFcBd2QRXIF9uzfsUEAO0I2jMJW
+WxUkjKV1SejnDYc12RoBFMFKxLV2oMPwT4UpyQmi/4GiFQu1QRALJSCvFUBCDlopNEbI2t8X6PgX
+Ltjqg+CGrRNAJIkNWkHgl0D7aZXMP/g4I8UjoUT4yIQTRhjKIwWI848h7IGBkB2IGZdQffflZ6JB
+guygFQ0DqQGMVr1IRApirQgEC4H+sMhOP1n06OOPQGYhTTj/POYPEqocBINWFmCgEIknRklQMlpp
+sNk/oJigFS8T9aKVGAL9AoFWxfwzQJBoAmnFOqaw515Bkozpj4dPalWilFGmUiAnAuXhhD9Y6DJR
+IFqVINAiSHDlxwtUpOloj0QCoZUoBhnpjwQLQYlnlFtolcOBfgJ6yERhaDWGQHGQZ0EmLzDwqKMf
+CP8iqT+TFPSHBlrZQFmd9m3Kqaeg/onFqBKV6s+p/6SqaKuvphkrEVrVShArWx3AkKa+5tepP5/2
+KSyxERmLLKLLutpskB/8MyulLS6h1RGEXGtntiZu2+0/oQ5LqqkCFSInpu6cC6QO3lCSqD9nENSH
+W7Y0hC29z9kbrKj7HivQHbPK8E8GRgjs4wD/KKAVEnEQ5EF8mTg8L8TQSewtxcXyK5AYW5mxsTKM
+5Kxzzjr4KA0jDDjzjwQUaPXZQI0U7U8NDj3MMmAu4yusoDFbLJAkSmzlAQaRCOC11+qUk4EVPUrR
+ggDpNKKA0v5AQpAIWxnS9MpPgxY1Llr6U2bVyAr/VAFZWETAgw2E28DDJin0WIA5DRDOttUCEZL3
+F4LM3WvdGWmyiwI3dH5DEGkEtVHUapChVQ8V9y0QLai9tYoyOnygCA9vdUDXQD5sRcJDThtUCCoH
+pPLQJQcc4ElEiiTjihnMNx/NgQoNcsDyzZvhSpIDqaIAGTt03z0HASCETG1vWXDCUhlF/Y8eW4XA
+t0Fb9HAEEvSTZUE8VKQgQXbxQbDEJgXZg4r8YSXe0Q0h0NDOQ/CgFVY85BdweFxZRJeQObDHLHIT
+yCTy9hYafKIgc3iLW7QCBDSkD1gDAYScsCCGX0BEXAfZgw86Rw1DuEArKshABjaAGgR0Qg9iqIRB
+/zyBmAAZ8HIJYUNW2vCQEPqjDg75xAAtQIQLWBEEKlABB7CHEBTYzwJgBONX/sEHtk3Be/zjwK7+
+sYKtJCIAfHgDH9gAiRsoDQRrrIj6/kELshwBBDKwoiAHeQFUDASGBdkEeKr0DxBoJQCvMJZWwvCH
+CYzlCHqIBEEwsBUuQAQZBzyIEv3BRIc4EYoN6YBWwHCI2z0EOUY7Ax1mScs//OMOpvNHBACgSYFw
+wpJaCYZA9oAArSShlwUBwMEceJE9hiwyxTmkzAZSgrJ0oBBFywEkLrAVC5wCFEkoywXyMBA+bIUD
+uHEItfwBjIWMspQNOWVDLJEDAmpCImr4glZuoP+QbTmBEgfRjT92AIt/NGIsTrCEQCiRgARwRyBG
+6gBGnPmPWNAOmieQJuT+sQqyOIEGiCjDu3CllQiQ4h9u4AANcKSVBgzEEvyLABkSQYaa2vSmNCUD
++ZBQ00QoxyDvvNgp9DAKEYxiArIAoVZQuQg86MGoekgDIAaSibFIVCKAKJoNbJkQI9EiIaazQFDo
+MBZDCaSN/nCfQPwwlkBMFIUGwYQo3EDXutqVrrlIqkAQaVClUUAMfHrHOMxyjm744rC+eMYeNsG/
+Cgyko9CMDIuAukSBvIJ/WzmBWv4hz39wsiw5MOQ/KFE0F0wElj9NyMkssIaEsM8fiPjHGsYihIH/
+nEErchiIKRIFh7dyC3oX4WsQyhODfxDAAA+4B+C+8YDmOhceOGBGNerpDzK4chQXjOxbXEpZUloW
+CBSwwONAkM7OllG8rQMTLIqJhD5IhDn+qK1CVpsyhMxCK+6drT/AJJDb+iO3AkEDb317L4wg8hXk
+88A/mkEPLcwDHVshRza0QOEKU7gdM/gHKuJzDIIAIhVbCLGIRxxiUnBhC6kYhVZ4AGJSUJAgQf2H
+GgAxCD8MAgNwcMtPOxuJQfg4E5PwEqC28I9dFGgChwAEJUyxCPSNSCt4WMhqX1yQ//gjv2Ph7z/8
+C+B/CNgfvW0mXA0sM0mwx5NRoLA+trIMbVj4/80UJgAnqLsCi9Rhle6sLEJiMBYImLCzBrnDCYwm
+kAOMkAIUoB8EwBA++kBZylx56EGsjOX92ha3A/lymC1CUYogMg6JssAgavEDCrNAKyzYBpzh7IB/
+QMsf7KJI7woSY4T0QCtyA7RB8kAcG+hlyxyQ4FaSYJ3VPHq+kU4IpWWb5Uv/N9MDFvNvNfJpVWWC
+1BRehjWwsepVO0BW0bLIrGGsZ4ScQiux1bVBHMmDXwukEYgwhCFkUQwUsEdEBalPlJEtVmXjl9mW
+7i+mAxxtTo/5IoTyh1mVZQE/YFsLT3hCt70tiFdLS9ah7C48DxICdHN2qQqBT7sXAo3sxDbfx/9W
+bbIRsmz9apnL0AYzgYFrkZP5o2H/IBdrmVGFifu8Hmq4qGoqMu6BvCErqjPIfWH7DyFopUYJ0efI
+F2KMaQ4Evq5YSA0UlZClV/rlA/dywfV48Io4gqSn8KWcHIsDn3d7BNMYhNI8SfSMF6QaWWFaQqrZ
+tn8cIOwHoZ2vGdKIvBuEF1pZwEIIhQU2JKQNWkmqy53dZU3PPCNwA9QlBJIirVxBENwwgNvfLA8m
+/APy/oBCIcRtd4I4gjgQMMVecIWEqRpCK0NIyBbGcoGGxEArbi0Iaf1hA0wo5NzePcitjmTCyQv8
+2QSXubQLXJHDaCUR7l66wv9Ri3zM4Pvgn0H/ER5QYQPM4BrN+EcAEMPduiMxIQmngfELooYl+eNo
+mshbAg6yCBytgiFoQFKxYBD5pEAJoV8WgCn0l3C5B3BgB31iJ30GN20DEVJlcIEYmIEaWAbGoAJk
+QXcCYQkkdX+iUAiEcIInSBXTQH7twA+wQAiWQAz2xxV8cBFFNxC6gBhL0AVx9AZvwAvc1B6PlVln
+wAZvwAaXEAwkpQGb9Ql48QumoAqL0AjGQFI9QBlqEAmRUFD/IFJGUwY+GIZvUGyD5g8UMAaGwAZ8
+cAm8AB9akTAOSHkxt2lkR4ECkQja9RY2k0ytAwFK8Id/eARp4ABaAA9MUApXkAPUVTMYcYMD/5EG
+ZYEFI6QVqXVLDQA4gLIbbyIQNIAEEAAFSJBoqNELq/cPfjAFEZB1AuFFieFe//AJs1IeZiECA6Ff
++7ZlWgFAAVY0wWcRXDAyfDIQeJiHWwEB1nIQrCAncJEGVfADzQAJHLQVWECLGPF7/uAcDZELmEUW
+EGBEBIEJN9A6ZGEDnVAQHvgWJqAAV/IPhzBJBBENylgWGfQPlXCJbwEBG0AQtuhsuuhlvIgRfIAA
+CHABm/UPMCCQCJmQCpmQS4ACjaAQftAER4BoiIYYFAAOUfAMucA24gUBFwCCF1EHEAABDdgQlRAC
+eoAHYrCSehAMU4UQwzALQLSSKlkBxUYQftlgBzq5k3bABwrlehWADG9QEMcQAmlwlEiZBkJEELJA
+C0mZBgHwkgOBCZdgB4swEJqgk9CzB3xgB/PxHJ/gCZ5QCsdwQ/7QA/tgD6hnNG/gCSWzEXvgBV5w
+T5hTlxtRTP5QAZ9wa8nxCnb5lzpBVv5wBKLwatzSBYCZmDgRAJ6ijDtANYoZmTOhSmVxAvEimZgJ
+E2oQi2YoWpn5mS1hMFuhAW4Dmqa5Eoy5Ikt5mqx5EoOGBXpQOa05myUBAjngWLSZmyNRCqWgm775
+m8AZnMI5nMRZnMYJMQEBADs=
+
+------=_NextPart_000_008A_01CB69CC.FD913D30
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://1984bbs.com/images/default/collapsed_no.gif
+
+R0lGODlhCAAJAIAAAMPU5v///yH5BAEAAAEALAAAAAAIAAkAAAIOjI+JAMl83guTytWUNgUAOw==
+
+------=_NextPart_000_008A_01CB69CC.FD913D30
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://1984bbs.com/forumdata/cache/style_1_common.css
+
+* {
+	WORD-WRAP: break-word
+}
+BODY {
+	TEXT-ALIGN: center; BACKGROUND: #fff
+}
+BODY {
+	FONT: 12px/1.6em Helvetica, Arial, sans-serif; COLOR: #000
+}
+TD {
+	FONT: 12px/1.6em Helvetica, Arial, sans-serif; COLOR: #000
+}
+INPUT {
+	FONT: 12px/1.6em Helvetica, Arial, sans-serif; COLOR: #000
+}
+TEXTAREA {
+	FONT: 12px/1.6em Helvetica, Arial, sans-serif; COLOR: #000
+}
+SELECT {
+	FONT: 12px/1.6em Helvetica, Arial, sans-serif; COLOR: #000
+}
+BUTTON {
+	FONT: 12px/1.6em Helvetica, Arial, sans-serif; COLOR: #000
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+H1 {
+	FONT-SIZE: 1em
+}
+H2 {
+	FONT-SIZE: 1em
+}
+H3 {
+	FONT-SIZE: 1em
+}
+H4 {
+	FONT-SIZE: 1em
+}
+H5 {
+	FONT-SIZE: 1em
+}
+H6 {
+	FONT-SIZE: 1em
+}
+#menu LI {
+	LIST-STYLE-TYPE: none
+}
+.popupmenu_popup LI {
+	LIST-STYLE-TYPE: none
+}
+#announcement LI {
+	LIST-STYLE-TYPE: none
+}
+.portalbox LI {
+	LIST-STYLE-TYPE: none
+}
+.tabs LI {
+	LIST-STYLE-TYPE: none
+}
+.postmessage FIELDSET LI {
+	LIST-STYLE-TYPE: none
+}
+.side LI {
+	LIST-STYLE-TYPE: none
+}
+.formbox LI {
+	LIST-STYLE-TYPE: none
+}
+.notice LI {
+	LIST-STYLE-TYPE: none
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+EM {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CITE {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+STRONG {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+TH {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+TABLE {
+	BORDER-COLLAPSE: collapse; EMPTY-CELLS: show
+}
+.wrap {
+	TEXT-ALIGN: left; MARGIN: 0px auto; WIDTH: 98%
+}
+.notice {
+	BORDER-BOTTOM: #ededce 1px solid; BORDER-LEFT: #ededce 1px solid; =
+PADDING-BOTTOM: 0.3em; PADDING-LEFT: 3em; PADDING-RIGHT: 1em; =
+MARGIN-BOTTOM: 10px; BACKGROUND: url(../../images/default/notice.gif) =
+#fffff2 no-repeat 1em 0.7em; COLOR: #333; FONT-SIZE: 14px; BORDER-TOP: =
+#ededce 1px solid; BORDER-RIGHT: #ededce 1px solid; PADDING-TOP: 0.5em
+}
+.videoact {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+PADDING-BOTTOM: 0.3em; PADDING-LEFT: 3em; WIDTH: 445px; PADDING-RIGHT: =
+1em; MARGIN-BOTTOM: 10px; BACKGROUND: =
+url(../../images/default/videoact.gif) #fffff2 no-repeat 1em 0.5em; =
+COLOR: #333; FONT-SIZE: 14px; BORDER-TOP: #dddddd 1px solid; =
+BORDER-RIGHT: #dddddd 1px solid; PADDING-TOP: 0.5em
+}
+.message {
+	MARGIN: 3em 10em 5em
+}
+.message H1 {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #fff 1px solid; =
+LINE-HEIGHT: 26px; PADDING-LEFT: 1em; MARGIN-BOTTOM: 1em; BACKGROUND: =
+#ffffff repeat-x 0px 0px; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff =
+1px solid
+}
+.message P {
+	MARGIN: 1.5em 1em
+}
+.message A {
+	COLOR: #535353
+}
+#header {
+	WIDTH: 100%; OVERFLOW: hidden
+}
+#header H2 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: =
+left; PADDING-TOP: 5px
+}
+#footer {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BACKGROUND: #fff; COLOR: #666; BORDER-TOP: #dddddd 1px solid; =
+PADDING-TOP: 12px
+}
+#footlinks {
+	TEXT-ALIGN: right; MARGIN-TOP: -3px; FLOAT: right
+}
+#footer IMG {
+	MARGIN: 0px 10px 0px 0px; FLOAT: left
+}
+#copyright {
+	FONT: 0.83em/1.5em Verdana, Arial, Helvetica, sans-serif
+}
+#debuginfo {
+	FONT: 0.83em/1.5em Verdana, Arial, Helvetica, sans-serif
+}
+#copyright STRONG {
+	FONT-WEIGHT: bold
+}
+#copyright EM {
+	FONT-WEIGHT: bold
+}
+#copyright STRONG A {
+	COLOR: #0954a6
+}
+#copyright EM {
+	COLOR: #ff9d25
+}
+#debuginfo {
+	COLOR: #999
+}
+.scrolltop {
+	CURSOR: pointer
+}
+#menu {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+BACKGROUND: #fffff2 repeat-x; HEIGHT: 31px; BORDER-TOP: #dddddd 1px =
+solid; BORDER-RIGHT: #dddddd 1px solid
+}
+#menu UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FLOAT: =
+right; BORDER-RIGHT: #fff 1px solid; PADDING-TOP: 4px
+}
+#menu LI {
+	FLOAT: left
+}
+#menu LI A {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; DISPLAY: =
+block; BACKGROUND: url(../../images/default/menu_itemline.gif) no-repeat =
+0px 6px; COLOR: #333; TEXT-DECORATION: none; PADDING-TOP: 4px
+}
+#menu LI.hover {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+BACKGROUND-COLOR: #fff; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: =
+#dddddd 1px solid
+}
+#menu LI.current {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+BACKGROUND-COLOR: #fff; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: =
+#dddddd 1px solid
+}
+#menu LI.current {
+	FONT-WEIGHT: bold
+}
+#menu LI.hover A {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 3px; PADDING-LEFT: 7px; =
+PADDING-RIGHT: 7px; PADDING-TOP: 3px
+}
+#menu LI.current A {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 3px; PADDING-LEFT: 7px; =
+PADDING-RIGHT: 7px; PADDING-TOP: 4px
+}
+#menu CITE A {
+	BACKGROUND-IMAGE: none; FONT-WEIGHT: bold
+}
+.frameswitch {
+	LINE-HEIGHT: 30px; PADDING-LEFT: 10px; FLOAT: left; HEIGHT: 30px
+}
+#menu A.frameoff {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; PADDING-LEFT: =
+16px; BORDER-TOP-STYLE: none; BACKGROUND: no-repeat 0px 50%; FLOAT: =
+left; MARGIN-LEFT: 0px; BORDER-LEFT-STYLE: none
+}
+#menu A.frameon {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; PADDING-LEFT: =
+16px; BORDER-TOP-STYLE: none; BACKGROUND: no-repeat 0px 50%; FLOAT: =
+left; MARGIN-LEFT: 0px; BORDER-LEFT-STYLE: none
+}
+#menu A.frameoff {
+	BACKGROUND-IMAGE: url(../../images/default/frame_off.gif)
+}
+#menu A.frameon {
+	BACKGROUND-IMAGE: url(../../images/default/frame_on.gif)
+}
+#foruminfo {
+	MARGIN: 10px 0px; WIDTH: 100%; COLOR: #666; OVERFLOW: hidden
+}
+#userinfo {
+	PADDING-LEFT: 5px; FLOAT: left
+}
+#foruminfo #nav {
+	PADDING-LEFT: 5px; FLOAT: left
+}
+#forumstats {
+	TEXT-ALIGN: right; PADDING-RIGHT: 5px; FLOAT: right
+}
+#headsearch {
+	TEXT-ALIGN: right; PADDING-RIGHT: 5px; FLOAT: right
+}
+#foruminfo P {
+	MARGIN: 0px
+}
+#foruminfo A {
+	COLOR: #535353
+}
+#foruminfo EM {
+	COLOR: #000
+}
+#foruminfo CITE {
+	FONT-WEIGHT: bold
+}
+#foruminfo STRONG A {
+	COLOR: #000; FONT-WEIGHT: bold
+}
+#nav {
+	MARGIN: 10px 5px
+}
+#foruminfo #nav {
+	MARGIN: 0px
+}
+#userinfo #nav {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: =
+none; PADDING-TOP: 0px
+}
+#nav A {
+	COLOR: #535353; FONT-WEIGHT: bold
+}
+#announcement {
+	LINE-HEIGHT: 36px; HEIGHT: 36px; OVERFLOW: hidden; BORDER-TOP: #dddddd =
+1px dashed
+}
+#announcement DIV {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; =
+PADDING-BOTTOM: 0px; LINE-HEIGHT: 35px !important; OVERFLOW-Y: hidden; =
+PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 36px; BORDER-TOP: #fff =
+1px solid; BORDER-RIGHT: #fff 1px solid; PADDING-TOP: 0px
+}
+#announcement LI {
+	PADDING-LEFT: 10px; WHITE-SPACE: nowrap; BACKGROUND: =
+url(../../images/default/arrow_right.gif) no-repeat 0px 50%; FLOAT: =
+left; MARGIN-RIGHT: 20px
+}
+#announcement LI EM {
+	COLOR: #666; MARGIN-LEFT: 5px; FONT-SIZE: 0.83em
+}
+.portalbox {
+	WIDTH: 100%; BORDER-COLLAPSE: separate; MARGIN-BOTTOM: 10px; =
+BACKGROUND: #dddddd
+}
+.portalbox TD {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; =
+PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+BACKGROUND: #ffffff repeat-x 0px 0px; VERTICAL-ALIGN: top; BORDER-TOP: =
+#fff 1px solid; BORDER-RIGHT: #fff 1px solid; PADDING-TOP: 10px
+}
+.portalbox H3 {
+	MARGIN: 0px 0px 5px; WHITE-SPACE: nowrap; FONT-SIZE: 1em
+}
+.portalbox STRONG {
+	MARGIN-TOP: 4px; FONT-WEIGHT: bold
+}
+.portalbox EM {
+	COLOR: #999
+}
+.portalbox EM A {
+	COLOR: #999
+}
+.portalbox CITE A {
+	COLOR: #535353
+}
+#hottags A {
+	WHITE-SPACE: nowrap; MARGIN-RIGHT: 0.5em
+}
+#hottags H3 {
+	CLEAR: both
+}
+.headactions {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1em; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 10px; FLOAT: right; PADDING-TOP: 10px
+}
+.headactions IMG {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; =
+VERTICAL-ALIGN: middle; CURSOR: pointer; PADDING-TOP: 0px
+}
+.mainbox .headactions {
+	COLOR: #fff
+}
+.mainbox .headactions A {
+	PADDING-RIGHT: 10px; BACKGROUND: =
+url(../../images/default/headactions_line.gif) no-repeat 100% 50%; =
+COLOR: #fff; MARGIN-RIGHT: 8px
+}
+.mainbox .headactions SPAN {
+	PADDING-RIGHT: 10px; BACKGROUND: =
+url(../../images/default/headactions_line.gif) no-repeat 100% 50%; =
+COLOR: #fff; MARGIN-RIGHT: 8px
+}
+.mainbox .headactions STRONG {
+	PADDING-RIGHT: 10px; BACKGROUND: =
+url(../../images/default/headactions_line.gif) no-repeat 100% 50%; =
+COLOR: #fff; MARGIN-RIGHT: 8px
+}
+.mainbox .headactions STRONG {
+	BACKGROUND-IMAGE: url(../../images/default/arrow_left.gif); =
+FONT-WEIGHT: bold
+}
+.pages_btns {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: =
+0px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.postbtn {
+	FLOAT: right
+}
+.replybtn {
+	FLOAT: right
+}
+.postbtn {
+	MARGIN-LEFT: 10px; CURSOR: pointer
+}
+.pages_btns .pages EM {
+	LINE-HEIGHT: 26px
+}
+.pages {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+LINE-HEIGHT: 26px; BACKGROUND: #fffff2; FLOAT: left; HEIGHT: 24px; =
+COLOR: #999; OVERFLOW: hidden; BORDER-TOP: #dddddd 1px solid; =
+BORDER-RIGHT: #dddddd 1px solid
+}
+.threadflow {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+LINE-HEIGHT: 26px; BACKGROUND: #fffff2; FLOAT: left; HEIGHT: 24px; =
+COLOR: #999; OVERFLOW: hidden; BORDER-TOP: #dddddd 1px solid; =
+BORDER-RIGHT: #dddddd 1px solid
+}
+.pages A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; PADDING-LEFT: 8px; =
+PADDING-RIGHT: 8px; FLOAT: left; PADDING-TOP: 0px
+}
+.pages STRONG {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; PADDING-LEFT: 8px; =
+PADDING-RIGHT: 8px; FLOAT: left; PADDING-TOP: 0px
+}
+.pages EM {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; PADDING-LEFT: 8px; =
+PADDING-RIGHT: 8px; FLOAT: left; PADDING-TOP: 0px
+}
+.pages KBD {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; PADDING-LEFT: 8px; =
+PADDING-RIGHT: 8px; FLOAT: left; PADDING-TOP: 0px
+}
+#multipage .pages EM {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; PADDING-LEFT: 8px; =
+PADDING-RIGHT: 8px; FLOAT: left; PADDING-TOP: 0px
+}
+.pages A:hover {
+	BACKGROUND-COLOR: #fff
+}
+.pages STRONG {
+	BACKGROUND: #dddddd; COLOR: #333; FONT-WEIGHT: bold
+}
+.pages A.prev {
+	LINE-HEIGHT: 24px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.pages A.next {
+	LINE-HEIGHT: 24px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.pages A.next {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; =
+PADDING-TOP: 0px
+}
+.pages KBD {
+	BORDER-LEFT: #dddddd 1px solid; MARGIN: 0px
+}
+* HTML .pages KBD {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; =
+PADDING-TOP: 1px
+}
+.pages KBD INPUT {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+PADDING-BOTTOM: 0px; MARGIN: 1px 4px 0px 3px; PADDING-LEFT: 2px; =
+PADDING-RIGHT: 2px; HEIGHT: 17px; BORDER-TOP: #dddddd 1px solid; =
+BORDER-RIGHT: #dddddd 1px solid; PADDING-TOP: 0px
+}
+.pages KBD > INPUT {
+	MARGIN-BOTTOM: 2px
+}
+.threadflow {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; =
+MARGIN-RIGHT: 5px; PADDING-TOP: 0px
+}
+.tabs {
+	BORDER-BOTTOM: #dddddd 1px solid; PADDING-BOTTOM: 26px; MARGIN-BOTTOM: =
+15px; BACKGROUND: #fff; BORDER-TOP: #fff 1px solid
+}
+.tabs LI {
+	LINE-HEIGHT: 27px; FLOAT: left; HEIGHT: 27px; BORDER-RIGHT: #dddddd 1px =
+solid
+}
+.tabs LI.current {
+	BACKGROUND: #fff; HEIGHT: 27px; FONT-WEIGHT: bold
+}
+.tabs LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FLOAT: =
+left; PADDING-TOP: 0px
+}
+.smileytabs {
+	POSITION: relative; PADDING-RIGHT: 24px; BACKGROUND: #fff; HEIGHT: 28px
+}
+.smileytabs SPAN {
+	POSITION: absolute; MARGIN: 2px 0px; WIDTH: 24px; FLOAT: right; HEIGHT: =
+24px; TOP: 0px; RIGHT: 0px
+}
+#smileytypes {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; OVERFLOW-Y: hidden; =
+BORDER-RIGHT-STYLE: none; MARGIN-TOP: 1px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; BORDER-TOP-STYLE: none; FLOAT: =
+left; HEIGHT: 27px; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+.headertabs {
+	MARGIN-BOTTOM: 0px; BACKGROUND: #fff
+}
+.headertabs LI.current {
+	BACKGROUND-COLOR: #fffff2
+}
+.sendpm A {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 35px !important; =
+PADDING-RIGHT: 20px !important; BACKGROUND: =
+url(../../images/default/buddy_sendpm.gif) no-repeat 15px 50%; COLOR: =
+#333; PADDING-TOP: 0px !important
+}
+#headfilter {
+	BORDER-BOTTOM: #dddddd 0px solid; BORDER-LEFT: #dddddd 1px solid; =
+BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid
+}
+#headfilter .tabs {
+	BORDER-BOTTOM-COLOR: #fff; MARGIN-BOTTOM: 0px
+}
+#footfilter {
+	BORDER-BOTTOM-COLOR: #e8e8e8; PADDING-BOTTOM: 10px; LINE-HEIGHT: 24px; =
+BORDER-TOP-COLOR: #e8e8e8; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+FONT-FAMILY: Simsun, "Times New Roman"; BACKGROUND: #fffff2; HEIGHT: =
+24px; BORDER-RIGHT-COLOR: #e8e8e8; BORDER-LEFT-COLOR: #e8e8e8; =
+PADDING-TOP: 10px
+}
+#footfilter FORM {
+	FLOAT: right
+}
+#footfilter * {
+	VERTICAL-ALIGN: middle
+}
+.legend {
+	BORDER-BOTTOM: #dddddd 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#dddddd 1px solid; PADDING-BOTTOM: 10px; LINE-HEIGHT: 35px; MARGIN: 10px =
+auto; PADDING-LEFT: 10px; WIDTH: 500px; PADDING-RIGHT: 10px; BACKGROUND: =
+#fff; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid; =
+PADDING-TOP: 10px
+}
+.legend LABEL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; =
+PADDING-TOP: 0px
+}
+.legend IMG {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 10px
+}
+.taglist {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: =
+0px; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.taglist LI {
+	MARGIN: 0px 10px; WIDTH: 10em; DISPLAY: inline; FLOAT: left; HEIGHT: =
+24px; OVERFLOW: hidden
+}
+.taglist LI EM {
+	COLOR: #999; FONT-SIZE: 10px
+}
+.attriblist * {
+	COLOR: #000
+}
+.attriblist DT {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+.attriblist .name {
+	FONT-WEIGHT: bold
+}
+.attriblist DD A {
+	COLOR: #535353
+}
+#forumlinks {
+=09
+}
+#forumlinks TD {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 55px; PADDING-RIGHT: 5px; =
+BACKGROUND: url(../../images/default/forumlink.gif) no-repeat 18px 50%; =
+COLOR: #999; PADDING-TOP: 5px
+}
+#forumlinks .forumlink_logo {
+	FLOAT: right
+}
+#online {
+=09
+}
+#online H4 {
+	COLOR: #666; FONT-WEIGHT: normal
+}
+#online H4 STRONG {
+	FONT-WEIGHT: bold
+}
+#online DL {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 55px; PADDING-RIGHT: 5px; =
+PADDING-TOP: 5px
+}
+#onlinelist {
+	BACKGROUND: url(../../images/default/online.gif) no-repeat 10px 10px; =
+BORDER-TOP: #e8e8e8 1px solid
+}
+#online DT {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; =
+PADDING-TOP: 5px
+}
+#online DT IMG {
+	MARGIN-BOTTOM: -3px
+}
+#online DD {
+	BORDER-TOP: #e8e8e8 1px solid
+}
+#bdayslist {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 55px; PADDING-RIGHT: 0px; =
+BACKGROUND: url(../../images/default/bdays_cake.gif) no-repeat 10px 5px; =
+BORDER-TOP: #e8e8e8 1px solid; PADDING-TOP: 10px
+}
+.userlist {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; OVERFLOW: =
+hidden; PADDING-TOP: 5px
+}
+* HTML .userlist {
+	HEIGHT: 1%
+}
+.userlist LI {
+	WIDTH: 128px; FLOAT: left; HEIGHT: 20px; OVERFLOW: hidden
+}
+.userlist LI IMG {
+	VERTICAL-ALIGN: middle
+}
+#onlinelist .userlist LI {
+	MARGIN: 4px auto; HEIGHT: auto
+}
+#recommendlist {
+=09
+}
+#recommendlist LI {
+	TEXT-INDENT: 12px; WIDTH: 24.9%; WHITE-SPACE: nowrap; BACKGROUND: =
+url(../../images/default/arrow_right.gif) no-repeat 2px 7px; FLOAT: =
+left; OVERFLOW: hidden
+}
+.rules#recommendlist LI {
+	WIDTH: 49%
+}
+.recommendrules {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+#seccode {
+	CURSOR: pointer
+}
+.autosave {
+	BEHAVIOR: url(#default#userdata)
+}
+#menu A.notabs {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.headactions A.notabs {
+	PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; =
+MARGIN-RIGHT: 0px
+}
+.absmiddle {
+	VERTICAL-ALIGN: middle
+}
+.mainbox INS {
+	BORDER-BOTTOM: #dddddd 1px solid; TEXT-ALIGN: center; LINE-HEIGHT: =
+26px; DISPLAY: block; MARGIN-BOTTOM: 1px; BACKGROUND: #fffff2; =
+TEXT-DECORATION: none
+}
+INS.logininfo {
+	BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: left; PADDING-BOTTOM: 2px; =
+LINE-HEIGHT: 22px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; BORDER-TOP-STYLE: none; BACKGROUND: #fffff2; COLOR: =
+#666; BORDER-LEFT-STYLE: none; PADDING-TOP: 2px
+}
+.mainbox {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+MARGIN-BOTTOM: 10px; BACKGROUND: #fff; BORDER-TOP: #dddddd 1px solid; =
+BORDER-RIGHT: #dddddd 1px solid; PADDING-TOP: 1px
+}
+.mainbox H1 {
+	LINE-HEIGHT: 31px; PADDING-LEFT: 1em; BACKGROUND: #cac6bd repeat-x 0px =
+0px; COLOR: #fff
+}
+.mainbox H3 {
+	LINE-HEIGHT: 31px; PADDING-LEFT: 1em; BACKGROUND: #cac6bd repeat-x 0px =
+0px; COLOR: #fff
+}
+.mainbox H6 {
+	LINE-HEIGHT: 31px; PADDING-LEFT: 1em; BACKGROUND: #cac6bd repeat-x 0px =
+0px; COLOR: #fff
+}
+.mainbox H1 A {
+	COLOR: #fff
+}
+.mainbox H3 A {
+	COLOR: #fff
+}
+.mainbox TABLE {
+	WIDTH: 100%
+}
+.forumlist TABLE {
+	BORDER-COLLAPSE: separate
+}
+.threadlist TABLE {
+	BORDER-COLLAPSE: separate
+}
+.mainbox THEAD TH {
+	PADDING-BOTTOM: 2px; LINE-HEIGHT: 22px; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; BACKGROUND: #fffff2; COLOR: #666; PADDING-TOP: 2px
+}
+.mainbox THEAD TD {
+	PADDING-BOTTOM: 2px; LINE-HEIGHT: 22px; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; BACKGROUND: #fffff2; COLOR: #666; PADDING-TOP: 2px
+}
+.mainbox THEAD.category TH {
+	BACKGROUND: #fffff2
+}
+.mainbox THEAD.category TD {
+	BACKGROUND: #fffff2
+}
+.mainbox THEAD.separation TH {
+	BORDER-TOP: #dddddd 1px solid
+}
+.mainbox THEAD.separation TD {
+	BORDER-TOP: #dddddd 1px solid
+}
+.mainbox TBODY TH {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: =
+#dddddd 1px solid; PADDING-TOP: 5px
+}
+.mainbox TBODY TD {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: =
+#dddddd 1px solid; PADDING-TOP: 5px
+}
+.mainbox TBODY CITE {
+	LINE-HEIGHT: 1.3em
+}
+.mainbox TBODY EM {
+	LINE-HEIGHT: 1.3em
+}
+.forumlist TBODY STRONG {
+	COLOR: #333
+}
+.threadlist TBODY STRONG {
+	COLOR: #333
+}
+.formbox TBODY STRONG {
+	COLOR: #333
+}
+.footoperation {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: =
+#fffff2; BORDER-TOP: #dddddd 1px solid; PADDING-TOP: 5px
+}
+.threadlist .footoperation {
+	PADDING-LEFT: 61px
+}
+.footoperation * {
+	VERTICAL-ALIGN: middle
+}
+.footoperation LABEL {
+	CURSOR: pointer; MARGIN-RIGHT: 1em
+}
+.footoperation BUTTON {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+PADDING-BOTTOM: 2px; LINE-HEIGHT: 1em; PADDING-LEFT: 5px; WIDTH: 0px; =
+PADDING-RIGHT: 5px; DISPLAY: inline; BACKGROUND: #fff; COLOR: #535353; =
+MARGIN-LEFT: 2px; OVERFLOW: visible; BORDER-TOP: #dddddd 1px solid; =
+CURSOR: pointer; BORDER-RIGHT: #dddddd 1px solid; PADDING-TOP: 3px
+}
+.footoperation > BUTTON {
+	WIDTH: auto
+}
+.forumlist TBODY TH {
+	BORDER-BOTTOM: #fff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: =
+#fff; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #666; PADDING-TOP: =
+1px
+}
+.forumlist TBODY TD {
+	BORDER-BOTTOM: #fff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: =
+#fff; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #666; PADDING-TOP: =
+1px
+}
+.threadlist TBODY TH {
+	BORDER-BOTTOM: #fff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: =
+#fff; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #666; PADDING-TOP: =
+1px
+}
+.threadlist TBODY TD {
+	BORDER-BOTTOM: #fff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: =
+#fff; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #666; PADDING-TOP: =
+1px
+}
+.forumlist TBODY TH {
+	HEIGHT: 40px
+}
+.forumlist TH {
+	TEXT-ALIGN: left
+}
+.threadlist TH {
+	TEXT-ALIGN: left
+}
+.forumlist TH {
+	PADDING-LEFT: 55px !important
+}
+.forumlist H2 EM {
+	COLOR: #535353
+}
+.forumlist TBODY TH {
+	BACKGROUND-IMAGE: url(../../images/default/forum.gif); =
+BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 13px 50%
+}
+.forumlist TBODY TH.new {
+	BACKGROUND-IMAGE: url(../../images/default/forum_new.gif)
+}
+.moderators A {
+	COLOR: #535353
+}
+.moderators A STRONG {
+	COLOR: #535353; FONT-WEIGHT: bold
+}
+.threadlist TH LABEL {
+	FLOAT: right
+}
+.threadpages {
+	WHITE-SPACE: nowrap; BACKGROUND: =
+url(../../images/default/multipage.gif) no-repeat 0px 100%; MARGIN-LEFT: =
+5px; FONT-SIZE: 11px
+}
+.threadpages A {
+	PADDING-LEFT: 8px
+}
+.threadpages A:hover {
+	TEXT-DECORATION: underline
+}
+.threadlist TH A.new {
+	TEXT-TRANSFORM: uppercase; WHITE-SPACE: nowrap; COLOR: #333; FONT-SIZE: =
+9px
+}
+.threadlist TH INPUT {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.threadlist TH EM {
+	COLOR: #999
+}
+.threadlist TH EM A {
+	COLOR: #999
+}
+.threadlist TH IMG.icon {
+	FLOAT: left; MARGIN-LEFT: -22px
+}
+.threadlist TH IMG.attach {
+	MARGIN-BOTTOM: -3px
+}
+.threadlist TH IMG.icon {
+	MARGIN-BOTTOM: -3px
+}
+.threadlist .target {
+	TEXT-INDENT: -9999px; WIDTH: 20px; DISPLAY: block; FLOAT: left; HEIGHT: =
+20px; MARGIN-LEFT: -28px; OVERFLOW: hidden
+}
+* HTML .threadlist .target {
+	MARGIN-LEFT: -14px; MARGIN-RIGHT: 5px
+}
+.forumlist TBODY TR:hover TH {
+	BACKGROUND-COLOR: #fff
+}
+.forumlist TBODY TR:hover TD {
+	BACKGROUND-COLOR: #fff
+}
+.threadlist TBODY TR:hover TH {
+	BACKGROUND-COLOR: #fff
+}
+.threadlist TBODY TR:hover TD {
+	BACKGROUND-COLOR: #fff
+}
+.forumlist TD.lastpost {
+	WIDTH: 260px
+}
+.threadlist TD.folder {
+	TEXT-ALIGN: center; WIDTH: 30px
+}
+.threadlist TD.icon {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 3px; PADDING-LEFT: 0px; WIDTH: =
+16px; PADDING-RIGHT: 0px; PADDING-TOP: 3px
+}
+.threadlist TD.author {
+	WIDTH: 120px
+}
+.threadlist TD.lastpost {
+	TEXT-ALIGN: right; WIDTH: 120px; PADDING-RIGHT: 15px
+}
+.threadlist TD.lastpost CITE A {
+	COLOR: #999
+}
+.forumlist CITE {
+	DISPLAY: block
+}
+.threadlist CITE {
+	DISPLAY: block
+}
+.threadlist TD.author EM {
+	FONT-SIZE: 0.83em
+}
+.threadlist TD.lastpost EM {
+	FONT-SIZE: 0.83em
+}
+LABEL.highlight {
+	WIDTH: 40px; MARGIN-RIGHT: 30px
+}
+LABEL.highlight {
+	FLOAT: left
+}
+LABEL.highlight INPUT {
+	FLOAT: left
+}
+LABEL.highlight EM {
+	WIDTH: 16px; FLOAT: right; HEIGHT: 16px
+}
+.quickmanage LABEL.highlight {
+	MARGIN: 3px 18px 3px 0px; WIDTH: 40px
+}
+.optionbar {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+BACKGROUND: #cac6bd repeat-x 0px 100%; FLOAT: left; HEIGHT: 12px; =
+BORDER-TOP: #dddddd 1px solid; MARGIN-RIGHT: 0.5em; BORDER-RIGHT: =
+#dddddd 1px solid
+}
+.optionbar DIV {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; FLOAT: =
+left; HEIGHT: 10px; OVERFLOW: hidden; BORDER-TOP: #fff 1px solid; =
+BORDER-RIGHT: #fff 1px solid
+}
+.box {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+MARGIN-BOTTOM: 10px; BACKGROUND: #fff; BORDER-TOP: #dddddd 1px solid; =
+BORDER-RIGHT: #dddddd 1px solid; PADDING-TOP: 1px
+}
+.box H4 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; BACKGROUND: #ffffff repeat-x 0px 0px; PADDING-TOP: =
+0px
+}
+.box TABLE {
+	WIDTH: 100%
+}
+.box TD {
+	BORDER-TOP: #e8e8e8 1px solid
+}
+.box .box LI {
+	LIST-STYLE-TYPE: none
+}
+.postattachlist H4 {
+	BORDER-TOP: #dddddd 1px solid
+}
+.tradethumblist H4 {
+	BORDER-TOP: #dddddd 1px solid
+}
+.pollpanel H4 {
+	BORDER-TOP: #dddddd 1px solid
+}
+.specialthread_4 H4 {
+	BORDER-TOP: #dddddd 1px solid
+}
+.typeoption H4 {
+	BORDER-TOP: #dddddd 1px solid
+}
+#pmprompt {
+	BORDER-BOTTOM-COLOR: #ededce; BORDER-TOP-COLOR: #ededce; =
+BORDER-RIGHT-COLOR: #ededce; BORDER-LEFT-COLOR: #ededce
+}
+#pmprompt H4 {
+	BORDER-TOP-STYLE: none; BACKGROUND: #fffff2
+}
+#pmprompt TH {
+	BORDER-TOP-COLOR: #ededce
+}
+#pmprompt TD {
+	BORDER-TOP-COLOR: #ededce
+}
+TD.user {
+	WIDTH: 120px
+}
+TD.nums {
+	TEXT-ALIGN: center; WIDTH: 80px
+}
+TD.time {
+	WIDTH: 120px
+}
+TD.selector {
+	TEXT-ALIGN: center; WIDTH: 20px
+}
+.container {
+	WIDTH: 100%; OVERFLOW: hidden
+}
+.content {
+	WIDTH: 80%; FLOAT: right
+}
+.content .mainbox {
+	PADDING-BOTTOM: 5px
+}
+.content .footoperation {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-TOP-STYLE: none
+}
+.content .mainbox THEAD TH {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-TOP-STYLE: none
+}
+.content .mainbox THEAD TD {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-TOP-STYLE: none
+}
+.content .mainbox TBODY TH {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-TOP-STYLE: none
+}
+.content .mainbox TBODY TD {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-TOP-STYLE: none
+}
+.side {
+	WIDTH: 18%; FLOAT: left
+}
+.side DIV {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+MARGIN-BOTTOM: 10px; BACKGROUND: #ffffff repeat-x 0px 0px; BORDER-TOP: =
+#dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid
+}
+.side H2 {
+	BORDER-BOTTOM: #e8e8e8 1px solid; BORDER-LEFT: #fff 1px solid; =
+LINE-HEIGHT: 2.4em; PADDING-LEFT: 10px; FONT-SIZE: 1.17em; BORDER-TOP: =
+#fff 1px solid; BORDER-RIGHT: #fff 1px solid
+}
+.side UL {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+PADDING-TOP: 1px
+}
+.side LI {
+	LINE-HEIGHT: 2.4em; TEXT-INDENT: 26px
+}
+.side H3 {
+	BACKGROUND: url(../../images/default/arrow_right.gif) no-repeat 14px =
+46%; FONT-WEIGHT: normal
+}
+.side_on H3 {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 0px solid; =
+BACKGROUND: url(../../images/default/arrow_down.gif) #fff no-repeat 14px =
+46%; BORDER-TOP: #dddddd 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: =
+#dddddd 0px solid
+}
+.side LI UL {
+	BORDER-BOTTOM: #e8e8e8 1px solid
+}
+.side LI LI {
+	PADDING-LEFT: 1em
+}
+.side LI.current {
+	FONT-WEIGHT: bold
+}
+.side LI.current A {
+	COLOR: #666
+}
+.side LI.first H3 {
+	BORDER-TOP-STYLE: none
+}
+.side LI.last UL {
+	BORDER-BOTTOM-STYLE: none
+}
+#memberinfo {
+=09
+}
+#memberinfo .memberinfo_avatar {
+	TEXT-ALIGN: center; WIDTH: 170px; FONT-WEIGHT: bold
+}
+#memberinfo LI LABEL {
+	COLOR: #666; MARGIN-RIGHT: 0.5em
+}
+#memberinfo .memberinfo_forum LABEL {
+	TEXT-ALIGN: right; WIDTH: 7em; FLOAT: left
+}
+.mysearch {
+	MARGIN-TOP: -10px; DISPLAY: block; FLOAT: left; MARGIN-LEFT: 10px
+}
+.msgtabs {
+	BORDER-BOTTOM: #dddddd 1px solid; PADDING-BOTTOM: 23px; MARGIN-TOP: =
+0.8em; PADDING-RIGHT: 5px
+}
+.msgtabs STRONG {
+	BORDER-BOTTOM: #fffff2 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-LEFT: 12px; =
+PADDING-RIGHT: 12px; BACKGROUND: #fffff2; FLOAT: right; HEIGHT: 22px; =
+BORDER-TOP: #dddddd 1px solid; FONT-WEIGHT: bold; MARGIN-RIGHT: 5px; =
+BORDER-RIGHT: #dddddd 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.dropmenu {
+	BACKGROUND-IMAGE: url(../../images/default/arrow_down.gif) !important; =
+PADDING-RIGHT: 15px !important; BACKGROUND-REPEAT: no-repeat !important; =
+BACKGROUND-POSITION: 100% 50%; CURSOR: pointer
+}
+.popupmenu_popup {
+	BORDER-BOTTOM: #dddddd 1px solid; TEXT-ALIGN: left; BORDER-LEFT: =
+#dddddd 1px solid; PADDING-BOTTOM: 10px; LINE-HEIGHT: 1.4em; =
+PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #ffffff repeat-x =
+0px 1px; OVERFLOW: hidden; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: =
+#dddddd 1px solid; PADDING-TOP: 10px
+}
+.headermenu_popup {
+	WIDTH: 170px
+}
+.headermenu_popup LI {
+	BORDER-BOTTOM: #e8e8e8 1px solid; LINE-HEIGHT: 24px; WIDTH: 7em; FLOAT: =
+left; HEIGHT: 24px; OVERFLOW: hidden
+}
+.newspecialmenu {
+	WIDTH: 100px
+}
+.newspecialmenu LI {
+	BACKGROUND: url(../../images/default/folder_s.gif) no-repeat 3px 50%; =
+FLOAT: left
+}
+.newspecialmenu LI.poll {
+	BACKGROUND-IMAGE: url(../../images/default/pollsmall.gif)
+}
+.newspecialmenu LI.trade {
+	BACKGROUND-IMAGE: url(../../images/default/tradesmall.gif)
+}
+.newspecialmenu LI.reward {
+	BACKGROUND-IMAGE: url(../../images/default/rewardsmall.gif)
+}
+.newspecialmenu LI.activity {
+	BACKGROUND-IMAGE: url(../../images/default/activitysmall.gif)
+}
+.newspecialmenu LI.debate {
+	BACKGROUND-IMAGE: url(../../images/default/debatesmall.gif)
+}
+.newspecialmenu LI.video {
+	BACKGROUND-IMAGE: url(../../images/default/videosmall.gif)
+}
+.newspecialmenu A {
+	BORDER-BOTTOM: #e8e8e8 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: =
+25px; WIDTH: 75px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 5px
+}
+.newspecialmenu A:hover {
+	BORDER-BOTTOM-COLOR: #dddddd; COLOR: #535353; TEXT-DECORATION: none
+}
+#forumlist_menu {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 20px; PADDING-RIGHT: 30px; =
+PADDING-TOP: 10px
+}
+#forumjump_menu {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 20px; PADDING-RIGHT: 30px; =
+PADDING-TOP: 10px
+}
+#visited_forums_menu {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 20px; PADDING-RIGHT: 30px; =
+PADDING-TOP: 10px
+}
+#forumlist_menu DL {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 5px
+}
+#forumjump_menu DL {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 5px
+}
+#forumlist_menu DT A {
+	COLOR: #666; FONT-WEIGHT: bold
+}
+#forumjump_menu DT A {
+	COLOR: #666; FONT-WEIGHT: bold
+}
+#forumlist_menu DD {
+	PADDING-LEFT: 1em
+}
+#forumjump_menu DD {
+	PADDING-LEFT: 1em
+}
+#forumlist_menu LI.sub {
+	PADDING-LEFT: 1em
+}
+#forumjump_menu LI.sub {
+	PADDING-LEFT: 1em
+}
+#forumlist_menu LI.current A {
+	FONT-WEIGHT: bold
+}
+#forumjump_menu LI.current A {
+	FONT-WEIGHT: bold
+}
+#visited_forums_menu LI.current A {
+	FONT-WEIGHT: bold
+}
+#forumlist_menu LI A {
+	COLOR: #535353; FONT-WEIGHT: normal
+}
+#forumjump_menu LI A {
+	COLOR: #535353; FONT-WEIGHT: normal
+}
+#visited_forums_menu LI A {
+	COLOR: #535353; FONT-WEIGHT: normal
+}
+.userinfopanel {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 140px; PADDING-RIGHT: =
+10px; BACKGROUND: #ffffff repeat-x 0px 0px; BORDER-TOP: #dddddd 1px =
+solid; BORDER-RIGHT: #dddddd 1px solid; PADDING-TOP: 10px
+}
+.imicons {
+	BORDER-BOTTOM: #e8e8e8 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#e8e8e8 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; BACKGROUND: #fff; BORDER-TOP: #e8e8e8 1px solid; =
+BORDER-RIGHT: #e8e8e8 1px solid; PADDING-TOP: 4px
+}
+.imicons IMG {
+	VERTICAL-ALIGN: middle
+}
+.userinfopanel P {
+	TEXT-ALIGN: left; MARGIN: 0px
+}
+.userinfopanel P A {
+	COLOR: #535353
+}
+.userinfopanel DL {
+	BORDER-BOTTOM: #e8e8e8 1px solid; PADDING-BOTTOM: 5px; MARGIN: 5px 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.postauthor CITE A {
+	BORDER-BOTTOM: #fff 0px solid; BORDER-LEFT: #fff 1px solid; =
+PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FLOAT: left; =
+HEIGHT: 10px; OVERFLOW: hidden; BORDER-TOP: #fff 1px solid; =
+BORDER-RIGHT: #fff 1px solid; PADDING-TOP: 5px
+}
+.postauthor CITE A.hover {
+	BORDER-BOTTOM-COLOR: #dddddd; BACKGROUND-COLOR: #fff; BORDER-TOP-COLOR: =
+#dddddd; BORDER-RIGHT-COLOR: #dddddd; BORDER-LEFT-COLOR: #dddddd
+}
+.popupmenu_popup .postauthor {
+	WIDTH: 180px
+}
+.popupmenu_popup .postauthor A {
+	COLOR: #535353
+}
+#styleswitcher_menu {
+	OVERFLOW: visible
+}
+#styleswitcher_menu {
+	WHITE-SPACE: nowrap
+}
+#styleswitcher_menu UL LI {
+	WHITE-SPACE: nowrap
+}
+#styleswitcher_menu UL LI.current A {
+	WHITE-SPACE: nowrap
+}
+#styleswitcher_menu UL LI A {
+	WHITE-SPACE: nowrap
+}
+#styleswitcher_menu UL LI.current {
+	FONT-WEIGHT: bold
+}
+#styleswitcher_menu UL LI.current A {
+	COLOR: #666
+}
+#styleswitcher_menu {
+=09
+}
+#styleswitcher_menu LI.current {
+	FONT-WEIGHT: bold
+}
+.tagthread {
+	WIDTH: 360px
+}
+.tagthread .close {
+	FLOAT: right; PADDING-TOP: 5px
+}
+.tagthread H4 {
+	BORDER-BOTTOM: #e8e8e8 1px solid; LINE-HEIGHT: 26px
+}
+.tagthread UL {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; =
+PADDING-TOP: 5px
+}
+.tagthread LI {
+	LINE-HEIGHT: 1.8em
+}
+.tagthread LI.more {
+	TEXT-ALIGN: right; PADDING-RIGHT: 10px; BACKGROUND: =
+url(../../images/default/arrow_right.gif) no-repeat 100% 50%
+}
+.headactions .popupmenu_popup A {
+	WHITE-SPACE: nowrap; BACKGROUND: none transparent scroll repeat 0% 0%; =
+COLOR: #666
+}
+.headactions .popupmenu_popup STRONG {
+	WHITE-SPACE: nowrap; BACKGROUND: none transparent scroll repeat 0% 0%; =
+COLOR: #666
+}
+.headactions .popupmenu_popup {
+	OVERFLOW: visible
+}
+#threadtypesmenu_menu UL LI {
+	HEIGHT: 1.4em; _line-height: 1.4em
+}
+* + HTML #my_menu {
+	MARGIN-LEFT: 1px
+}
+* + HTML #memcp_menu {
+	MARGIN-LEFT: 1px
+}
+* + HTML #stats_menu {
+	MARGIN-LEFT: 1px
+}
+* + HTML #plugin_menu {
+	MARGIN-LEFT: 1px
+}
+* HTML #my_menu {
+	MARGIN-LEFT: 1px
+}
+* HTML #memcp_menu {
+	MARGIN-LEFT: 1px
+}
+* HTML #stats_menu {
+	MARGIN-LEFT: 1px
+}
+* HTML #plugin_menu {
+	MARGIN-LEFT: 1px
+}
+FIELDSET {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+INPUT {
+	BORDER-BOTTOM-COLOR: #ddd; PADDING-BOTTOM: 2px; BORDER-RIGHT-WIDTH: =
+1px; BORDER-TOP-COLOR: #ddd; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; =
+BACKGROUND: #fff; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; =
+BORDER-RIGHT-COLOR: #ddd; BORDER-LEFT-COLOR: #ddd; BORDER-LEFT-WIDTH: =
+1px; PADDING-TOP: 2px
+}
+TEXTAREA {
+	BORDER-BOTTOM-COLOR: #ddd; PADDING-BOTTOM: 2px; BORDER-RIGHT-WIDTH: =
+1px; BORDER-TOP-COLOR: #ddd; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; =
+BACKGROUND: #fff; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; =
+BORDER-RIGHT-COLOR: #ddd; BORDER-LEFT-COLOR: #ddd; BORDER-LEFT-WIDTH: =
+1px; PADDING-TOP: 2px
+}
+INPUT[type=3D'radio'] {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BACKGROUND: none transparent scroll repeat 0% 0%; =
+BORDER-LEFT-STYLE: none
+}
+INPUT[type=3D'checkbox'] {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BACKGROUND: none transparent scroll repeat 0% 0%; =
+BORDER-LEFT-STYLE: none
+}
+.radio {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BACKGROUND: none transparent scroll repeat 0% 0%; =
+BORDER-LEFT-STYLE: none
+}
+.checkbox {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BACKGROUND: none transparent scroll repeat 0% 0%; =
+BORDER-LEFT-STYLE: none
+}
+.invitecodelist INPUT {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; FONT-FAMILY: =
+"Courier New", Courier, monospace; BORDER-TOP-STYLE: none; FONT-SIZE: =
+13px; BORDER-LEFT-STYLE: none; CURSOR: pointer
+}
+BUTTON {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #e8e8e8 1px solid; =
+LINE-HEIGHT: 2em; BACKGROUND: #fffff2; HEIGHT: 2em; BORDER-TOP: #e8e8e8 =
+1px solid; CURSOR: pointer; BORDER-RIGHT: #999 1px solid
+}
+#postsubmit {
+	BORDER-BOTTOM: #fdb939 1px solid; BORDER-LEFT: #fffdee 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+BACKGROUND: #fff8c5; COLOR: #333; BORDER-TOP: #fffdee 1px solid; =
+MARGIN-RIGHT: 1em; BORDER-RIGHT: #fdb939 1px solid; PADDING-TOP: 0px
+}
+BUTTON.submit {
+	BORDER-BOTTOM: #fdb939 1px solid; BORDER-LEFT: #fffdee 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+BACKGROUND: #fff8c5; COLOR: #333; BORDER-TOP: #fffdee 1px solid; =
+MARGIN-RIGHT: 1em; BORDER-RIGHT: #fdb939 1px solid; PADDING-TOP: 0px
+}
+BUTTON.insmsg {
+	BORDER-BOTTOM: #ededce 1px solid; BORDER-LEFT: #ededce 1px solid; =
+MARGIN: 1em 0px; BACKGROUND: #fffff2; COLOR: #333; BORDER-TOP: #ededce =
+1px solid; BORDER-RIGHT: #ededce 1px solid
+}
+.formbox TH {
+	TEXT-ALIGN: left; WIDTH: 180px
+}
+.formbox TH {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; =
+PADDING-TOP: 5px
+}
+.formbox TD {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; =
+PADDING-TOP: 5px
+}
+.formbox TH {
+	BORDER-BOTTOM: #dddddd 1px solid
+}
+.formbox TD {
+	BORDER-BOTTOM: #dddddd 1px solid
+}
+.formbox TABLE A {
+	COLOR: #535353
+}
+.formbox LABEL {
+	CURSOR: pointer
+}
+.lighttxt {
+	COLOR: #999
+}
+.formbox *.tips {
+	COLOR: #999
+}
+.formbox TH UL {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 5px
+}
+#threadtypes TABLE TD {
+	BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP: #dddddd 1px solid
+}
+#threadtypes TABLE TH {
+	BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP: #dddddd 1px solid
+}
+#loginform * {
+	VERTICAL-ALIGN: middle
+}
+#loginform BUTTON {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 21px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; HEIGHT: 21px; MARGIN-LEFT: 3px; PADDING-TOP: 0px
+}
+#quickpost {
+	PADDING-BOTTOM: 0px; OVERFLOW: hidden
+}
+* HTML #quickpost {
+	HEIGHT: 1%; OVERFLOW: visible
+}
+#quickpost H5 {
+	MARGIN: 0.5em 1em
+}
+.postoptions {
+	FLOAT: left
+}
+.postform {
+	FLOAT: left
+}
+.smilies {
+	FLOAT: left
+}
+.postoptions {
+	WIDTH: 180px
+}
+.smilies {
+	WIDTH: 180px
+}
+.postoptions P {
+	MARGIN: 2px 0.7em
+}
+.postform {
+	PADDING-BOTTOM: 10px; WIDTH: 59%
+}
+.postform P LABEL {
+	VERTICAL-ALIGN: top; FONT-WEIGHT: bold
+}
+.postform H5 INPUT {
+	WIDTH: 60%
+}
+.postform P {
+	MARGIN: 0px 1em
+}
+.postform DIV {
+	MARGIN: 0px 1em
+}
+.postform H4 * {
+	VERTICAL-ALIGN: middle
+}
+.postform H4 INPUT {
+	WIDTH: 60%
+}
+.postform TEXTAREA {
+	WIDTH: 90%; HEIGHT: 160px
+}
+.postform .btns {
+	LINE-HEIGHT: 30px; MARGIN-TOP: 0.5em; COLOR: #999
+}
+.postform .btns BUTTON {
+	VERTICAL-ALIGN: middle
+}
+.postform .btns A {
+	COLOR: #535353
+}
+.postform BUTTON {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; =
+BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #535353; =
+BORDER-LEFT-STYLE: none; CURSOR: pointer; PADDING-TOP: 0px
+}
+.postform #postsubmit {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 2.3em
+}
+.btns EM {
+	COLOR: #999
+}
+#smilieslist {
+	BORDER-BOTTOM: #e8e8e8 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#e8e8e8 1px solid; OVERFLOW: hidden; BORDER-TOP: #e8e8e8 1px solid; =
+BORDER-RIGHT: #e8e8e8 1px solid
+}
+#quickpost #smilieslist {
+	MARGIN: 6px 1em 0px
+}
+#quickpost H4 {
+	BORDER-BOTTOM: #e8e8e8 1px solid
+}
+#smilieslist TD {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 8px; BORDER-RIGHT-STYLE: =
+none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; =
+BORDER-LEFT-STYLE: none; CURSOR: pointer; PADDING-TOP: 8px
+}
+#smilieslist TD:hover {
+	BACKGROUND: #e8e8e8
+}
+#smilieslist .pages {
+	BORDER-RIGHT-WIDTH: 0px; FLOAT: none; BORDER-TOP-WIDTH: 1px; =
+BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+#smilieslist H4 {
+	BORDER-BOTTOM: #e8e8e8 1px solid; TEXT-ALIGN: left; PADDING-BOTTOM: =
+5px; LINE-HEIGHT: 20px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; =
+BACKGROUND: #fffff2; COLOR: #535353; PADDING-TOP: 5px
+}
+#smilieslist .popupmenu_popup {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+WHITE-SPACE: nowrap; OVERFLOW: visible; PADDING-TOP: 5px
+}
+#smilieslist .popupmenu_popup A {
+	COLOR: #535353
+}
+.ajaxform {
+=09
+}
+.ajaxform TH {
+	BORDER-BOTTOM: #e8e8e8 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: =
+5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.ajaxform TD {
+	BORDER-BOTTOM: #e8e8e8 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: =
+5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.ajaxform THEAD TH {
+	FONT-WEIGHT: bold
+}
+.ajaxform A {
+	COLOR: #535353
+}
+.btns TH {
+	BORDER-BOTTOM-STYLE: none !important; BORDER-RIGHT-STYLE: none =
+!important; BORDER-TOP-STYLE: none !important; BORDER-LEFT-STYLE: none =
+!important
+}
+.btns TD {
+	BORDER-BOTTOM-STYLE: none !important; BORDER-RIGHT-STYLE: none =
+!important; BORDER-TOP-STYLE: none !important; BORDER-LEFT-STYLE: none =
+!important
+}
+#ajaxwaitid {
+	Z-INDEX: 100; POSITION: absolute; LINE-HEIGHT: 1.6em; WIDTH: 100px; =
+DISPLAY: none; BACKGROUND: #dd0000; HEIGHT: 1.6em; COLOR: #ffffff; =
+OVERFLOW: hidden; TOP: 0px; RIGHT: 0px
+}
+.postform .special {
+	COLOR: #535353; FONT-WEIGHT: bold
+}
+#postform .special {
+	COLOR: #535353; FONT-WEIGHT: bold
+}
+#newpost EM {
+	COLOR: #999
+}
+#ad_headerbanner {
+	MARGIN-TOP: 15px; FLOAT: right
+}
+.ad_text {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; =
+MARGIN-BOTTOM: 10px; BACKGROUND: #ffffff repeat-x; BORDER-TOP: #dddddd =
+1px solid; BORDER-RIGHT: #dddddd 1px solid; PADDING-TOP: 6px
+}
+.ad_text TABLE {
+	WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.ad_text TD {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px 0px; PADDING-TOP: =
+2px
+}
+.ad_textlink1 {
+	WHITE-SPACE: nowrap; FLOAT: left
+}
+.ad_textlink2 {
+	MARGIN: 10px
+}
+.ad_textlink1 {
+	PADDING-LEFT: 25px; BACKGROUND: url(../../images/default/ad_icon.gif) =
+no-repeat 0px 50%
+}
+.ad_textlink2 {
+	PADDING-LEFT: 25px; BACKGROUND: url(../../images/default/ad_icon.gif) =
+no-repeat 0px 50%
+}
+.ad_pip {
+	MARGIN: 10px; DISPLAY: inline; FLOAT: right; CLEAR: right
+}
+.ad_topicrelated {
+	BORDER-BOTTOM: #78a73d 1px solid; BORDER-LEFT: #78a73d 1px solid; =
+PADDING-BOTTOM: 10px; MARGIN: 0px 10px 10px; PADDING-LEFT: 30px; =
+PADDING-RIGHT: 10px; DISPLAY: inline; BACKGROUND: #caeec0; FLOAT: right; =
+CLEAR: both; BORDER-TOP: #78a73d 1px solid; BORDER-RIGHT: #78a73d 1px =
+solid; PADDING-TOP: 10px
+}
+.ad_column {
+	TEXT-ALIGN: center; MARGIN-BOTTOM: 10px
+}
+.ad_footerbanner {
+	TEXT-ALIGN: center; MARGIN: 5px; CLEAR: both
+}
+#infoside {
+	WIDTH: 20%; FLOAT: right
+}
+#infoside A {
+	COLOR: #535353
+}
+#infoside .box {
+	OVERFLOW: hidden
+}
+#infoside .box H4 {
+	BORDER-BOTTOM: #dddddd 1px solid
+}
+.textinfolist {
+	MARGIN: 5px
+}
+.imginfolist {
+	MARGIN: 5px
+}
+.textinfolist LI {
+	LINE-HEIGHT: 1.8em; LIST-STYLE-TYPE: none; HEIGHT: 1.8em; OVERFLOW: =
+hidden
+}
+#infoside .textinfolist LI EM A {
+	COLOR: #999; MARGIN-RIGHT: 4px
+}
+.imginfolist {
+	HEIGHT: 1%; OVERFLOW: hidden
+}
+.imginfolist LI {
+	LIST-STYLE-TYPE: none; MARGIN: 0px 2px 8px 0px; WIDTH: 56px; FLOAT: =
+left
+}
+.imginfolist LI A {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; DISPLAY: =
+block; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid; =
+PADDING-TOP: 1px
+}
+.imginfolist LI P {
+	TEXT-ALIGN: center; HEIGHT: 20px; COLOR: #666; OVERFLOW: hidden
+}
+.imginfolist LI P A {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+#infosidemain {
+	WIDTH: 79%; FLOAT: left
+}
+.avataonline {
+	BORDER-LEFT: #fff 1px solid; LINE-HEIGHT: 30px; PADDING-LEFT: 28px; =
+BACKGROUND: url(../../images/avatars/avataronline.gif) no-repeat 10px =
+40%; FLOAT: left; HEIGHT: 30px
+}
+#viewpro_menu {
+	TEXT-ALIGN: center; MARGIN: 10px auto auto -30px
+}
+#viewpro_menu IMG {
+	MARGIN: 2px auto; WIDTH: 48px; HEIGHT: 48px
+}
+#viewpro_menu LI {
+	TEXT-ALIGN: left
+}
+.userinfolist {
+	FLOAT: left
+}
+LI.popavatar {
+	TEXT-ALIGN: center !important
+}
+LI.popuser {
+	PADDING-BOTTOM: 4px; TEXT-INDENT: 20px; PADDING-LEFT: 4px; WIDTH: 100% =
+!important; PADDING-RIGHT: 4px; WHITE-SPACE: nowrap; BACKGROUND: =
+url(../../images/default/usericon.gif) no-repeat 0px 50%; PADDING-TOP: =
+4px
+}
+LI.poplink {
+	PADDING-BOTTOM: 4px; TEXT-INDENT: 20px; PADDING-LEFT: 4px; WIDTH: 100% =
+!important; PADDING-RIGHT: 4px; WHITE-SPACE: nowrap; BACKGROUND: =
+url(../../images/default/homelink.gif) no-repeat 0px 50%; COLOR: #999; =
+PADDING-TOP: 4px
+}
+.announcements {
+	BORDER-BOTTOM: #fff 2px solid
+}
+.announcementinfo {
+	BORDER-BOTTOM: #dddddd 1px solid; TEXT-ALIGN: right; LINE-HEIGHT: 30px; =
+PADDING-RIGHT: 16px; BACKGROUND: #fff; HEIGHT: 30px; COLOR: #999; =
+CURSOR: pointer
+}
+.ondisplay {
+	BACKGROUND: #fff; CURSOR: default
+}
+.announcementinfo:hover {
+	BACKGROUND: #fff
+}
+.announcementinfo SPAN {
+	LINE-HEIGHT: 30px; FLOAT: left; HEIGHT: 30px; COLOR: #000; MARGIN-LEFT: =
+16px; FONT-WEIGHT: 700
+}
+.announcementmessage {
+	BORDER-BOTTOM: #dddddd 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: =
+10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.caj-err {
+	BORDER-BOTTOM: #bdbdbd 1px solid; TEXT-ALIGN: left; BORDER-LEFT: =
+#bdbdbd 1px solid; MARGIN: 0px 0px 10px; BACKGROUND: =
+url(http://1984bbs.com/images/ico_aviso.gif) #ffffcc no-repeat 0.45em =
+0.63em; COLOR: #000000; FONT-SIZE: 12px; BORDER-TOP: #bdbdbd 1px solid; =
+BORDER-RIGHT: #bdbdbd 1px solid
+}
+.caj-err-padd {
+	PADDING-BOTTOM: 0.2em; PADDING-LEFT: 2em; PADDING-RIGHT: 0.2em; =
+PADDING-TOP: 0.2em
+}
+.caj-err STRONG {
+	COLOR: #000000; FONT-WEIGHT: 700
+}
+
+------=_NextPart_000_008A_01CB69CC.FD913D30
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://1984bbs.com/include/javascript/common.js
+
+/*
+	[Discuz!] (C)2001-2007 Comsenz Inc.
+	This is NOT a freeware, use is subject to license terms
+
+	$RCSfile: common.js,v $
+	$Revision: 1.103 $
+	$Date: 2007/07/30 09:16:52 $
+*/
+
+var lang =3D new Array();
+var userAgent =3D navigator.userAgent.toLowerCase();
+var is_opera =3D userAgent.indexOf('opera') !=3D -1 && opera.version();
+var is_moz =3D (navigator.product =3D=3D 'Gecko') && =
+userAgent.substr(userAgent.indexOf('firefox') + 8, 3);
+var is_ie =3D (userAgent.indexOf('msie') !=3D -1 && !is_opera) && =
+userAgent.substr(userAgent.indexOf('msie') + 5, 3);
+
+function $(id) {
+	return document.getElementById(id);
+}
+
+/* Array.prototype.push =3D function(value) {
+	this[this.length] =3D value;
+	return this.length;
+} */
+
+function checkall(form, prefix, checkall) {
+	var checkall =3D checkall ? checkall : 'chkall';
+	for(var i =3D 0; i < form.elements.length; i++) {
+		var e =3D form.elements[i];
+		if(e.name && e.name !=3D checkall && (!prefix || (prefix && =
+e.name.match(prefix)))) {
+			e.checked =3D form.elements[checkall].checked;
+		}
+	}
+}
+
+function doane(event) {
+	e =3D event ? event : window.event;
+	if(is_ie) {
+		e.returnValue =3D false;
+		e.cancelBubble =3D true;
+	} else if(e) {
+		e.stopPropagation();
+		e.preventDefault();
+	}
+}
+
+function fetchCheckbox(cbn) {
+	return $(cbn) && $(cbn).checked =3D=3D true ? 1 : 0;
+}
+
+function getcookie(name) {
+	var cookie_start =3D document.cookie.indexOf(name);
+	var cookie_end =3D document.cookie.indexOf(";", cookie_start);
+	return cookie_start =3D=3D -1 ? '' : =
+unescape(document.cookie.substring(cookie_start + name.length + 1, =
+(cookie_end > cookie_start ? cookie_end : document.cookie.length)));
+}
+
+function thumbImg(obj) {
+	var zw =3D obj.width;
+	var zh =3D obj.height;
+	if(is_ie && zw =3D=3D 0 && zh =3D=3D 0) {
+		var matches;
+		re =3D /width=3D(["']?)(\d+)(\1)/i;
+		matches =3D re.exec(obj.outerHTML);
+		zw =3D matches[2];
+		re =3D /height=3D(["']?)(\d+)(\1)/i;
+		matches =3D re.exec(obj.outerHTML);
+		zh =3D matches[2];
+	}
+	obj.resized =3D true;
+	obj.style.width =3D zw + 'px';
+	obj.style.height =3D 'auto';
+	if(obj.offsetHeight > zh) {
+		obj.style.height =3D zh + 'px';
+		obj.style.width =3D 'auto';
+	}
+	if(is_ie) {
+		var imgid =3D 'img_' + Math.random();
+		obj.id =3D imgid;
+		setTimeout('try {if ($(\''+imgid+'\').offsetHeight > '+zh+') =
+{$(\''+imgid+'\').style.height =3D =
+\''+zh+'px\';$(\''+imgid+'\').style.width =3D \'auto\';}} catch(e){}', =
+1000);
+	}
+	obj.onload =3D null;
+}
+
+function imgzoom(obj) {}
+
+function in_array(needle, haystack) {
+	if(typeof needle =3D=3D 'string' || typeof needle =3D=3D 'number') {
+		for(var i in haystack) {
+			if(haystack[i] =3D=3D needle) {
+					return true;
+			}
+		}
+	}
+	return false;
+}
+
+function setcopy(text, alertmsg){
+	if(is_ie) {
+		clipboardData.setData('Text', text);
+		alert(alertmsg);
+	} else if(prompt('Press Ctrl+C Copy to Clipboard', text)) {
+		alert(alertmsg);
+	}
+}
+
+function isUndefined(variable) {
+	return typeof variable =3D=3D 'undefined' ? true : false;
+}
+
+function mb_strlen(str) {
+	var len =3D 0;
+	for(var i =3D 0; i < str.length; i++) {
+		len +=3D str.charCodeAt(i) < 0 || str.charCodeAt(i) > 255 ? (charset =
+=3D=3D 'utf-8' ? 3 : 2) : 1;
+	}
+	return len;
+}
+
+function setcookie(cookieName, cookieValue, seconds, path, domain, =
+secure) {
+	var expires =3D new Date();
+	expires.setTime(expires.getTime() + seconds);
+	document.cookie =3D escape(cookieName) + '=3D' + escape(cookieValue)
+		+ (expires ? '; expires=3D' + expires.toGMTString() : '')
+		+ (path ? '; path=3D' + path : '/')
+		+ (domain ? '; domain=3D' + domain : '')
+		+ (secure ? '; secure' : '');
+}
+
+function strlen(str) {
+	return (is_ie && str.indexOf('\n') !=3D -1) ? str.replace(/\r?\n/g, =
+'_').length : str.length;
+}
+
+function updatestring(str1, str2, clear) {
+	str2 =3D '_' + str2 + '_';
+	return clear ? str1.replace(str2, '') : (str1.indexOf(str2) =3D=3D -1 ? =
+str1 + str2 : str1);
+}
+
+function toggle_collapse(objname, noimg) {
+	var obj =3D $(objname);
+	obj.style.display =3D obj.style.display =3D=3D '' ? 'none' : '';
+	if(!noimg) {
+		var img =3D $(objname + '_img');
+		img.src =3D img.src.indexOf('_yes.gif') =3D=3D -1 ? =
+img.src.replace(/_no\.gif/, '_yes\.gif') : img.src.replace(/_yes\.gif/, =
+'_no\.gif');
+	}
+	var collapsed =3D getcookie('discuz_collapse');
+	collapsed =3D  updatestring(collapsed, objname, !obj.style.display);
+	setcookie('discuz_collapse', collapsed, (collapsed ? 86400 * 30 : =
+-(86400 * 30 * 1000)));
+}
+
+function trim(str) {
+	return (str + '').replace(/(\s+)$/g, '').replace(/^\s+/g, '');
+}
+
+function _attachEvent(obj, evt, func) {
+	if(obj.addEventListener) {
+		obj.addEventListener(evt, func, false);
+	} else if(obj.attachEvent) {
+		obj.attachEvent("on" + evt, func);
+	}
+}
+
+var jsmenu =3D new Array();
+var ctrlobjclassName;
+jsmenu['active'] =3D new Array();
+jsmenu['timer'] =3D new Array();
+jsmenu['iframe'] =3D new Array();
+
+function initCtrl(ctrlobj, click, duration, timeout, layer) {
+	if(ctrlobj && !ctrlobj.initialized) {
+		ctrlobj.initialized =3D true;
+		ctrlobj.unselectable =3D true;
+
+		ctrlobj.outfunc =3D typeof ctrlobj.onmouseout =3D=3D 'function' ? =
+ctrlobj.onmouseout : null;
+		ctrlobj.onmouseout =3D function() {
+			if(this.outfunc) this.outfunc();
+			if(duration < 3) jsmenu['timer'][ctrlobj.id] =3D =
+setTimeout('hideMenu(' + layer + ')', timeout);
+		}
+
+		ctrlobj.overfunc =3D typeof ctrlobj.onmouseover =3D=3D 'function' ? =
+ctrlobj.onmouseover : null;
+		ctrlobj.onmouseover =3D function(e) {
+			doane(e);
+			if(this.overfunc) this.overfunc();
+			if(click) {
+				clearTimeout(jsmenu['timer'][this.id]);
+			} else {
+				for(var id in jsmenu['timer']) {
+					if(jsmenu['timer'][id]) clearTimeout(jsmenu['timer'][id]);
+				}
+			}
+		}
+	}
+}
+
+function initMenu(ctrlid, menuobj, duration, timeout, layer, drag) {
+	if(menuobj && !menuobj.initialized) {
+		menuobj.initialized =3D true;
+		menuobj.ctrlkey =3D ctrlid;
+		menuobj.onclick =3D ebygum;
+		menuobj.style.position =3D 'absolute';
+		if(duration < 3) {
+			if(duration > 1) {
+				menuobj.onmouseover =3D function() {
+					clearTimeout(jsmenu['timer'][ctrlid]);
+				}
+			}
+			if(duration !=3D 1) {
+				menuobj.onmouseout =3D function() {
+					jsmenu['timer'][ctrlid] =3D setTimeout('hideMenu(' + layer + ')', =
+timeout);
+				}
+			}
+		}
+		menuobj.style.zIndex =3D 50;
+		if(is_ie) {
+			menuobj.style.filter +=3D =
+"progid:DXImageTransform.Microsoft.shadow(direction=3D135,color=3D#CCCCCC=
+,strength=3D2)";
+		}
+		if(drag) {
+			menuobj.onmousedown =3D function(event) {try{menudrag(menuobj, event, =
+1);}catch(e){}};
+			menuobj.onmousemove =3D function(event) {try{menudrag(menuobj, event, =
+2);}catch(e){}};
+			menuobj.onmouseup =3D function(event) {try{menudrag(menuobj, event, =
+3);}catch(e){}};
+		}
+	}
+}
+
+var menudragstart =3D new Array();
+function menudrag(menuobj, e, op) {
+	if(op =3D=3D 1) {
+		if(in_array(is_ie ? event.srcElement.tagName : e.target.tagName, =
+['TEXTAREA', 'INPUT', 'BUTTON', 'SELECT'])) {
+			return;
+		}
+		menudragstart =3D is_ie ? [event.clientX, event.clientY] : [e.clientX, =
+e.clientY];
+		menudragstart[2] =3D parseInt(menuobj.style.left);
+		menudragstart[3] =3D parseInt(menuobj.style.top);
+		doane(e);
+	} else if(op =3D=3D 2 && menudragstart[0]) {
+		var menudragnow =3D is_ie ? [event.clientX, event.clientY] : =
+[e.clientX, e.clientY];
+		menuobj.style.left =3D (menudragstart[2] + menudragnow[0] - =
+menudragstart[0]) + 'px';
+		menuobj.style.top =3D (menudragstart[3] + menudragnow[1] - =
+menudragstart[1]) + 'px';
+		doane(e);
+	} else if(op =3D=3D 3) {
+		menudragstart =3D [];
+		doane(e);
+	}
+}
+
+function showMenu(ctrlid, click, offset, duration, timeout, layer, =
+showid, maxh, drag) {
+	var ctrlobj =3D $(ctrlid);
+	if(!ctrlobj) return;
+	if(isUndefined(click)) click =3D false;
+	if(isUndefined(offset)) offset =3D 0;
+	if(isUndefined(duration)) duration =3D 2;
+	if(isUndefined(timeout)) timeout =3D 500;
+	if(isUndefined(layer)) layer =3D 0;
+	if(isUndefined(showid)) showid =3D ctrlid;
+	var showobj =3D $(showid);
+	var menuobj =3D $(showid + '_menu');
+	if(!showobj|| !menuobj) return;
+	if(isUndefined(maxh)) maxh =3D 400;
+	if(isUndefined(drag)) drag =3D false;
+
+	if(click && jsmenu['active'][layer] =3D=3D menuobj) {
+		hideMenu(layer);
+		return;
+	} else {
+		hideMenu(layer);
+	}
+
+	var len =3D jsmenu['timer'].length;
+	if(len > 0) {
+		for(var i=3D0; i<len; i++) {
+			if(jsmenu['timer'][i]) clearTimeout(jsmenu['timer'][i]);
+		}
+	}
+
+	initCtrl(ctrlobj, click, duration, timeout, layer);
+	ctrlobjclassName =3D ctrlobj.className;
+	ctrlobj.className +=3D ' hover';
+	initMenu(ctrlid, menuobj, duration, timeout, layer, drag);
+
+	menuobj.style.display =3D '';
+	if(!is_opera) {
+		menuobj.style.clip =3D 'rect(auto, auto, auto, auto)';
+	}
+
+	setMenuPosition(showid, offset);
+
+	if(is_ie && is_ie < 7) {
+		if(!jsmenu['iframe'][layer]) {
+			var iframe =3D document.createElement('iframe');
+			iframe.style.display =3D 'none';
+			iframe.style.position =3D 'absolute';
+			iframe.style.filter =3D =
+'progid:DXImageTransform.Microsoft.Alpha(style=3D0,opacity=3D0)';
+			$('append_parent') ? $('append_parent').appendChild(iframe) : =
+menuobj.parentNode.appendChild(iframe);
+			jsmenu['iframe'][layer] =3D iframe;
+		}
+		jsmenu['iframe'][layer].style.top =3D menuobj.style.top;
+		jsmenu['iframe'][layer].style.left =3D menuobj.style.left;
+		jsmenu['iframe'][layer].style.width =3D menuobj.w;
+		jsmenu['iframe'][layer].style.height =3D menuobj.h;
+		jsmenu['iframe'][layer].style.display =3D 'block';
+	}
+
+	if(maxh && menuobj.scrollHeight > maxh) {
+		menuobj.style.height =3D maxh + 'px';
+		if(is_opera) {
+			menuobj.style.overflow =3D 'auto';
+		} else {
+			menuobj.style.overflowY =3D 'auto';
+		}
+	}
+
+	if(!duration) {
+		setTimeout('hideMenu(' + layer + ')', timeout);
+	}
+
+	jsmenu['active'][layer] =3D menuobj;
+}
+
+function setMenuPosition(showid, offset) {
+	var showobj =3D $(showid);
+	var menuobj =3D $(showid + '_menu');
+	if(isUndefined(offset)) offset =3D 0;
+	if(showobj) {
+		showobj.pos =3D fetchOffset(showobj);
+		showobj.X =3D showobj.pos['left'];
+		showobj.Y =3D showobj.pos['top'];
+		showobj.w =3D showobj.offsetWidth;
+		showobj.h =3D showobj.offsetHeight;
+		menuobj.w =3D menuobj.offsetWidth;
+		menuobj.h =3D menuobj.offsetHeight;
+		if(offset < 3) {
+			menuobj.style.left =3D (showobj.X + menuobj.w > =
+document.body.clientWidth) && (showobj.X + showobj.w - menuobj.w >=3D 0) =
+? showobj.X + showobj.w - menuobj.w + 'px' : showobj.X + 'px';
+			menuobj.style.top =3D offset =3D=3D 1 ? showobj.Y + 'px' : (offset =
+=3D=3D 2 || ((showobj.Y + showobj.h + menuobj.h > =
+document.documentElement.scrollTop + =
+document.documentElement.clientHeight) && (showobj.Y - menuobj.h >=3D =
+0)) ? (showobj.Y - menuobj.h) + 'px' : showobj.Y + showobj.h + 'px');
+		} else if(offset =3D=3D 3) {
+			menuobj.style.left =3D (document.body.clientWidth - =
+menuobj.clientWidth) / 2 + document.body.scrollLeft + 'px';
+			menuobj.style.top =3D (document.body.clientHeight - =
+menuobj.clientHeight) / 2 + document.body.scrollTop + 'px';
+		}
+		if(menuobj.style.clip && !is_opera) {
+			menuobj.style.clip =3D 'rect(auto, auto, auto, auto)';
+		}
+	}
+}
+
+function hideMenu(layer) {
+	if(isUndefined(layer)) layer =3D 0;
+	if(jsmenu['active'][layer]) {
+		try {
+			$(jsmenu['active'][layer].ctrlkey).className =3D ctrlobjclassName;
+		} catch(e) {}
+		clearTimeout(jsmenu['timer'][jsmenu['active'][layer].ctrlkey]);
+		jsmenu['active'][layer].style.display =3D 'none';
+		if(is_ie && is_ie < 7 && jsmenu['iframe'][layer]) {
+			jsmenu['iframe'][layer].style.display =3D 'none';
+		}
+		jsmenu['active'][layer] =3D null;
+	}
+}
+
+function fetchOffset(obj) {
+	var left_offset =3D obj.offsetLeft;
+	var top_offset =3D obj.offsetTop;
+	while((obj =3D obj.offsetParent) !=3D null) {
+		left_offset +=3D obj.offsetLeft;
+		top_offset +=3D obj.offsetTop;
+	}
+	return { 'left' : left_offset, 'top' : top_offset };
+}
+
+function ebygum(eventobj) {
+	if(!eventobj || is_ie) {
+		window.event.cancelBubble =3D true;
+		return window.event;
+	} else {
+		if(eventobj.target.type =3D=3D 'submit') {
+			eventobj.target.form.submit();
+		}
+		eventobj.stopPropagation();
+		return eventobj;
+	}
+}
+
+function menuoption_onclick_function(e) {
+	this.clickfunc();
+	hideMenu();
+}
+
+function menuoption_onclick_link(e) {
+	choose(e, this);
+}
+
+function menuoption_onmouseover(e) {
+	this.className =3D 'popupmenu_highlight';
+}
+
+function menuoption_onmouseout(e) {
+	this.className =3D 'popupmenu_option';
+}
+
+function choose(e, obj) {
+	var links =3D obj.getElementsByTagName('a');
+	if(links[0]) {
+		if(is_ie) {
+			links[0].click();
+			window.event.cancelBubble =3D true;
+		} else {
+			if(e.shiftKey) {
+				window.open(links[0].href);
+				e.stopPropagation();
+				e.preventDefault();
+			} else {
+				window.location =3D links[0].href;
+				e.stopPropagation();
+				e.preventDefault();
+			}
+		}
+		hideMenu();
+	}
+}
+
+function smiletypescroll(direct) {
+	if(direct =3D=3D 0) {
+		$('smileytypes').scrollTop -=3D 28;
+	} else {
+		$('smileytypes').scrollTop +=3D 28;
+	}
+}
+
+var Ajaxs =3D new Array();
+var AjaxStacks =3D new Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+var attackevasive =3D isUndefined(attackevasive) ? 0 : attackevasive;
+function Ajax(recvType, waitId) {
+
+	for(var stackId =3D 0; stackId < AjaxStacks.length && =
+AjaxStacks[stackId] !=3D 0; stackId++);
+	AjaxStacks[stackId] =3D 1;
+
+	var aj =3D new Object();
+
+	aj.loading =3D 'Loading...';//public
+	aj.recvType =3D recvType ? recvType : 'XML';//public
+	aj.waitId =3D waitId ? $(waitId) : null;//public
+
+	aj.resultHandle =3D null;//private
+	aj.sendString =3D '';//private
+	aj.targetUrl =3D '';//private
+	aj.stackId =3D 0;
+	aj.stackId =3D stackId;
+
+	aj.setLoading =3D function(loading) {
+		if(typeof loading !=3D=3D 'undefined' && loading !=3D=3D null) =
+aj.loading =3D loading;
+	}
+
+	aj.setRecvType =3D function(recvtype) {
+		aj.recvType =3D recvtype;
+	}
+
+	aj.setWaitId =3D function(waitid) {
+		aj.waitId =3D typeof waitid =3D=3D 'object' ? waitid : $(waitid);
+	}
+
+	aj.createXMLHttpRequest =3D function() {
+		var request =3D false;
+		if(window.XMLHttpRequest) {
+			request =3D new XMLHttpRequest();
+			if(request.overrideMimeType) {
+				request.overrideMimeType('text/xml');
+			}
+		} else if(window.ActiveXObject) {
+			var versions =3D ['Microsoft.XMLHTTP', 'MSXML.XMLHTTP', =
+'Microsoft.XMLHTTP', 'Msxml2.XMLHTTP.7.0', 'Msxml2.XMLHTTP.6.0', =
+'Msxml2.XMLHTTP.5.0', 'Msxml2.XMLHTTP.4.0', 'MSXML2.XMLHTTP.3.0', =
+'MSXML2.XMLHTTP'];
+			for(var i=3D0; i<versions.length; i++) {
+				try {
+					request =3D new ActiveXObject(versions[i]);
+					if(request) {
+						return request;
+					}
+				} catch(e) {}
+			}
+		}
+		return request;
+	}
+
+	aj.XMLHttpRequest =3D aj.createXMLHttpRequest();
+	aj.showLoading =3D function() {
+		if(aj.waitId && (aj.XMLHttpRequest.readyState !=3D 4 || =
+aj.XMLHttpRequest.status !=3D 200)) {
+			changedisplay(aj.waitId, '');
+			aj.waitId.innerHTML =3D '<span><img src=3D"' + IMGDIR + =
+'/loading.gif"> ' + aj.loading + '</span>';
+		}
+	}
+
+	aj.processHandle =3D function() {
+		if(aj.XMLHttpRequest.readyState =3D=3D 4 && aj.XMLHttpRequest.status =
+=3D=3D 200) {
+			for(k in Ajaxs) {
+				if(Ajaxs[k] =3D=3D aj.targetUrl) {
+					Ajaxs[k] =3D null;
+				}
+			}
+			if(aj.waitId) changedisplay(aj.waitId, 'none');
+			if(aj.recvType =3D=3D 'HTML') {
+				aj.resultHandle(aj.XMLHttpRequest.responseText, aj);
+			} else if(aj.recvType =3D=3D 'XML') {
+				=
+aj.resultHandle(aj.XMLHttpRequest.responseXML.lastChild.firstChild.nodeVa=
+lue, aj);
+			}
+			AjaxStacks[aj.stackId] =3D 0;
+		}
+	}
+
+	aj.get =3D function(targetUrl, resultHandle) {
+
+		setTimeout(function(){aj.showLoading()}, 500);
+		if(in_array(targetUrl, Ajaxs)) {
+			return false;
+		} else {
+			Ajaxs.push(targetUrl);
+		}
+		aj.targetUrl =3D targetUrl;
+		aj.XMLHttpRequest.onreadystatechange =3D aj.processHandle;
+		aj.resultHandle =3D resultHandle;
+		var delay =3D attackevasive & 1 ? (aj.stackId + 1) * 1001 : 100;
+		if(window.XMLHttpRequest) {
+			setTimeout(function(){
+			aj.XMLHttpRequest.open('GET', aj.targetUrl);
+			aj.XMLHttpRequest.send(null);}, delay);
+		} else {
+			setTimeout(function(){
+			aj.XMLHttpRequest.open("GET", targetUrl, true);
+			aj.XMLHttpRequest.send();}, delay);
+		}
+
+	}
+	aj.post =3D function(targetUrl, sendString, resultHandle) {
+		setTimeout(function(){aj.showLoading()}, 500);
+		if(in_array(targetUrl, Ajaxs)) {
+			return false;
+		} else {
+			Ajaxs.push(targetUrl);
+		}
+		aj.targetUrl =3D targetUrl;
+		aj.sendString =3D sendString;
+		aj.XMLHttpRequest.onreadystatechange =3D aj.processHandle;
+		aj.resultHandle =3D resultHandle;
+		aj.XMLHttpRequest.open('POST', targetUrl);
+		aj.XMLHttpRequest.setRequestHeader('Content-Type', =
+'application/x-www-form-urlencoded');
+		aj.XMLHttpRequest.send(aj.sendString);
+	}
+	return aj;
+}
+
+function newfunction(func){
+	var args =3D new Array();
+	for(var i=3D1; i<arguments.length; i++) args.push(arguments[i]);
+	return function(event){
+		doane(event);
+		window[func].apply(window, args);
+		return false;
+	}
+}
+
+function changedisplay(obj, display) {
+	if(display =3D=3D 'auto') {
+		obj.style.display =3D obj.style.display =3D=3D '' ? 'none' : '';
+	} else {
+		obj.style.display =3D display;
+	}
+	return false;
+}
+
+var evalscripts =3D new Array();
+function evalscript(s) {
+	if(s.indexOf('<script') =3D=3D -1) return s;
+	var p =3D =
+/<script[^\>]*?src=3D\"([^\>]*?)\"[^\>]*?(reload=3D\"1\")?(?:charset=3D\"=
+([\w\-]+?)\")?><\/script>/ig;
+	var arr =3D new Array();
+	while(arr =3D p.exec(s)) {
+		appendscript(arr[1], '', arr[2], arr[3]);
+	}
+	s =3D s.replace(p, '');
+	p =3D /<script(.*?)>([^\x00]+?)<\/script>/ig;
+	while(arr =3D p.exec(s)) {
+		appendscript('', arr[2], arr[1].indexOf('reload=3D') !=3D -1);
+	}
+	return s;
+}
+
+function appendscript(src, text, reload, charset) {
+	var id =3D hash(src + text);
+	if(!reload && in_array(id, evalscripts)) return;
+	if(reload && $(id)) {
+		$(id).parentNode.removeChild($(id));
+	}
+
+	evalscripts.push(id);
+	var scriptNode =3D document.createElement("script");
+	scriptNode.type =3D "text/javascript";
+	scriptNode.id =3D id;
+	scriptNode.charset =3D charset;
+	try {
+		if(src) {
+			scriptNode.src =3D src;
+		} else if(text){
+			scriptNode.text =3D text;
+		}
+		$('append_parent').appendChild(scriptNode);
+	} catch(e) {}
+}
+
+function stripscript(s) {
+	return s.replace(/<script.*?>.*?<\/script>/ig, '');
+}
+
+function ajaxupdateevents(obj, tagName) {
+	tagName =3D tagName ? tagName : 'A';
+	var objs =3D obj.getElementsByTagName(tagName);
+	for(k in objs) {
+		var o =3D objs[k];
+		ajaxupdateevent(o);
+	}
+}
+
+function ajaxupdateevent(o) {
+	if(typeof o =3D=3D 'object' && o.getAttribute) {
+		if(o.getAttribute('ajaxtarget')) {
+			if(!o.id) o.id =3D Math.random();
+			var ajaxevent =3D o.getAttribute('ajaxevent') ? =
+o.getAttribute('ajaxevent') : 'click';
+			var ajaxurl =3D o.getAttribute('ajaxurl') ? o.getAttribute('ajaxurl') =
+: o.href;
+			_attachEvent(o, ajaxevent, newfunction('ajaxget', ajaxurl, =
+o.getAttribute('ajaxtarget'), o.getAttribute('ajaxwaitid'), =
+o.getAttribute('ajaxloading'), o.getAttribute('ajaxdisplay')));
+			if(o.getAttribute('ajaxfunc')) {
+				o.getAttribute('ajaxfunc').match(/(\w+)\((.+?)\)/);
+				_attachEvent(o, ajaxevent, newfunction(RegExp.$1, RegExp.$2));
+			}
+		}
+	}
+}
+
+/*
+ *@ url: =D0=E8=C7=F3=C7=EB=C7=F3=B5=C4 url
+ *@ id : =CF=D4=CA=BE=B5=C4 id
+ *@ waitid: =B5=C8=B4=FD=B5=C4 =
+id=A3=AC=C4=AC=C8=CF=CE=AA=CF=D4=CA=BE=B5=C4 id=A3=AC=C8=E7=B9=FB waitid =
+=CE=AA=BF=D5=D7=D6=B7=FB=B4=AE=A3=AC=D4=F2=B2=BB=CF=D4=CA=BE =
+loading...=A3=AC =C8=E7=B9=FB=CE=AA null=A3=AC=D4=F2=D4=DA showid =
+=C7=F8=D3=F2=CF=D4=CA=BE
+ *@ linkid: =CA=C7=C4=C4=B8=F6=C1=B4=BD=D3=B4=A5=B7=A2=B5=C4=B8=C3 ajax =
+=C7=EB=C7=F3=A3=AC=B8=C3=B6=D4=CF=F3=B5=C4=CA=F4=D0=D4(=C8=E7 =
+ajaxdisplay)=B1=A3=B4=E6=C1=CB=D2=BB=D0=A9 ajax =
+=C7=EB=C7=F3=B9=FD=B3=CC=D0=E8=D2=AA=B5=C4=CA=FD=BE=DD=A1=A3
+*/
+function ajaxget(url, showid, waitid, loading, display, recall) {
+	waitid =3D typeof waitid =3D=3D 'undefined' || waitid =3D=3D=3D null ? =
+showid : waitid;
+	var x =3D new Ajax();
+	x.setLoading(loading);
+	x.setWaitId(waitid);
+	x.display =3D typeof display =3D=3D 'undefined' || display =3D=3D null =
+? '' : display;
+	x.showId =3D $(showid);
+	if(x.showId) x.showId.orgdisplay =3D typeof x.showId.orgdisplay =
+=3D=3D=3D 'undefined' ? x.showId.style.display : x.showId.orgdisplay;
+
+	if(url.substr(strlen(url) - 1) =3D=3D '#') {
+		url =3D url.substr(0, strlen(url) - 1);
+		x.autogoto =3D 1;
+	}
+
+	var url =3D url + '&inajax=3D1&ajaxtarget=3D' + showid;
+	x.get(url, function(s, x) {
+		evaled =3D false;
+		if(s.indexOf('ajaxerror') !=3D -1) {
+			evalscript(s);
+			evaled =3D true;
+		}
+		if(!evaled && (typeof ajaxerror =3D=3D 'undefined' || !ajaxerror)) {
+			if(x.showId) {
+				changedisplay(x.showId, x.showId.orgdisplay);
+				changedisplay(x.showId, x.display);
+				x.showId.orgdisplay =3D x.showId.style.display;
+				ajaxinnerhtml(x.showId, s);
+				ajaxupdateevents(x.showId);
+				if(x.autogoto) scroll(0, x.showId.offsetTop);
+			}
+		}
+		if(!evaled)evalscript(s);
+		ajaxerror =3D null;
+		if(recall) {eval(recall);}
+	});
+}
+
+var ajaxpostHandle =3D 0;
+function ajaxpost(formid, showid, waitid) {
+	showloading();
+	var waitid =3D typeof waitid =3D=3D 'undefined' || waitid =3D=3D=3D =
+null ? showid : (waitid !=3D=3D '' ? waitid : '');
+
+	if(ajaxpostHandle !=3D 0) {
+		return false;
+	}
+	var ajaxframeid =3D 'ajaxframe';
+	var ajaxframe =3D $(ajaxframeid);
+	if(ajaxframe =3D=3D null) {
+		if (is_ie && !is_opera) {
+			ajaxframe =3D document.createElement("<iframe name=3D'" + ajaxframeid =
++ "' id=3D'" + ajaxframeid + "'></iframe>");
+		} else {
+			ajaxframe =3D document.createElement("iframe");
+			ajaxframe.name =3D ajaxframeid;
+			ajaxframe.id =3D ajaxframeid;
+		}
+		//ajaxframe.id =3D ajaxframeid;
+		ajaxframe.style.display =3D 'none';
+		$('append_parent').appendChild(ajaxframe);
+
+	}
+	$(formid).target =3D ajaxframeid;
+	ajaxpostHandle =3D [showid, ajaxframeid, formid, $(formid).target];
+	if(ajaxframe.attachEvent) {
+		ajaxframe.detachEvent ('onload', ajaxpost_load);
+		ajaxframe.attachEvent('onload', ajaxpost_load);
+	} else {
+		document.removeEventListener('load', ajaxpost_load, true);
+		ajaxframe.addEventListener('load', ajaxpost_load, false);
+	}
+	$(formid).submit();
+	return false;
+	//$(waitid).innerHTML =3D 'Loading...';
+}
+
+function ajaxpost_load() {
+	showloading('none');
+	if(is_ie) {
+		var s =3D =
+$(ajaxpostHandle[1]).contentWindow.document.XMLDocument.text;
+	} else {
+		var s =3D =
+$(ajaxpostHandle[1]).contentWindow.document.documentElement.firstChild.no=
+deValue;
+	}
+	evaled =3D false;
+	if(s.indexOf('ajaxerror') !=3D -1) {
+		evalscript(s);
+		evaled =3D true;
+	}
+	if(!evaled && (typeof ajaxerror =3D=3D 'undefined' || !ajaxerror)) {
+		ajaxinnerhtml($(ajaxpostHandle[0]), s);
+		if(!evaled)evalscript(s);
+		setMenuPosition($(ajaxpostHandle[0]).ctrlid, 0);
+		setTimeout("hideMenu()", 3000);
+	}
+	ajaxerror =3D null;
+	if($(ajaxpostHandle[2])) {
+		$(ajaxpostHandle[2]).target =3D ajaxpostHandle[3];
+		//$(ajaxpostHandle[2]).removeChild($(ajaxpostHandle[1]));
+	}
+	ajaxpostHandle =3D 0;
+}
+
+function ajaxmenu(e, ctrlid, timeout, func, cache, duration, ismenu, =
+divclass, optionclass) {
+	showloading();
+	if(jsmenu['active'][0] && jsmenu['active'][0].ctrlkey =3D=3D ctrlid) {
+		hideMenu();
+		doane(e);
+		return;
+	} else if(is_ie && is_ie < 7 && document.readyState.toLowerCase() !=3D =
+'complete') {
+		return;
+	}
+	if(isUndefined(timeout)) timeout =3D 3000;
+	if(isUndefined(func)) func =3D '';
+	if(isUndefined(cache)) cache =3D 1;
+	if(isUndefined(divclass)) divclass =3D 'popupmenu_popup';
+	if(isUndefined(optionclass)) optionclass =3D 'popupmenu_option';
+	if(isUndefined(ismenu)) ismenu =3D 1;
+	if(isUndefined(duration)) duration =3D timeout > 0 ? 0 : 3;
+	var div =3D $(ctrlid + '_menu');
+	if(cache && div) {
+		showMenu(ctrlid, e.type =3D=3D 'click', 0, duration, timeout, 0, =
+ctrlid, 400, 1);
+		if(func) setTimeout(func + '(' + ctrlid + ')', timeout);
+		doane(e);
+	} else {
+		if(!div) {
+			div =3D document.createElement('div');
+			div.ctrlid =3D ctrlid;
+			div.id =3D ctrlid + '_menu';
+			div.style.display =3D 'none';
+			div.className =3D divclass;
+			$('append_parent').appendChild(div);
+		}
+
+		var x =3D new Ajax();
+		var href =3D !isUndefined($(ctrlid).href) ? $(ctrlid).href : =
+$(ctrlid).attributes['href'].value;
+		x.div =3D div;
+		x.etype =3D e.type;
+		x.optionclass =3D optionclass;
+		x.duration =3D duration;
+		x.timeout =3D timeout;
+		x.get(href + '&inajax=3D1&ajaxmenuid=3D'+ctrlid+'_menu', function(s) {
+			evaled =3D false;
+			if(s.indexOf('ajaxerror') !=3D -1) {
+				evalscript(s);
+				evaled =3D true;
+				if(!cache && duration !=3D 3 && x.div.id) =
+setTimeout('$("append_parent").removeChild($(\'' + x.div.id + '\'))', =
+timeout);
+			}
+			if(!evaled && (typeof ajaxerror =3D=3D 'undefined' || !ajaxerror)) {
+				if(x.div) x.div.innerHTML =3D '<div class=3D"' + x.optionclass + =
+'">' + s + '</div>';
+				showMenu(ctrlid, x.etype =3D=3D 'click', 0, x.duration, x.timeout, =
+0, ctrlid, 400, 1);
+				if(func) setTimeout(func + '("' + ctrlid + '")', x.timeout);
+				//if(!cache && duration !=3D 3 && x.div.id) =
+setTimeout('document.body.removeChild($(\'' + x.div.id + '\'))', =
+timeout);
+			}
+			if(!evaled) evalscript(s);
+			ajaxerror =3D null;
+			showloading('none');
+		});
+		doane(e);
+	}
+}
+
+//=B5=C3=B5=BD=D2=BB=B8=F6=B6=A8=B3=A4=B5=C4hash=D6=B5=A3=AC =
+=D2=C0=C0=B5=D3=DA stringxor()
+function hash(string, length) {
+	var length =3D length ? length : 32;
+	var start =3D 0;
+	var i =3D 0;
+	var result =3D '';
+	filllen =3D length - string.length % length;
+	for(i =3D 0; i < filllen; i++){
+		string +=3D "0";
+	}
+	while(start < string.length) {
+		result =3D stringxor(result, string.substr(start, length));
+		start +=3D length;
+	}
+	return result;
+}
+
+function stringxor(s1, s2) {
+	var s =3D '';
+	var hash =3D 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+	var max =3D Math.max(s1.length, s2.length);
+	for(var i=3D0; i<max; i++) {
+		var k =3D s1.charCodeAt(i) ^ s2.charCodeAt(i);
+		s +=3D hash.charAt(k % 52);
+	}
+	return s;
+}
+
+function showloading(display, waiting) {
+	var display =3D display ? display : 'block';
+	var waiting =3D waiting ? waiting : 'Loading...';
+	$('ajaxwaitid').innerHTML =3D waiting;
+	$('ajaxwaitid').style.display =3D display;
+}
+
+function ajaxinnerhtml(showid, s) {
+	if(showid.tagName !=3D 'TBODY') {
+		showid.innerHTML =3D s;
+	} else {
+		while(showid.firstChild) {
+			showid.firstChild.parentNode.removeChild(showid.firstChild);
+		}
+		var div1 =3D document.createElement('DIV');
+		div1.id =3D showid.id+'_div';
+		div1.innerHTML =3D '<table><tbody =
+id=3D"'+showid.id+'_tbody">'+s+'</tbody></table>';
+		$('append_parent').appendChild(div1);
+		var trs =3D div1.getElementsByTagName('TR');
+		var l =3D trs.length;
+		for(var i=3D0; i<l; i++) {
+			showid.appendChild(trs[0]);
+		}
+		var inputs =3D div1.getElementsByTagName('INPUT');
+		var l =3D inputs.length;
+		for(var i=3D0; i<l; i++) {
+			showid.appendChild(inputs[0]);
+		}
+		div1.parentNode.removeChild(div1);
+	}
+}
+
+var hiddenobj =3D new Array();
+var pmwinposition =3D new Array();
+var discuz_uid =3D isUndefined(discuz_uid) ? 0 : discuz_uid;
+------=_NextPart_000_008A_01CB69CC.FD913D30
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://1984bbs.com/onlinechat.new/onlinechat.nocache.js
+
+function onlinechat(){var l=3D'',F=3D'" for "gwt:onLoadErrorFn"',D=3D'" =
+for =
+"gwt:onPropertyErrorFn"',n=3D'"><\/script>',p=3D'#',r=3D'/',wb=3D'17C78EE=
+30F19683B28357093E1047BDB.cache.html',vb=3D'200B828815E29CE9D14D08D0FF46D=
+9D9.cache.html',tb=3D'50C1BCA272144B052F315CE3CE909121.cache.html',xb=3D'=
+67CDC79965FB496E6663A377B2F26C86.cache.html',Bb=3D'<script =
+defer=3D"defer">onlinechat.onInjectionDone(\'onlinechat\')<\/script>',Fb=3D=
+'<script id=3D"',A=3D'=3D',q=3D'?',C=3D'Bad handler =
+"',ub=3D'C0C4D1519987E764D84B859CEE21E4AF.cache.html',Ab=3D'DOMContentLoa=
+ded',zb=3D'FFBB579E4B192089DEE8246EF2B45941.cache.html',o=3D'SCRIPT',Eb=3D=
+'__gwt_marker_onlinechat',s=3D'base',nb=3D'begin',cb=3D'bootstrap',u=3D'c=
+lear.cache.gif',z=3D'content',Db=3D'end',mb=3D'gecko',ob=3D'gecko1_8',yb=3D=
+'gwt.hybrid',E=3D'gwt:onLoadErrorFn',B=3D'gwt:onPropertyErrorFn',y=3D'gwt=
+:property',rb=3D'hosted.html?onlinechat',lb=3D'ie6',kb=3D'ie8',ab=3D'ifra=
+me',t=3D'img',bb=3D"javascript:''",qb=3D'loadExternalRefs',v=3D'meta',eb=3D=
+'moduleRequested',Cb=3D'moduleStartup',jb=3D'msie',w=3D'name',m=3D'online=
+chat',gb=3D'opera',db=3D'position:absolute;width:0;height:0;border:none',=
+ib=3D'safari',sb=3D'selectingPermutation',x=3D'startup',pb=3D'unknown',fb=
+=3D'user.agent',hb=3D'webkit';var =
+bc=3Dwindow,k=3Ddocument,ac=3Dbc.__gwtStatsEvent?function(a){return =
+bc.__gwtStatsEvent(a)}:null,vc,lc,gc,fc=3Dl,oc=3D{},yc=3D[],uc=3D[],ec=3D=
+[],rc,tc;ac&&ac({moduleName:m,subSystem:x,evtGroup:cb,millis:(new =
+Date()).getTime(),type:nb});if(!bc.__gwt_stylesLoaded){bc.__gwt_stylesLoa=
+ded=3D{}}if(!bc.__gwt_scriptsLoaded){bc.__gwt_scriptsLoaded=3D{}}function=
+ kc(){var =
+b=3Dfalse;try{b=3Dbc.external&&(bc.external.gwtOnLoad&&bc.location.search=
+.indexOf(yb)=3D=3D-1)}catch(a){}kc=3Dfunction(){return b};return b}=0A=
+function nc(){if(vc&&lc){var c=3Dk.getElementById(m);var =
+b=3Dc.contentWindow;if(kc()){b.__gwt_getProperty=3Dfunction(a){return =
+hc(a)}}onlinechat=3Dnull;b.gwtOnLoad(rc,m,fc);ac&&ac({moduleName:m,subSys=
+tem:x,evtGroup:Cb,millis:(new Date()).getTime(),type:Db})}}=0A=
+function ic(){var =
+j,h=3DEb,i;k.write(Fb+h+n);i=3Dk.getElementById(h);j=3Di&&i.previousSibli=
+ng;while(j&&j.tagName!=3Do){j=3Dj.previousSibling}function f(b){var =
+a=3Db.lastIndexOf(p);if(a=3D=3D-1){a=3Db.length}var =
+c=3Db.indexOf(q);if(c=3D=3D-1){c=3Db.length}var =
+d=3Db.lastIndexOf(r,Math.min(c,a));return d>=3D0?b.substring(0,d+1):l}=0A=
+;if(j&&j.src){fc=3Df(j.src)}if(fc=3D=3Dl){var =
+e=3Dk.getElementsByTagName(s);if(e.length>0){fc=3De[e.length-1].href}else=
+{fc=3Df(k.location.href)}}else if(fc.match(/^\w+:\/\//)){}else{var =
+g=3Dk.createElement(t);g.src=3Dfc+u;fc=3Df(g.src)}if(i){i.parentNode.remo=
+veChild(i)}}=0A=
+function sc(){var f=3Ddocument.getElementsByTagName(v);for(var =
+d=3D0,g=3Df.length;d<g;++d){var =
+e=3Df[d],h=3De.getAttribute(w),b;if(h){if(h=3D=3Dy){b=3De.getAttribute(z)=
+;if(b){var =
+i,c=3Db.indexOf(A);if(c>=3D0){h=3Db.substring(0,c);i=3Db.substring(c+1)}e=
+lse{h=3Db;i=3Dl}oc[h]=3Di}}else =
+if(h=3D=3DB){b=3De.getAttribute(z);if(b){try{tc=3Deval(b)}catch(a){alert(=
+C+b+D)}}}else =
+if(h=3D=3DE){b=3De.getAttribute(z);if(b){try{rc=3Deval(b)}catch(a){alert(=
+C+b+F)}}}}}}=0A=
+function xc(d,e){var a=3Dec;for(var =
+b=3D0,c=3Dd.length-1;b<c;++b){a=3Da[d[b]]||(a[d[b]]=3D[])}a[d[c]]=3De}=0A=
+function hc(d){var e=3Duc[d](),b=3Dyc[d];if(e in b){return e}var =
+a=3D[];for(var c in b){a[b[c]]=3Dc}if(tc){tc(d,a,e)}throw null}=0A=
+var jc;function mc(){if(!jc){jc=3Dtrue;var =
+a=3Dk.createElement(ab);a.src=3Dbb;a.id=3Dm;a.style.cssText=3Ddb;a.tabInd=
+ex=3D-1;k.body.appendChild(a);ac&&ac({moduleName:m,subSystem:x,evtGroup:C=
+b,millis:(new =
+Date()).getTime(),type:eb});a.contentWindow.location.replace(fc+wc)}}=0A=
+uc[fb]=3Dfunction(){var d=3Dnavigator.userAgent.toLowerCase();var =
+b=3Dfunction(a){return =
+parseInt(a[1])*1000+parseInt(a[2])};if(d.indexOf(gb)!=3D-1){return =
+gb}else if(d.indexOf(hb)!=3D-1){return ib}else =
+if(d.indexOf(jb)!=3D-1){if(document.documentMode>=3D8){return =
+kb}else{var c=3D/msie =
+([0-9]+)\.([0-9]+)/.exec(d);if(c&&c.length=3D=3D3){var =
+e=3Db(c);if(e>=3D6000){return lb}}}}else if(d.indexOf(mb)!=3D-1){var =
+c=3D/rv:([0-9]+)\.([0-9]+)/.exec(d);if(c&&c.length=3D=3D3){if(b(c)>=3D100=
+8)return ob}return mb}return =
+pb};yc[fb]=3D{gecko:0,gecko1_8:1,ie6:2,ie8:3,opera:4,safari:5};onlinechat=
+.onScriptLoad=3Dfunction(){if(jc){lc=3Dtrue;nc()}};onlinechat.onInjection=
+Done=3Dfunction(){vc=3Dtrue;ac&&ac({moduleName:m,subSystem:x,evtGroup:qb,=
+millis:(new Date()).getTime(),type:Db});nc()};ic();var =
+wc;if(kc()){if(bc.external.initModule&&bc.external.initModule(m)){bc.loca=
+tion.reload();return}wc=3Drb}sc();ac&&ac({moduleName:m,subSystem:x,evtGro=
+up:cb,millis:(new =
+Date()).getTime(),type:sb});if(!wc){try{xc([kb],tb);xc([lb],ub);xc([gb],v=
+b);xc([ob],wb);xc([ib],xb);xc([mb],zb);wc=3Dec[hc(fb)]}catch(a){return}}v=
+ar qc;function =
+pc(){if(!gc){gc=3Dtrue;nc();if(k.removeEventListener){k.removeEventListen=
+er(Ab,pc,false)}if(qc){clearInterval(qc)}}}=0A=
+if(k.addEventListener){k.addEventListener(Ab,function(){mc();pc()},false)=
+}var =
+qc=3DsetInterval(function(){if(/loaded|complete/.test(k.readyState)){mc()=
+;pc()}},50);ac&&ac({moduleName:m,subSystem:x,evtGroup:cb,millis:(new =
+Date()).getTime(),type:Db});ac&&ac({moduleName:m,subSystem:x,evtGroup:qb,=
+millis:(new Date()).getTime(),type:nb});k.write(Bb)}=0A=
+onlinechat();
+------=_NextPart_000_008A_01CB69CC.FD913D30--

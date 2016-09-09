@@ -1,0 +1,2169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>【視頻下載】20世紀末共產陣營崩潰及蘇東劇變新聞大合集 - 开放社会资料室 -  1984bbs.com </title>
+<meta name="keywords" content="" />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<link rel="archives" title="1984bbs.com" href="https://1984bbs.com/archiver/" />
+	<link rel="stylesheet" type="text/css" href="forumdata/cache/style_1_viewthread.css" />
+	<link rel="stylesheet" type="text/css" href="forumdata/cache/style_1_common.css" />
+<script type="text/javascript">
+	var discuz_uid = 13019;var IMGDIR = 'images/default';var attackevasive = '0';var gid = 0;var STYLEID = '1';
+	gid = parseInt('3');var fid = parseInt('21');var tid = parseInt('17772');
+</script>
+<script src="include/javascript/common.js" type="text/javascript"></script>
+
+<style>
+ .ChatAutoRefreshStyle {margin-right:0px;}
+ .ChatSubmitButtonStyle {margin-right:0px;}
+ .gwt-Button {margin-right:0px;}
+</style>
+<!-- <script src="../OnlineChat/port.for1984.OnlineChat.nocache.js" type="text/javascript"></script> -->
+<script src="/onlinechat.new/onlinechat.nocache.js" type="text/javascript"></script> 
+
+<script type="text/javascript" language="javascript">
+
+var chat_button;
+var mynickname;
+
+var chat_start_num=0;
+var chat_refresh;
+
+
+
+function getChatViewPage(){
+ return chat_start_num;
+}
+
+function sendChatRefreshButtonObjct(o)
+{
+chat_refresh=o;
+}
+
+function chat_reply_action(Sender)
+{
+ document.getElementById('chat_msg').value=
+ "@"+unescape(Sender)+","+document.getElementById('chat_msg').value;
+}
+
+function receiveChatViewPage(i)
+{
+ chat_start_num=i;
+ var nextpage=document.getElementById('chat_next_page');
+ if (i==0) { 
+   nextpage.style.display = "none";
+   nextpage.style.visibility = "hidden";
+  }
+  else
+  {
+   nextpage.style.display = "inline";   
+   nextpage.style.visibility = "visible";
+  }
+}
+
+function chat_page_next()
+{
+chat_start_num-=getChatListLimit(100);
+if (chat_start_num<0) chat_start_num=0;
+chat_refresh.click();
+}
+
+function chat_page_prev()
+{
+chat_start_num+=getChatListLimit(100);
+chat_refresh.click();
+}
+
+
+function setMyChatNickName(o)
+{
+mynickname=o;
+}
+
+function handleChatChange()
+{
+      try{
+      q=140-document.getElementById('chat_msg').value.length;
+      document.getElementById('chat_msg_length').innerHTML = ""+q;
+      } catch(e) {
+	}
+}
+
+var chat_check_timer;
+
+
+function handleChatEnterKey(e) {
+    if (e.keyCode == 13 || e.keyCode == 10) {
+        if (!chat_button.disabled)
+             chat_button.click();
+        return false;
+    }
+    else 
+   {
+        handleChatChange();
+   }
+}
+
+function getChatRefreshTime()
+{
+ return 6;
+}
+
+function runClearChatBox()
+{
+document.getElementById('chat_msg').value = "";
+}
+
+function replaceButtonText(button, text)
+{
+    if (button)
+    {
+      if (button.childNodes[0])
+      {
+        button.childNodes[0].nodeValue=text;
+      }
+      else if (button.value)
+      {
+        button.value=text;
+      }
+      else //if (button.innerHTML)
+      {
+        button.innerHTML=text;
+      }
+    }
+}
+
+
+function sendChatCommentButtonObjct(o)
+{
+ chat_button=o;
+ replaceButtonText(chat_button, "提交");
+ chat_check_timer= setInterval("handleChatChange()",3000);
+}
+
+function replaceURLWithHTMLLinks(text) {
+var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+return text.replace(exp,"<a href='$1' target='_blank'>$1</a>");
+}
+
+function getChatItemWriteString(Id,Sender,Msg,Time,Reply)
+{
+ var msg;
+ try
+ {
+ msg=replaceURLWithHTMLLinks(Msg.substr(0,140));
+ }
+ catch(e) {
+ msg=Msg.substr(0,140);
+ }
+ h="<span style='width:200px;white-space:normal; word-break:break-all;overflow:hidden;word-wrap:break-word;OVERFLOW-X:hidden;'>";
+   if (Sender==mynickname) {
+  h+="<font color=#ff0000>"+Sender+"</font>(<i>"+Time.substr(11)+"</i>) "+"<font color=#444444>"+msg+"</font>"+"<hr style='border-top-width:0px;border-bottom-width:1px;border-color:#eeeeee;border-right-width:0px;border-left-width:0px;' />";
+   }
+   else {
+      h+="<font color=#000000><b>"+Sender+"</b></font>(<i>"+Time.substr(11)+"</i>) "+"<font color=#555555>"+msg+"</font>"+"<img src='1984chat_re.jpg' border=0 onclick='chat_reply_action(\""+escape(Sender)+"\");'/>"+"<hr style='border-top-width:0px;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;border-color:#eeeeee;' />";
+   } 
+  h+="</span>";
+   return h;
+}
+
+function getChatItemWriteStart()
+{
+ try {
+　document.getElementById('online_chat_box').style.visibility = "visible";
+　document.getElementById('online_chat_loading').style.visibility = "hidden";
+　document.getElementById('online_chat_loading').style.display = "none";
+ } catch(e) {};
+  return "";
+}
+
+function getChatItemWriteEnd()
+{
+return "";
+}
+
+function getChatListLimit(i)
+{
+        return 15;
+}
+</script>
+
+</head>
+
+<body onkeydown="if(event.keyCode==27) return false;">
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+	<div class="wrap">
+		<div id="header">
+			<h2><a href="index.php" title="1984bbs.com"><img src="images/default/logo.gif" alt="1984bbs.com" border="0" /></a></h2>
+			<div id="ad_headerbanner"><b>能截图的截图，喜欢备份的备份。2010年10月12日的某时某刻，1984bbs将关闭。对不起各位，我力所不能及。<br>希望1984bbs再见面的时候，这个世界上再也没有共产党。</b>——张书记 1984bbs</div>
+		</div>
+		<div id="menu">
+			<span class="avataonline">
+							<cite><a class="dropmenu" id="viewpro">vos2010</a></cite>
+				<a href="logging.php?action=logout&amp;formhash=823c9fa2">退出</a>
+						</span>
+					<ul>
+			<li><a href="my.php?item=threads">话题</a></li>
+			<li><a href="my.php?item=polls&amp;type=poll">投票</a></li>
+			<li><a href="my.php?item=posts">回复</a></li>
+			<li><a href="my.php?item=favorites&amp;type=thread">收藏</a></li>
+			<li><a href="pm.php" id="pmnotice" onclick="pmwin('open')"><font style="color:#FF0000">您有新短消息</font></a></li>
+									<li><a href="search.php?srchfid=21">搜索</a></li>									
+				<li><a href="memcp.php?action=profile">个人资料</a></li>				<li><a href="invite.php">邀请</a></li>																<!--				<li><a href="faq.php">关于我们</a></li> -->
+			</ul>
+		</div>
+
+<style type="text/css">
+.defaultpost { height: auto !important; height:120px; min-height:120px !important; }
+.signatures { height: expression(signature(this)); max-height: 100px; }
+</style>
+
+<script src="include/javascript/viewthread.js" type="text/javascript"></script>
+<script type="text/javascript">zoomstatus = parseInt(1);</script>
+
+<div id="foruminfo">
+	<div id="nav">
+		<div class="userinfolist">
+			<p><a href="index.php" id="forumlist" onmouseover="showMenu(this.id)" class="dropmenu">1984bbs.com</a> &raquo; <a href="forumdisplay.php?fid=21">开放社会资料室</a> &raquo; 【視頻下載】20世紀末共產陣營崩潰及蘇東劇變新聞大合集</p>
+		</div>
+	</div>
+	<div id="headsearch">
+			</div>
+</div>
+
+<div class="ad_text" id="ad_text"><table summary="Text Ad" cellpadding="0" cellspacing="1"><tr><td width="100%"><b>发布新话题与讨论建议及审查说明</b><br>
+欢迎发布有讨论和阅读价值的话题；不欢迎嘲弄宗教、种族、地缘、性取向等话题。<br> 
+推崇布拉格公民论坛《对话守则》：对话的目的是寻求真理，不是为了斗争；不做人身攻击；保持主题；辩论时要用证据；要分清对话与只准自己讲话的区别；尽量理解对方。<br>
+遵循《世界人权宣言》第十九条不对用户已发表言论进行删除处理；用户有权限删除本人已发表言论；编辑会合并重复话题。</td></tr>
+</table></div>
+<div class="pages_btns">
+	<div class="threadflow"><a href="redirect.php?fid=21&amp;tid=17772&amp;goto=nextoldset"> &#8249;&#8249; 上一主题</a> | <a href="redirect.php?fid=21&amp;tid=17772&amp;goto=nextnewset">下一主题 &#8250;&#8250;</a></div>
+				<span class="postbtn" id="newspecial" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu(this.id)"><a href="post.php?action=newthread&amp;fid=21&amp;extra="><img src="images/default/newtopic.gif" border="0" alt="发新话题" title="发新话题" /></a></span>
+		<span class="replybtn"><a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;extra="><img src="images/default/reply.gif" border="0" alt="" /></a></span></div>
+
+	<ul class="popupmenu_popup newspecialmenu" id="newspecial_menu" style="display: none">
+		<li><a href="post.php?action=newthread&amp;fid=21&amp;extra=">发新话题</a></li>
+															</ul>
+
+<form method="post" name="modactions">
+	<input type="hidden" name="formhash" value="823c9fa2" />
+	<div class="mainbox viewthread">
+		<span class="headactions">
+					<a href="my.php?item=favorites&amp;tid=17772" id="ajax_favorite" onclick="ajaxmenu(event, this.id, 3000, 0)">收藏</a>
+			<a href="my.php?item=subscriptions&amp;subadd=17772" id="ajax_subscription" onclick="ajaxmenu(event, this.id, 3000, null, 0)">订阅</a>
+			<a href="misc.php?action=emailfriend&amp;tid=17772" id="emailfriend" onclick="ajaxmenu(event, this.id, 9000000, null, 0)">推荐</a>
+				<a href="viewthread.php?action=printable&amp;tid=17772" target="_blank" class="notabs">打印</a>
+				</span>
+		<h1><a href="forumdisplay.php?fid=21&amp;filter=type&amp;typeid=30">[视频]</a> 【視頻下載】20世紀末共產陣營崩潰及蘇東劇變新聞大合集		</h1>
+				<ins>
+						<a href="misc.php?action=viewthreadmod&amp;tid=17772" title="主题操作记录" target="_blank">本主题由 张书记 于 2009-12-14 15:56 分类</a>								</ins>
+							<table id="pid176813" summary="pid176813" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7711" target="_blank" id="userinfo176813" class="dropmenu" onmouseover="showMenu(this.id)">chaewi</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7711">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7711&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_0" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum176813" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid176813', '话题链接已经复制到剪贴板')">1楼</strong>
+													<em onclick="$('postmessage_176813').className='t_bigfont'">大</em>							<em onclick="$('postmessage_176813').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_176813').className='t_smallfont'">小</em>												发表于 2009-7-24 17:22&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=7711" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_0"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_0"></div><div id="ad_thread4_0"></div>
+													<h2>【視頻下載】20世紀末共產陣營崩潰及蘇東劇變新聞大合集</h2>
+						
+						
+																											<div id="postmessage_176813" class="t_msgfont">迅雷可以直接下，不用翻牆<br />
+<br />
+一、蘇俄崩潰<br />
+ <br />
+（一）八一九事件<br />
+蘇聯新聯邦條約正式定案下星期簽署<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910805_0819/cca-1-20001-nw-ttvdy-19910815_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910815_15-b.asf</a><br />
+蘇聯政變　總統戈巴契夫遭拘禁<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910805_0819/cca-1-20001-nw-ttvdy-19910819_01-b-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... 19910819_01-b-b.asf</a><br />
+蘇聯部份地區已宣佈進入緊急狀態<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910805_0819/cca-1-20001-nw-ttvdy-19910819_02-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910819_02-b.asf</a><br />
+蘇聯總統戈巴契夫下台<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910805_0819/cca-1-20001-nw-ttvdy-19910819_03-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910819_03-b.asf</a><br />
+中共官方表示中蘇共關係不將受到戈巴契夫下台影響<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910805_0819/cca-1-20001-nw-ttvdy-19910819_04-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910819_04-b.asf</a><br />
+外交部關切蘇聯政局演變<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910805_0819/cca-1-20001-nw-ttvdy-19910819_05-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910819_05-b.asf</a><br />
+戈巴下台　黃金大漲　股市重挫<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910805_0819/cca-1-20001-nw-ttvdy-19910819_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910819_06-b.asf</a><br />
+蘇聯前總統戈巴契夫小傳<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910805_0819/cca-1-20001-nw-ttvdy-19910819_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910819_07-b.asf</a><br />
+雅納耶夫簡介<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910805_0819/cca-1-20001-nw-ttvdy-19910819_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910819_08-b.asf</a><br />
+蘇聯政變　坦克車進出莫斯科情勢緊張<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910820_01-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910820_01-b.asf</a><br />
+美布希對蘇聯革除戈巴契夫總統職權的聲明<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910820_02-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910820_02-b.asf</a><br />
+西方國家領袖譴責蘇聯保守派奪權政變行動<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910820_05-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910820_05-b.asf</a><br />
+外交部建議立委訪蘇團暫緩啟程　指示我留蘇學生儘快疏散<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910820_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910820_06-b.asf</a><br />
+中共聲明反對干涉蘇聯內政<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910820_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910820_07-b.asf</a><br />
+蘇聯政變戈巴契夫總統下台對世界局勢的影響<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910820_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910820_16-b.asf</a><br />
+蘇聯莫斯科街頭爆發流血衝突<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910821_01-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910821_01-b.asf</a><br />
+美日及北約組織再度譴責蘇聯政變<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910821_03-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910821_03-b.asf</a><br />
+外交部評估蘇聯情勢研商對策<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910821_04-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910821_04-b.asf</a><br />
+對蘇經貿工作　觀望一陣再說<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910821_05-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910821_05-b.asf</a><br />
+蘇聯紅軍動向　政變成敗關鍵<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910821_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910821_06-b.asf</a><br />
+昔日頭號政敵 今日堅強盟友葉爾欽領導群眾擁護戈巴契夫<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910821_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910821_07-b.asf</a><br />
+蘇共加強控制傳播媒體<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910821_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910821_08-b.asf</a><br />
+蘇聯總統戈巴契夫重掌政權<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910822_01-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910822_01-b.asf</a><br />
+蘇聯政變失敗原因：民眾追求民主的決心<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910822_02-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910822_02-b.asf</a><br />
+布希：葉爾欽是了不起值得尊敬的人<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910822_03-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910822_03-b.asf</a><br />
+蘇聯政情使得國內股市創下今年以來最大漲幅紀錄<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910822_04-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910822_04-b.asf</a><br />
+蘇聯政變落幕歐美日等國表高興　中共冷淡看待<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910822_12-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910822_12-b.asf</a><br />
+蘇聯政變<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910822_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910822_13-b.asf</a><br />
+蘇聯總統戈巴契夫重新內閣部署<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910823_01-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910823_01-b.asf</a><br />
+蘇聯政變檢討戈巴契夫總統記者會<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910823_02-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910823_02-b.asf</a><br />
+蘇聯局勢穩定全球股市回跌<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910823_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910823_13-b.asf</a><br />
+蘇聯中央大幅人事改組<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910824_02-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910824_02-b.asf</a><br />
+蘇聯政變的影響分析<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910824_03-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910824_03-b.asf</a><br />
+蘇聯政變<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910825_01-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910825_01-b.asf</a><br />
+蘇聯政變<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910825_02-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910825_02-b.asf</a><br />
+各國樂觀蘇政局發展但金緩且慢<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910825_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910825_06-b.asf</a><br />
+老大哥老去中共如何唱這首哀歌<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910825_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910825_07-b.asf</a><br />
+蘇聯總統戈巴契夫和民眾們為政變犧牲性命的青年舉行葬禮<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910825_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910825_08-b.asf</a><br />
+戈巴契夫演說願為政變接受指責<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910826_04-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910826_04-b.asf</a><br />
+蘇聯國會議長盧卡諾夫辭職<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910826_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910826_06-b.asf</a><br />
+蘇聯加盟共和國加快獨立腳步<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910826_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910826_07-b.asf</a><br />
+戈比解散蘇共　中共低調處理<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910826_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910826_08-b.asf</a><br />
+蘇聯國會緊急會議<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910827_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910827_08-b.asf</a><br />
+立陶宛接管邊界哨務並發給護照拉脫維<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910827_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910827_09-b.asf</a><br />
+蘇聯總統戈巴契夫在國會中全力維護聯邦體制並揚言如各共和國獨立他即辭職<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910828_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910828_09-b.asf</a><br />
+蘇聯南部摩達維亞共和國宣佈獨立<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910828_10-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910828_10-b.asf</a><br />
+蘇聯總統戈巴契夫進行一連串的權力改組<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910829_12-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910829_12-b.asf</a><br />
+蘇聯各共和國的情勢蘇聯國會派俄羅斯副總統魯茨柯伊去勸烏克蘭不要急於獨立<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910829_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910829_13-b.asf</a><br />
+蘇聯國會決議禁止共黨活動<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910830_10-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910830_10-b.asf</a><br />
+蘇聯俄羅斯和烏克蘭簽署雙邊協定<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910830_11-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910830_11-b.asf</a><br />
+波羅的海三小國獨立地位日漸穩固<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910830_12-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910830_12-b.asf</a><br />
+蘇聯國會通過防止政變再度發生的新措施<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910831_11-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910831_11-b.asf</a><br />
+中共對蘇共跨台的處境尷尬<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910831_12-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910831_12-b.asf</a><br />
+民族主義解放蘇聯又有兩國獨立<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910901_11-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910901_11-b.asf</a><br />
+戈 葉保證　中央嚴格監管核武<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910902_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910902_06-b.asf</a><br />
+蘇聯總統戈巴契夫和共和國領袖提出權力改組計劃<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910903_04-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910903_04-b.asf</a><br />
+我國正直接和三小國商討承認事宜<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910903_05-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910903_05-b.asf</a><br />
+蘇聯版圖連環變化地圖製造業者困擾<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910820_0903/cca-1-20001-nw-ttvdy-19910903_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910903_06-b.asf</a><br />
+葉爾欽贊成全面銷毀核武<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910904_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910904_06-b.asf</a><br />
+蘇聯人代會將表決新聯邦法案<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910904_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910904_07-b.asf</a><br />
+蘇聯共產體制正式宣告瓦解<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910905_01-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910905_01-b.asf</a><br />
+蘇聯三共和國接連發生示威暴動<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910905_14-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910905_14-b.asf</a><br />
+葉 戈大對談<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910906_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910906_06-b.asf</a><br />
+蘇共極權崩潰 蘇聯脫胎換骨<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910906_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910906_08-b.asf</a><br />
+蘇聯承認三小國獨立主權<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910906_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910906_09-b.asf</a><br />
+蘇聯政治體制改組為較鬆散<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910908_12-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910908_12-b.asf</a><br />
+我國正和波羅的海三小國加強和建立關係<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910910_14-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910910_14-b.asf</a><br />
+蘇聯境內四共和國爆發反獨立<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910907_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910907_15-b.asf</a><br />
+莫斯科採訪蘇聯現今的經濟面貌<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910908_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910908_13-b.asf</a><br />
+蘇聯撤出立陶宛<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910909_14-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910909_14-b.asf</a><br />
+拉脫維亞獨立<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910909_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910909_15-b.asf</a><br />
+蘇共垮台 中共加強軍隊戰備<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910911_18-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910911_18-b.asf</a><br />
+錢復表示我國希望和波羅的海三小國發展正式關係<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910912_02-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910912_02-b.asf</a><br />
+蘇聯宣佈自古巴撤軍<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910912_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910912_13-b.asf</a><br />
+聯合國安理會同意推薦波羅的海三小國加入聯合國<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910913_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910913_16-b.asf</a><br />
+蘇聯經貿大餅真的這麼容易吃嗎？<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910913_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910913_17-b.asf</a><br />
+波羅的海三小國的面積圖表<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910913_18-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910913_18-b.asf</a><br />
+蘇聯電視台揭露五Ｏ年代的核爆意外<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19910904_0918/cca-1-20001-nw-ttvdy-19910914_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19910914_16-b.asf</a><br />
+<br />
+（二）共產復辟潰亡 俄羅斯共和國三色旗重新飄揚<br />
+蘇聯烏克蘭共和國後天將舉行公民投票<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911116_1130/cca-1-20001-nw-ttvdy-19911129_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911129_16-b.asf</a><br />
+蘇聯政經情勢危機四伏<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911116_1130/cca-1-20001-nw-ttvdy-19911130_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911130_16-b.asf</a><br />
+烏克蘭脫離蘇聯獨立<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911201_1215/cca-1-20001-nw-ttvdy-19911201_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911201_09-b.asf</a><br />
+烏克蘭脫離蘇聯獨立<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911201_1215/cca-1-20001-nw-ttvdy-19911203_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911203_06-b.asf</a><br />
+蘇聯解體可能引發內戰<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911201_1215/cca-1-20001-nw-ttvdy-19911204_18-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911204_18-b.asf</a><br />
+蘇聯新聯邦與斯拉夫國協之比較<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911201_1215/cca-1-20001-nw-ttvdy-19911209_04-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911209_04-b.asf</a><br />
+戈巴契夫：力保蘇聯版圖　不惜公民投票<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911201_1215/cca-1-20001-nw-ttvdy-19911210_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911210_09-b.asf</a><br />
+蘇聯軍隊動向　將成巨變關鍵<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911201_1215/cca-1-20001-nw-ttvdy-19911211_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911211_15-b.asf</a><br />
+避免陷入混亂　蘇聯維持現狀<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911201_1215/cca-1-20001-nw-ttvdy-19911212_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911212_15-b.asf</a><br />
+蘇聯政情分析<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911201_1215/cca-1-20001-nw-ttvdy-19911212_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911212_16-b.asf</a><br />
+蘇聯聯邦瓦解似成定局<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911201_1215/cca-1-20001-nw-ttvdy-19911213_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911213_16-b.asf</a><br />
+蘇聯解體在即　戈氏無力回天<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911201_1215/cca-1-20001-nw-ttvdy-19911214_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911214_08-b.asf</a><br />
+拉脫維亞與我將互設官方代表<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911201_1215/cca-1-20001-nw-ttvdy-19911215_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911215_07-b.asf</a><br />
+崩解的蘇聯社會上毒品也氾濫<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911201_1215/cca-1-20001-nw-ttvdy-19911215_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911215_09-b.asf</a><br />
+葉爾欽宣佈新國協兩週內運作<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911217_12-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911217_12-b.asf</a><br />
+我國與拉脫維亞換文互設官方辦事處<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911218_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911218_15-b.asf</a><br />
+戈巴契夫：今後仍將活躍於政壇<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911219_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911219_09-b.asf</a><br />
+蘇聯外交部遭廢除　解體已在眉捷<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911220_24-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911220_24-b.asf</a><br />
+蘇聯新國協難解經濟老問題<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911223_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911223_07-b.asf</a><br />
+戈氏 貝克均對新國協不表樂觀<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911224_03-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911224_03-b.asf</a><br />
+戈巴契夫政海浮沉<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911225_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911225_07-b.asf</a><br />
+我國對蘇聯政情反應<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911225_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911225_08-b.asf</a><br />
+各國元首一致推崇戈巴契夫<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911226_03-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911226_03-b.asf</a><br />
+蘇聯帝國壽終正寢<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911226_04-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911226_04-b.asf</a><br />
+荷蘭戈巴契夫蠟像被竊<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911227_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911227_08-b.asf</a><br />
+喬治亞共和國內戰日趨激烈<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911227_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911227_09-b.asf</a><br />
+獨立國家國協意見仍分歧<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911228_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911228_06-b.asf</a><br />
+喬治亞共和國內戰持續進行<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911216_1229/cca-1-20001-nw-ttvdy-19911228_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911228_08-b.asf</a><br />
+白俄羅斯舉行獨立國協高峰會<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19911230_1231/cca-1-20001-nw-ttvdy-19911230_14-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19911230_14-b.asf</a><br />
+俄羅斯和烏克蘭解除物價管制<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19920116_0130-b/cca-1-20001-nw-ttvdy-19920102_10-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19920102_10-b.asf</a><br />
+俄羅斯解除官方管制 物價大漲<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19920116_0130-b/cca-1-20001-nw-ttvdy-19920103_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19920103_16-b.asf</a><br />
+喬治亞總統逃往亞塞拜然<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19920116_0130-b/cca-1-20001-nw-ttvdy-19920106_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19920106_17-b.asf</a><br />
+烏克蘭與俄羅斯爭奪黑海艦隊<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19920116_0130-b/cca-1-20001-nw-ttvdy-19920106_18-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19920106_18-b.asf</a><br />
+喬治亞總統逃往亞美尼亞避難<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19920116_0130-b/cca-1-20001-nw-ttvdy-19920107_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19920107_17-b.asf</a><br />
+<br />
+<br />
+<br />
+二、德國統一<br />
+ <br />
+蘇俄領袖戈巴契夫至東德參加建國四十年活動及東歐的開放政策<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890923_1008/cca-1-20001-nw-ttvdy-19891007_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891007_17-b.asf</a><br />
+東德新領袖塑造親民形象19891021_17-b<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891009_1022/cca-1-20001-nw-ttvdy-19891021_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891021_17-b.asf</a><br />
+東歐政情<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891023_1105/cca-1-20001-nw-ttvdy-19891031_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891031_15-b.asf</a><br />
+東德難民潮與柏林圍牆<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891023_1105/cca-1-20001-nw-ttvdy-19891105_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891105_15-b.asf</a><br />
+東德決定開放柏林圍牆<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891106_1120/cca-1-20001-nw-ttvdy-19891110_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891110_08-b.asf</a><br />
+柏林圍牆開放<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891106_1120/cca-1-20001-nw-ttvdy-19891111_04-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891111_04-b.asf</a><br />
+柏林圍牆開放及它的歷史<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891106_1120/cca-1-20001-nw-ttvdy-19891111_05-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891111_05-b.asf</a><br />
+東德拆開柏林圍牆<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891106_1120/cca-1-20001-nw-ttvdy-19891112_01-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891112_01-b.asf</a><br />
+西柏林市長孟斐與東柏林市長柯拉克會面<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891106_1120/cca-1-20001-nw-ttvdy-19891113_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891113_07-b.asf</a><br />
+東德國會議長選舉<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891106_1120/cca-1-20001-nw-ttvdy-19891114_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891114_09-b.asf</a><br />
+東西德綜合報導<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891106_1120/cca-1-20001-nw-ttvdy-19891116_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891116_15-b.asf</a><br />
+東德國會特別會議<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891106_1120/cca-1-20001-nw-ttvdy-19891118_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891118_17-b.asf</a><br />
+東西德局勢人車湧向西德<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891106_1120/cca-1-20001-nw-ttvdy-19891120_14-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891120_14-b.asf</a><br />
+美蘇高峰會議第二回合會談<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891203_1231/cca-1-20001-nw-ttvdy-19891203_14-n.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891203_14-n.asf</a><br />
+柏林圍牆成為廣告新寵及聖誕節禮物<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891203_1231/cca-1-20001-nw-ttvdy-19891206_14-n.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891206_14-n.asf</a><br />
+東歐政治改革系列報導<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891207_1221/cca-1-20001-nw-ttvdy-19891212_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891212_13-b.asf</a><br />
+東歐政情<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891207_1221/cca-1-20001-nw-ttvdy-19891217_11-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891217_11-b.asf</a><br />
+馬克貨幣統一問題<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900130_0213/cca-1-20001-nw-ttvdy-19900204_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900204_07-b.asf</a><br />
+東西德經濟將統一<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900612_0626/cca-1-20001-nw-ttvdy-19900612_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900612_17-b.asf</a><br />
+郝柏村答詢立委時指出海峽兩岸統一不採行東西德模式<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900612_0626/cca-1-20001-nw-ttvdy-19900615_02-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900615_02-b.asf</a><br />
+首批西德馬克裝車運抵東柏林<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900612_0626/cca-1-20001-nw-ttvdy-19900615_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900615_17-b.asf</a><br />
+國際新聞<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900612_0626/cca-1-20001-nw-ttvdy-19900617_20-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900617_20-b.asf</a><br />
+東西德貨幣統一<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900627_0711/cca-1-20001-nw-ttvdy-19900701_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900701_16-b.asf</a><br />
+東德民眾擠兌西德馬克<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900627_0711/cca-1-20001-nw-ttvdy-19900702_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900702_08-b.asf</a><br />
+兩德與美蘇英法簽署二加四條約<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900910_0925/cca-1-20001-nw-ttvdy-19900913_14-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900913_14-b.asf</a><br />
+國際集錦<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900926_1009/cca-1-20001-nw-ttvdy-19900930_14-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900930_14-b.asf</a><br />
+德國統一報導<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900926_1009/cca-1-20001-nw-ttvdy-19901001_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901001_09-b.asf</a><br />
+德國統一<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900926_1009/cca-1-20001-nw-ttvdy-19901002_11-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901002_11-b.asf</a><br />
+德國統一人民歡慶及軍警防止動亂情況<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900926_1009/cca-1-20001-nw-ttvdy-19901003_04-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901003_04-b.asf</a><br />
+德國統一柯爾總理對國會發表第一次演說<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900926_1009/cca-1-20001-nw-ttvdy-19901004_10-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901004_10-b.asf</a><br />
+德國統一最新情況<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900926_1009/cca-1-20001-nw-ttvdy-19901004_11-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901004_11-b.asf</a><br />
+<br />
+<br />
+<br />
+三、波共倒臺<br />
+ <br />
+波蘭民眾抗議政府提高物價<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880128_0204/cca-1-20001-nw-ttvdy-19880202_35-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880202_35-b.asf</a><br />
+波蘭南部鋼鐵工廠罷工<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880430_0507/cca-1-20001-nw-ttvdy-19880430_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880430_07-b.asf</a><br />
+波蘭工潮小說家波辛斯基<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880430_0507/cca-1-20001-nw-ttvdy-19880503_07-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880503_07-b.asf</a><br />
+波蘭工潮<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880430_0507/cca-1-20001-nw-ttvdy-19880504_43-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880504_43-b.asf</a><br />
+波蘭工潮已第九天<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880430_0507/cca-1-20001-nw-ttvdy-19880505_10-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880505_10-b.asf</a><br />
+波蘭罷工鎮暴警察突擊列寧鋼鐵廠<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880430_0507/cca-1-20001-nw-ttvdy-19880506_39-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880506_39-b.asf</a><br />
+波蘭工潮<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880508_0517/cca-1-20001-nw-ttvdy-19880508_23-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880508_23-b.asf</a><br />
+波蘭罷工談判破裂<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880508_0517/cca-1-20001-nw-ttvdy-19880509_11-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880509_11-b.asf</a><br />
+波蘭工潮<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880508_0517/cca-1-20001-nw-ttvdy-19880510_40-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880510_40-b.asf</a><br />
+戈巴契夫訪波蘭<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880708_0711/cca-1-20001-nw-ttvdy-19880711_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880711_06-b.asf</a><br />
+戈巴契夫訪波蘭<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880712_0719/cca-1-20001-nw-ttvdy-19880713_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880713_08-b.asf</a><br />
+戈巴契夫在波蘭俄境示威<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880712_0719/cca-1-20001-nw-ttvdy-19880715_41-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880715_41-b.asf</a><br />
+波蘭工人罷工<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880816_0824/cca-1-20001-nw-ttvdy-19880820_18-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880820_18-b.asf</a><br />
+波蘭工人罷工<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880816_0824/cca-1-20001-nw-ttvdy-19880823_34-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880823_34-b.asf</a><br />
+波蘭工人罷工<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880816_0824/cca-1-20001-nw-ttvdy-19880824_23-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880824_23-b.asf</a><br />
+波蘭工人罷工<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880825_0901/cca-1-20001-nw-ttvdy-19880825_32-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880825_32-b.asf</a><br />
+波蘭工潮<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880825_0901/cca-1-20001-nw-ttvdy-19880829_12-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880829_12-b.asf</a><br />
+波蘭工潮<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880902_0911/cca-1-20001-nw-ttvdy-19880906_36-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880906_36-b.asf</a><br />
+波蘭內閣總辭<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880912_0920/cca-1-20001-nw-ttvdy-19880920_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880920_09-b.asf</a><br />
+波蘭羅考斯基出任總理<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880921_0929/cca-1-20001-nw-ttvdy-19880928_32-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880928_32-b.asf</a><br />
+波蘭和尼加拉瓜在強大壓力下同意給反對黨更大自由<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890116_0201/cca-1-20001-nw-ttvdy-19890117_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890117_08-b.asf</a><br />
+波共與團結工聯領袖會談<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890202_0215/cca-1-20001-nw-ttvdy-19890209_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890209_13-b.asf</a><br />
+波蘭團結工聯地位合法化<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890401_0415/cca-1-20001-nw-ttvdy-19890406_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890406_13-b.asf</a><br />
+波蘭領袖華勒沙訪問歐洲<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890401_0415/cca-1-20001-nw-ttvdy-19890407_14-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890407_14-b.asf</a><br />
+布希宣佈援助波蘭計劃<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890416_0430/cca-1-20001-nw-ttvdy-19890418_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890418_16-b.asf</a><br />
+美總統布希訪波蘭<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890710_0724/cca-1-20001-nw-ttvdy-19890710_12-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890710_12-b.asf</a><br />
+波蘭新任總統賈魯塞斯基辭波共總書記拉科斯基接任<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890725_0808/cca-1-20001-nw-ttvdy-19890730_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890730_15-b.asf</a><br />
+波蘭經濟惡化<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890809_0823/cca-1-20001-nw-ttvdy-19890815_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890815_16-b.asf</a><br />
+波蘭總統賈魯塞斯基將邀馬佐維斯基出任聯合政府的總理會談<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890809_0823/cca-1-20001-nw-ttvdy-19890819_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890819_15-b.asf</a><br />
+波蘭馬佐維斯基被提名任總理<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890809_0823/cca-1-20001-nw-ttvdy-19890820_12-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890820_12-b.asf</a><br />
+波蘭政情<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890809_0823/cca-1-20001-nw-ttvdy-19890822_21-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890822_21-b.asf</a><br />
+馬佐維斯基出任波蘭新總理<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890824_0907/cca-1-20001-nw-ttvdy-19890825_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890825_17-b.asf</a><br />
+波蘭新總理馬佐維斯基準備經濟改革<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890824_0907/cca-1-20001-nw-ttvdy-19890826_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890826_13-b.asf</a><br />
+波蘭國會工人增薪爭議<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891009_1022/cca-1-20001-nw-ttvdy-19891014_22-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891014_22-b.asf</a><br />
+波蘭今舉行第一次總統大選華勒沙呼聲最高<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891121_1208/cca-1-20001-nw-ttvdy-19901125_12-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901125_12-b.asf</a><br />
+波蘭總統選舉華勒沙得票領先但未達半數<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891121_1208/cca-1-20001-nw-ttvdy-19901126_11-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901126_11-b.asf</a><br />
+波蘭第二回合總統大選選情<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891121_1208/cca-1-20001-nw-ttvdy-19901205_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901205_16-b.asf</a><br />
+波蘭第二回合總統選舉投票華勒沙可望當選首任民選總統<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891207_1221/cca-1-20001-nw-ttvdy-19901210_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901210_15-b.asf</a><br />
+東歐系列報導<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891207_1221/cca-1-20001-nw-ttvdy-19891217_10-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891217_10-b.asf</a><br />
+東歐系列報導：波蘭的難題<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891207_1221/cca-1-20001-nw-ttvdy-19891214_11-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891214_11-b.asf</a><br />
+<br />
+<br />
+<br />
+四、羅馬尼亞變天<br />
+ <br />
+羅馬尼亞軍警鎮壓示威活動<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891207_1221/cca-1-20001-nw-ttvdy-19891219_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891219_09-b.asf</a><br />
+羅馬尼亞屠殺示威民眾及邊界封鎖<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891207_1221/cca-1-20001-nw-ttvdy-19891217_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891217_17-b.asf</a><br />
+羅馬尼亞情況臨時政府宣佈廢除共黨制度<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891222_1231/cca-1-20001-nw-ttvdy-19891223_01-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891223_01-b.asf</a><br />
+各國政府對羅馬尼亞政情的反應<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891222_1231/cca-1-20001-nw-ttvdy-19891224_01-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891224_01-b.asf</a><br />
+羅馬尼亞革命部隊掌握大局<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891222_1231/cca-1-20001-nw-ttvdy-19891225_06-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891225_06-b.asf</a><br />
+羅馬尼亞前總統希奧塞古夫婦被執行槍決<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891222_1231/cca-1-20001-nw-ttvdy-19891226_03-bb.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... -19891226_03-bb.asf</a><br />
+羅馬尼亞處死希奧塞古夫婦及民眾街頭示威反對共黨領導新政府<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891222_1231/cca-1-20001-nw-ttvdy-19891227_10-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891227_10-b.asf</a><br />
+羅馬尼亞政情招降秘密警察<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891222_1231/cca-1-20001-nw-ttvdy-19891228_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891228_13-b.asf</a><br />
+羅馬尼亞民生物資供應及繼續追緝祕密警察餘黨<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891222_1231/cca-1-20001-nw-ttvdy-19891229_11-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891229_11-b.asf</a><br />
+美國及蘇俄援助羅馬尼亞新政府謝瓦納玆訪羅國<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900101_0115/cca-1-20001-nw-ttvdy-19900107_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900107_09-b.asf</a><br />
+國際新聞<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900101_0115/cca-1-20001-nw-ttvdy-19900113_20-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900113_20-b.asf</a><br />
+羅馬尼亞反共領袖馬斯抵華訪問<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900116_0129/cca-1-20001-nw-ttvdy-19900121_09-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900121_09-b.asf</a><br />
+<br />
+<br />
+<br />
+五、匈牙利重獲自由<br />
+ <br />
+匈牙利政經改革<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880708_0711/cca-1-20001-nw-ttvdy-19880711_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880711_17-b.asf</a><br />
+匈牙利經濟<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19880712_0719/cca-1-20001-nw-ttvdy-19880718_31-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19880718_31-b.asf</a><br />
+美布希總統訪匈牙利演說<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890710_0724/cca-1-20001-nw-ttvdy-19890712_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890712_13-b.asf</a><br />
+美總統布希訪匈牙利<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890710_0724/cca-1-20001-nw-ttvdy-19890713_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890713_13-b.asf</a><br />
+國際集錦<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890809_0823/cca-1-20001-nw-ttvdy-19890819_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890819_15-b.asf</a><br />
+我國與匈牙利的貿易匈牙利政經改革不同於其它東歐國家<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890809_0823/cca-1-20001-nw-ttvdy-19890820_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19890820_13-b.asf</a><br />
+匈牙利共黨代表大會決定成立社會黨<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890923_1008/cca-1-20001-nw-ttvdy-19891008_08-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891008_08-b.asf</a><br />
+東歐改革風潮<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891009_1022/cca-1-20001-nw-ttvdy-19891009_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891009_15-b.asf</a><br />
+國際新聞集錦<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891009_1022/cca-1-20001-nw-ttvdy-19891016_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891016_17-b.asf</a><br />
+匈牙利宣佈改制<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891009_1022/cca-1-20001-nw-ttvdy-19891022_01-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891022_01-b.asf</a><br />
+匈牙利改為共和國<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891023_1105/cca-1-20001-nw-ttvdy-19891023_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891023_15-b.asf</a><br />
+匈牙利民主改革的潮流<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891207_1221/cca-1-20001-nw-ttvdy-19891215_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891215_13-b.asf</a><br />
+東歐系列<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891207_1221/cca-1-20001-nw-ttvdy-19891216_18-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891216_18-b.asf</a><br />
+東歐民主改革浪潮反對派組織齊集匈牙利將成立跨國組織<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891207_1221/cca-1-20001-nw-ttvdy-19891218_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891218_15-b.asf</a><br />
+東歐與以色列等復交<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900130_0213/cca-1-20001-nw-ttvdy-19900210_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900210_13-b.asf</a><br />
+國際新聞<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19900301_0314/cca-1-20001-nw-ttvdy-19900311_13-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19900311_13-b.asf</a><br />
+經濟部將蘇聯芬蘭匈牙利及捷克列為主動經援對象<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19901024_1106/cca-1-20001-nw-ttvdy-19901027_04-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901027_04-b.asf</a><br />
+<br />
+<br />
+六、捷克脫離鐵幕<br />
+ <br />
+東歐拉脫維亞保加利亞捷克民主示威活動<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891106_1120/cca-1-20001-nw-ttvdy-19891119_10-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891119_10-b.asf</a><br />
+捷克要求民主示威蘇俄成立獨立工會<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890925_1202/cca-1-20001-nw-ttvdy-19891121_16-n.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891121_16-n.asf</a><br />
+捷克共黨領導階層總辭<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19890925_1202/cca-1-20001-nw-ttvdy-19891125_20-n.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891125_20-n.asf</a><br />
+<br />
+七、保加利亞抹去紅色<br />
+ <br />
+東歐政情<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19891207_1221/cca-1-20001-nw-ttvdy-19891217_11-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19891217_11-b.asf</a><br />
+齊列夫當選保加利亞首任民選總統<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19920116_0130-b/cca-1-20001-nw-ttvdy-19920120_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19920120_17-b.asf</a></div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_176813"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo176813_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=7711" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=176813&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 176813)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_0"></div>				</div>
+			</td>
+		</tr>
+		</table>
+		</div><div class="ad_column" id="ad_interthread"><a href="/viewthread.php?tid=54699" target="_blank" style="color:red;">1984bbs是一个非营利项目，它需要您的捐助！</font></a>		</div>
+	<div class="mainbox viewthread">
+			<table id="pid176837" summary="pid176837" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=4209" target="_blank" id="userinfo176837" class="dropmenu" onmouseover="showMenu(this.id)">atpatp</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">后清非正统，依旧让汉明</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=4209">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=4209&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_1" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum176837" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid176837', '话题链接已经复制到剪贴板')">2楼</strong>
+													<em onclick="$('postmessage_176837').className='t_bigfont'">大</em>							<em onclick="$('postmessage_176837').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_176837').className='t_smallfont'">小</em>												发表于 2009-7-24 17:43&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=4209" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_1"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_1"></div><div id="ad_thread4_1"></div>
+						
+						
+																											<div id="postmessage_176837" class="t_msgfont">先顶后下！<br />
+感谢楼主!</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_176837"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo176837_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=4209" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=176837&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 176837)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_1"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid176845" summary="pid176845" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=5978" target="_blank" id="userinfo176845" class="dropmenu" onmouseover="showMenu(this.id)">散光</a></cite>
+						<p>昔攵光</p>												<p><em></em></p>
+						<p></p>
+						<p class="customstatus">吾射不亦精乎</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=5978">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=5978&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_2" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum176845" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid176845', '话题链接已经复制到剪贴板')">3楼</strong>
+													<em onclick="$('postmessage_176845').className='t_bigfont'">大</em>							<em onclick="$('postmessage_176845').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_176845').className='t_smallfont'">小</em>												发表于 2009-7-24 17:48&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=5978" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_2"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_2"></div><div id="ad_thread4_2"></div>
+						
+						
+																											<div id="postmessage_176845" class="t_msgfont">太感谢了！晚上回家全部收藏！</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_176845"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo176845_menu" style="display: none;">
+										<dl></dl>
+											<p><a href="http://3guang.com" target="_blank">查看个人网站</a></p>
+										<p><a href="space.php?uid=5978" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=176845&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 176845)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_2"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid176853" summary="pid176853" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7711" target="_blank" id="userinfo176853" class="dropmenu" onmouseover="showMenu(this.id)">chaewi</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7711">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7711&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_3" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum176853" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid176853', '话题链接已经复制到剪贴板')">4楼</strong>
+													<em onclick="$('postmessage_176853').className='t_bigfont'">大</em>							<em onclick="$('postmessage_176853').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_176853').className='t_smallfont'">小</em>												发表于 2009-7-24 17:54&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=7711" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_3"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_3"></div><div id="ad_thread4_3"></div>
+						
+						
+																											<div id="postmessage_176853" class="t_msgfont">視頻保存在中華民國國家圖書館的伺服器裏面，地址永久有效。而且GFW並不墻edu後綴的台灣網站</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_176853"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo176853_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=7711" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=176853&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 176853)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_3"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid177441" summary="pid177441" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=22" target="_blank" id="userinfo177441" class="dropmenu" onmouseover="showMenu(this.id)">abu</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=22">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=22&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_4" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum177441" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid177441', '话题链接已经复制到剪贴板')">5楼</strong>
+													<em onclick="$('postmessage_177441').className='t_bigfont'">大</em>							<em onclick="$('postmessage_177441').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_177441').className='t_smallfont'">小</em>												发表于 2009-7-25 03:20&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=22" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_4"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_4"></div><div id="ad_thread4_4"></div>
+						
+						
+																											<div id="postmessage_177441" class="t_msgfont">add new<br />
+俄羅斯和烏克蘭解除物價管制<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19920101_0115-b/cca-1-20001-nw-ttvdy-19920102_10-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19920102_10-b.asf</a><br />
+<br />
+俄羅斯解除官方管制 物價大漲<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19920101_0115-b/cca-1-20001-nw-ttvdy-19920103_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19920103_16-b.asf</a><br />
+<br />
+喬治亞總統逃往亞塞拜然<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19920101_0115-b/cca-1-20001-nw-ttvdy-19920106_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19920106_17-b.asf</a><br />
+<br />
+烏克蘭與俄羅斯爭奪黑海艦隊<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19920101_0115-b/cca-1-20001-nw-ttvdy-19920106_18-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19920106_18-b.asf</a><br />
+<br />
+喬治亞總統逃往亞美尼亞避難<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19920101_0115-b/cca-1-20001-nw-ttvdy-19920107_17-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19920107_17-b.asf</a><br />
+<br />
+<br />
+<br />
+波蘭今舉行第一次總統大選華勒沙呼聲最高<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19901122_1206/cca-1-20001-nw-ttvdy-19901125_12-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901125_12-b.asf</a><br />
+<br />
+波蘭總統選舉華勒沙得票領先但未達半數<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19901122_1206/cca-1-20001-nw-ttvdy-19901126_11-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901126_11-b.asf</a><br />
+波蘭第二回合總統大選選情<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19901122_1206/cca-1-20001-nw-ttvdy-19901205_16-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901205_16-b.asf</a><br />
+<br />
+波蘭第二回合總統選舉投票華勒沙可望當選首任民選總統<br />
+<a href="http://vod.ncl.edu.tw/voddata/ttvnews/19901207_1221/cca-1-20001-nw-ttvdy-19901210_15-b.asf" target="_blank">http://vod.ncl.edu.tw/voddata/tt ... y-19901210_15-b.asf</a></div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_177441"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo177441_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=22" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=177441&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 177441)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_4"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid178018" summary="pid178018" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=5823" target="_blank" id="userinfo178018" class="dropmenu" onmouseover="showMenu(this.id)">康波</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">老泪纵横</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=5823">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=5823&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_5" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum178018" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid178018', '话题链接已经复制到剪贴板')">6楼</strong>
+													<em onclick="$('postmessage_178018').className='t_bigfont'">大</em>							<em onclick="$('postmessage_178018').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_178018').className='t_smallfont'">小</em>												发表于 2009-7-25 18:28&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=5823" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_5"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_5"></div><div id="ad_thread4_5"></div>
+						
+						
+																											<div id="postmessage_178018" class="t_msgfont">叶利钦的坦克演说视频呢？</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_178018"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo178018_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=5823" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=178018&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 178018)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_5"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid179297" summary="pid179297" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=2213" target="_blank" id="userinfo179297" class="dropmenu" onmouseover="showMenu(this.id)">核子力量</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">Twitter.com/hzpower</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=2213">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=2213&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_6" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum179297" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid179297', '话题链接已经复制到剪贴板')">7楼</strong>
+													<em onclick="$('postmessage_179297').className='t_bigfont'">大</em>							<em onclick="$('postmessage_179297').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_179297').className='t_smallfont'">小</em>												发表于 2009-7-26 20:04&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=2213" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_6"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_6"></div><div id="ad_thread4_6"></div>
+						
+						
+																											<div id="postmessage_179297" class="t_msgfont">其实大家都这么下也不好，对他们的服务器是很大的负担，毕竟那只是个国家图书馆</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_179297"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo179297_menu" style="display: none;">
+										<dl></dl>
+											<p><a href="http://twitter.com/hzpower" target="_blank">查看个人网站</a></p>
+										<p><a href="space.php?uid=2213" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=179297&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 179297)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_6"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid179298" summary="pid179298" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=6604" target="_blank" id="userinfo179298" class="dropmenu" onmouseover="showMenu(this.id)">西门吹牛</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=6604">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=6604&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_7" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum179298" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid179298', '话题链接已经复制到剪贴板')">8楼</strong>
+													<em onclick="$('postmessage_179298').className='t_bigfont'">大</em>							<em onclick="$('postmessage_179298').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_179298').className='t_smallfont'">小</em>												发表于 2009-7-26 20:05&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=6604" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_7"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_7"></div><div id="ad_thread4_7"></div>
+						
+						
+																											<div id="postmessage_179298" class="t_msgfont">观世事沧桑。</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_179298"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo179298_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=6604" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=179298&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 179298)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_7"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid181757" summary="pid181757" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=6537" target="_blank" id="userinfo181757" class="dropmenu" onmouseover="showMenu(this.id)">群情</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=6537">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=6537&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_8" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum181757" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid181757', '话题链接已经复制到剪贴板')">9楼</strong>
+													<em onclick="$('postmessage_181757').className='t_bigfont'">大</em>							<em onclick="$('postmessage_181757').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_181757').className='t_smallfont'">小</em>												发表于 2009-7-28 20:38&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=6537" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_8"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_8"></div><div id="ad_thread4_8"></div>
+						
+						
+																											<div id="postmessage_181757" class="t_msgfont">唉，这些往事</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_181757"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo181757_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=6537" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=181757&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 181757)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_8"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid186490" summary="pid186490" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=6149" target="_blank" id="userinfo186490" class="dropmenu" onmouseover="showMenu(this.id)">ilili</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">该用户已被删除</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=6149">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=6149&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_9" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum186490" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid186490', '话题链接已经复制到剪贴板')">10楼</strong>
+													<em onclick="$('postmessage_186490').className='t_bigfont'">大</em>							<em onclick="$('postmessage_186490').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_186490').className='t_smallfont'">小</em>												发表于 2009-7-31 23:57&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=6149" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_9"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_9"></div><div id="ad_thread4_9"></div>
+						
+						
+																											<div id="postmessage_186490" class="t_msgfont">内容不错，画质差了点</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_186490"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo186490_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=6149" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=186490&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 186490)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_9"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid193989" summary="pid193989" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=8119" target="_blank" id="userinfo193989" class="dropmenu" onmouseover="showMenu(this.id)">软笛</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=8119">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=8119&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_10" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum193989" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid193989', '话题链接已经复制到剪贴板')">11楼</strong>
+													<em onclick="$('postmessage_193989').className='t_bigfont'">大</em>							<em onclick="$('postmessage_193989').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_193989').className='t_smallfont'">小</em>												发表于 2009-8-7 13:26&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=8119" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_10"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_10"></div><div id="ad_thread4_10"></div>
+						
+						
+																											<div id="postmessage_193989" class="t_msgfont">感谢楼主，偶看了感觉犹如梦境</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_193989"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo193989_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=8119" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=193989&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 193989)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_10"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid194007" summary="pid194007" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=6206" target="_blank" id="userinfo194007" class="dropmenu" onmouseover="showMenu(this.id)">燕西</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">在历史的车轮面前，谁不是在螳臂当车呢？公义和良知的力量最终会成为这个社会的主流。</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=6206">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=6206&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_11" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum194007" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid194007', '话题链接已经复制到剪贴板')">12楼</strong>
+													<em onclick="$('postmessage_194007').className='t_bigfont'">大</em>							<em onclick="$('postmessage_194007').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_194007').className='t_smallfont'">小</em>												发表于 2009-8-7 13:36&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=6206" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_11"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_11"></div><div id="ad_thread4_11"></div>
+						
+						
+																											<div id="postmessage_194007" class="t_msgfont">嗯，找了好久了，谢谢楼主</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_194007"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo194007_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=6206" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=194007&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 194007)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_11"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid195693" summary="pid195693" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7711" target="_blank" id="userinfo195693" class="dropmenu" onmouseover="showMenu(this.id)">chaewi</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7711">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7711&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_12" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum195693" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid195693', '话题链接已经复制到剪贴板')">13楼</strong>
+													<em onclick="$('postmessage_195693').className='t_bigfont'">大</em>							<em onclick="$('postmessage_195693').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_195693').className='t_smallfont'">小</em>												发表于 2009-8-8 21:39&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=7711" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_12"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_12"></div><div id="ad_thread4_12"></div>
+						
+						
+																											<div id="postmessage_195693" class="t_msgfont">2009年7月，歐洲最後一個共產黨政權垮台－－－－摩爾多瓦</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_195693"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo195693_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=7711" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=195693&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 195693)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_12"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid198072" summary="pid198072" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=2160" target="_blank" id="userinfo198072" class="dropmenu" onmouseover="showMenu(this.id)">浣尘</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">Twitter @ jerusalem64</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=2160">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=2160&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_13" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum198072" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid198072', '话题链接已经复制到剪贴板')">14楼</strong>
+													<em onclick="$('postmessage_198072').className='t_bigfont'">大</em>							<em onclick="$('postmessage_198072').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_198072').className='t_smallfont'">小</em>												发表于 2009-8-10 19:49&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=2160" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_13"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_13"></div><div id="ad_thread4_13"></div>
+						
+						
+																											<div id="postmessage_198072" class="t_msgfont">不错很好，谢谢了</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_198072"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo198072_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=2160" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=198072&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 198072)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_13"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid198089" summary="pid198089" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=8147" target="_blank" id="userinfo198089" class="dropmenu" onmouseover="showMenu(this.id)">imusiq</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=8147">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=8147&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_14" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum198089" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid198089', '话题链接已经复制到剪贴板')">15楼</strong>
+													<em onclick="$('postmessage_198089').className='t_bigfont'">大</em>							<em onclick="$('postmessage_198089').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_198089').className='t_smallfont'">小</em>												发表于 2009-8-10 20:04&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=8147" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_14"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_14"></div><div id="ad_thread4_14"></div>
+						
+						
+																											<div id="postmessage_198089" class="t_msgfont">史料新读</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_198089"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo198089_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=8147" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=198089&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 198089)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_14"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid209799" summary="pid209799" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=2360" target="_blank" id="userinfo209799" class="dropmenu" onmouseover="showMenu(this.id)">liuropot</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">我们是共匪。</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=2360">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=2360&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_15" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum209799" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid209799', '话题链接已经复制到剪贴板')">16楼</strong>
+													<em onclick="$('postmessage_209799').className='t_bigfont'">大</em>							<em onclick="$('postmessage_209799').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_209799').className='t_smallfont'">小</em>												发表于 2009-8-20 13:27&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=2360" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_15"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_15"></div><div id="ad_thread4_15"></div>
+						
+						
+																											<div id="postmessage_209799" class="t_msgfont">强悍的史料，顶！收藏！</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_209799"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo209799_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=2360" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=209799&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 209799)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_15"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid212968" summary="pid212968" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=3347" target="_blank" id="userinfo212968" class="dropmenu" onmouseover="showMenu(this.id)">法克垬</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">思想犯</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=3347">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=3347&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_16" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum212968" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid212968', '话题链接已经复制到剪贴板')">17楼</strong>
+													<em onclick="$('postmessage_212968').className='t_bigfont'">大</em>							<em onclick="$('postmessage_212968').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_212968').className='t_smallfont'">小</em>												发表于 2009-8-24 14:58&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=3347" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_16"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_16"></div><div id="ad_thread4_16"></div>
+						
+						
+																											<div id="postmessage_212968" class="t_msgfont">zzy就是中国的戈尔巴乔夫，所不同的是，中国的强硬派太NB了。</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_212968"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo212968_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=3347" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=212968&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 212968)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_16"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid213035" summary="pid213035" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=3347" target="_blank" id="userinfo213035" class="dropmenu" onmouseover="showMenu(this.id)">法克垬</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">思想犯</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=3347">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=3347&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_17" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum213035" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid213035', '话题链接已经复制到剪贴板')">18楼</strong>
+													<em onclick="$('postmessage_213035').className='t_bigfont'">大</em>							<em onclick="$('postmessage_213035').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_213035').className='t_smallfont'">小</em>												发表于 2009-8-24 15:44&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=3347" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_17"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_17"></div><div id="ad_thread4_17"></div>
+						
+						
+																											<div id="postmessage_213035" class="t_msgfont"><img src="http://i30.tinypic.com/ac4daf.jpg" border="0" onclick="zoom(this, this.src)" onload="attachimg(this, 'load')" alt="" /><br />
+这个美女主播好漂亮的说。</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_213035"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo213035_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=3347" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=213035&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 213035)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_17"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid238238" summary="pid238238" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=4207" target="_blank" id="userinfo238238" class="dropmenu" onmouseover="showMenu(this.id)">skyking0752</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=4207">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=4207&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_18" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum238238" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid238238', '话题链接已经复制到剪贴板')">19楼</strong>
+													<em onclick="$('postmessage_238238').className='t_bigfont'">大</em>							<em onclick="$('postmessage_238238').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_238238').className='t_smallfont'">小</em>												发表于 2009-9-12 23:49&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=4207" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_18"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_18"></div><div id="ad_thread4_18"></div>
+						
+						
+																											<div id="postmessage_238238" class="t_msgfont">三年前已经下过了，但是当时没有这么全，下到一半，台湾那边好像禁我IP了</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_238238"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo238238_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=4207" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=238238&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 238238)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_18"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid244471" summary="pid244471" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7711" target="_blank" id="userinfo244471" class="dropmenu" onmouseover="showMenu(this.id)">chaewi</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7711">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7711&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_19" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum244471" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid244471', '话题链接已经复制到剪贴板')">20楼</strong>
+													<em onclick="$('postmessage_244471').className='t_bigfont'">大</em>							<em onclick="$('postmessage_244471').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_244471').className='t_smallfont'">小</em>												发表于 2009-9-16 23:24&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=7711" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_19"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_19"></div><div id="ad_thread4_19"></div>
+						
+						
+																											<div id="postmessage_244471" class="t_msgfont"><div class="quote"><h5>引用:</h5><blockquote>原帖由 <i>skyking0752</i> 于 2009-9-13 00:49 发表 <a href="http://1984bbs.com/redirect.php?goto=findpost&amp;pid=238238&amp;ptid=17772" target="_blank"><img src="http://1984bbs.com/images/common/back.gif" border="0" onclick="zoom(this, this.src)" onload="attachimg(this, 'load')" alt="" /></a><br />
+三年前已经下过了，但是当时没有这么全，下到一半，台湾那边好像禁我IP了 </blockquote></div>是GFW搗鬼吧</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_244471"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo244471_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=7711" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=244471&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 244471)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_19"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid463430" summary="pid463430" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=11814" target="_blank" id="userinfo463430" class="dropmenu" onmouseover="showMenu(this.id)">河殇</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">抱歉，根据相关法律法规和政策，本人目前只能低调，不能狂妄。推特@lxkrock </p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=11814">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=11814&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_20" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum463430" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid463430', '话题链接已经复制到剪贴板')">21楼</strong>
+													<em onclick="$('postmessage_463430').className='t_bigfont'">大</em>							<em onclick="$('postmessage_463430').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_463430').className='t_smallfont'">小</em>												发表于 2010-2-2 18:33&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=11814" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_20"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_20"></div><div id="ad_thread4_20"></div>
+						
+						
+																											<div id="postmessage_463430" class="t_msgfont">留名&nbsp;&nbsp;有时间载</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_463430"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo463430_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=11814" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=463430&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 463430)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_20"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid465507" summary="pid465507" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=11230" target="_blank" id="userinfo465507" class="dropmenu" onmouseover="showMenu(this.id)">耶亡尚</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">非不明真相的群众</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=11230">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=11230&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_21" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum465507" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid465507', '话题链接已经复制到剪贴板')">22楼</strong>
+													<em onclick="$('postmessage_465507').className='t_bigfont'">大</em>							<em onclick="$('postmessage_465507').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_465507').className='t_smallfont'">小</em>												发表于 2010-2-3 23:05&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=11230" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_21"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_21"></div><div id="ad_thread4_21"></div>
+						
+						
+																											<div id="postmessage_465507" class="t_msgfont">正在一个一个下，蘇聯政變　總統戈巴契夫遭拘禁19910819_01-b-b.asf<br />
+这一个下不下来，今天就下完了一<br />
+<br />
+谢谢楼主！我就一直纳闷东欧剧变那么多社会主义国家滚回了资本主义，怎么我们国家一点影响没有，中共怎么做到的。</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_465507"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo465507_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=11230" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=465507&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 465507)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_21"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid465519" summary="pid465519" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7435" target="_blank" id="userinfo465519" class="dropmenu" onmouseover="showMenu(this.id)">zhubq</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7435">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7435&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_22" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum465519" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid465519', '话题链接已经复制到剪贴板')">23楼</strong>
+													<em onclick="$('postmessage_465519').className='t_bigfont'">大</em>							<em onclick="$('postmessage_465519').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_465519').className='t_smallfont'">小</em>												发表于 2010-2-3 23:15&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=7435" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_22"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_22"></div><div id="ad_thread4_22"></div>
+						
+						
+																											<div id="postmessage_465519" class="t_msgfont">mark!!</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_465519"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo465519_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=7435" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=465519&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 465519)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_22"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid473694" summary="pid473694" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 <a name="lastpost"></a>					<cite>											<a href="space.php?uid=9943" target="_blank" id="userinfo473694" class="dropmenu" onmouseover="showMenu(this.id)">nitrogen</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=9943">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=9943&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_23" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum473694" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=17772&page=1#pid473694', '话题链接已经复制到剪贴板')">24楼</strong>
+													<em onclick="$('postmessage_473694').className='t_bigfont'">大</em>							<em onclick="$('postmessage_473694').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_473694').className='t_smallfont'">小</em>												发表于 2010-2-9 11:50&nbsp;																					<a href="viewthread.php?tid=17772&amp;page=1&amp;authorid=9943" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_23"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_23"></div><div id="ad_thread4_23"></div>
+						
+						
+																											<div id="postmessage_473694" class="t_msgfont"><img src="http://www.yiya.net/vip/2010/02/09/normal_634013124307968750.jpg" border="0" onclick="zoom(this, this.src)" onload="attachimg(this, 'load')" alt="" /><br />
+<br />
+这几个下载不了，原始链接已经删除掉了，有没有人可以分流一下的？感谢</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_473694"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo473694_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=9943" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;repquote=473694&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 473694)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_23"></div>				</div>
+			</td>
+		</tr>
+		</table>
+		</div>
+</form>
+
+
+
+
+
+<div class="pages_btns">
+	<div class="threadflow"><a href="redirect.php?fid=21&amp;tid=17772&amp;goto=nextoldset"> &#8249;&#8249; 上一主题</a> | <a href="redirect.php?fid=21&amp;tid=17772&amp;goto=nextnewset">下一主题 &#8250;&#8250;</a></div>
+				<span class="postbtn" id="newspecialtmp" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu(this.id)"><a href="post.php?action=newthread&amp;fid=21&amp;extra="><img src="images/default/newtopic.gif" border="0" alt="发新话题" title="发新话题" /></a></span>
+		<span class="replybtn"><a href="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;extra="><img src="images/default/reply.gif" border="0" alt="" /></a></span></div>
+
+<!--精华贴打标记-->
+
+	<script src="include/javascript/post.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	var postminchars = parseInt('2');
+	var postmaxchars = parseInt('1000000');
+	var disablepostctrl = parseInt('0');
+	var charset = 'gbk';
+	function validate(theform) {
+		if(theform.message.value == '' && theform.subject.value == '') {
+			alert("请完成标题或内容栏。");
+			theform.message.focus();
+			return false;
+		} else if(mb_strlen(theform.subject.value) > 80) {
+			alert("您的标题超过 80 个字符的限制。");
+			theform.subject.focus();
+			return false;
+		}
+		if(!disablepostctrl && ((postminchars != 0 && mb_strlen(theform.message.value) < postminchars) || (postmaxchars != 0 && mb_strlen(theform.message.value) > postmaxchars))) {
+			alert("您的话题长度不符合要求。\n\n当前长度: "+mb_strlen(theform.message.value)+" 字节\n系统限制: "+postminchars+" 到 "+postmaxchars+" 字节");
+			return false;
+		}
+		if(!fetchCheckbox('parseurloff')) {
+			theform.message.value = parseurl(theform.message.value, 'bbcode');
+		}
+		theform.replysubmit.disabled = true;
+		return true;
+	}
+	</script>
+<!--精华贴打标记-->
+
+	<form method="post" id="postform" action="post.php?action=reply&amp;fid=21&amp;tid=17772&amp;extra=&amp;replysubmit=yes" onSubmit="return validate(this)">
+		<input type="hidden" name="formhash" value="823c9fa2" />
+		<div id="quickpost" class="box">
+			
+			<h4>快速回复主题</h4>
+			<div class="postoptions">
+&nbsp;
+			</div>
+			<div class="postform">
+				<h5><label>标题
+				<input type="text" name="subject" value="" tabindex="1"></label></h5>
+				<p><label>内容</label>
+				<textarea rows="7" cols="80" class="autosave" name="message" id="message" onKeyDown="ctlent(event);" tabindex="2"></textarea>
+				</p>
+				<p class="btns">
+					<button type="submit" name="replysubmit" id="postsubmit" value="replysubmit" tabindex="3">发表话题</button>[完成后可按 Ctrl+Enter 发布]&nbsp;
+					<a href="###" id="previewpost" onclick="$('postform').action=$('postform').action + '&previewpost=yes';$('postform').submit();">预览话题</a>&nbsp;
+					<a href="###" id="restoredata" title="恢复上次自动保存的数据" onclick="loadData()">恢复数据</a>&nbsp;
+					<a href="###" onclick="$('postform').reset()">清空内容</a>
+				</p>
+			</div>
+						<script type="text/javascript">
+				var textobj = $('message');
+				window.onbeforeunload = function () {saveData(textobj.value)};
+				if(is_ie >= 5 || is_moz >= 2) {
+					lang['post_autosave_none'] = "没有可以恢复的数据！";
+					lang['post_autosave_confirm'] = "此操作将覆盖当前话题内容，确定要恢复数据吗？";
+				} else {
+					$('restoredata').style.display = 'none';
+				}
+			</script>
+		</div>
+	</form>
+	<div class="popupmenu_popup" id="forumlist_menu" style="display: none">
+		<dl><dt><a href="index.php?gid=3">沙龙</a></dt><dd><ul><li><a href="forumdisplay.php?fid=2">自由新闻社</a></li><li><a href="forumdisplay.php?fid=37">雅典学院</a></li><li class="current"><a href="forumdisplay.php?fid=21">开放社会资料室</a></li><li><a href="forumdisplay.php?fid=26">国家局域网研究所</a></li><li><a href="forumdisplay.php?fid=35">罗马假日公寓</a></li><li><a href="forumdisplay.php?fid=40">Live!大讲堂</a></li></ul></dd></dl><dl><dt><a href="index.php?gid=11">站务</a></dt><dd><ul><li><a href="forumdisplay.php?fid=9">多功能小黑屋</a></li></ul></dd></dl>	</div>
+
+<script type="text/javascript">
+var maxpage = 1;
+if(maxpage > 1) {
+	document.onkeyup = function(e){
+		e = e ? e : window.event;
+		var tagname = is_ie ? e.srcElement.tagName : e.target.tagName;
+		if(tagname == 'INPUT' || tagname == 'TEXTAREA') return;
+		actualCode = e.keyCode ? e.keyCode : e.charCode;
+					}
+}
+</script></div>	<div class="ad_footerbanner" id="ad_footerbanner1"></div>
+	<div class="ad_footerbanner" id="ad_footerbanner2"><b> 顾问</b>：莫之许、北风、不锈钢老鼠、温克坚、艾未未、冉云飞、安替、崔卫平、闾丘露薇、章立凡 <b> 形象代言</b>：宋石男  <b>法律顾问</b>：浦志强  <b> <br>编辑</b>：张书记、上肛上腺、抑扬、musicool、王祖贤、alix001、核子力量、四夕亚日、炽鸢侯、木火 <br><b>技术</b>：库存袈裟、麦圆、散光     <br> </div>
+	<div class="ad_footerbanner" id="ad_footerbanner3"></div>
+
+<div id="footer">
+	<div class="wrap">
+		<div id="footlinks">
+
+			<p>
+				<a href="viewthread.php?tid=23826" target="_blank">浏览器支持说明</a>　|　<a href="member.php?action=clearcookies&amp;formhash=823c9fa2">清除 Cookies</a>
+				
+							</p>
+		</div>
+		<p id="copyright">
+			CopyRight &#169; 1984bbs.com </p><p id="debuginfo">Processed in  second(s),  queries, Gzip enabled.</p>
+
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,2439 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>尋紀錄片《我畢業了》 - 开放社会资料室 -  1984bbs.com </title>
+<meta name="keywords" content="" />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<link rel="archives" title="1984bbs.com" href="https://1984bbs.com/archiver/" />
+	<link rel="stylesheet" type="text/css" href="forumdata/cache/style_1_viewthread.css" />
+	<link rel="stylesheet" type="text/css" href="forumdata/cache/style_1_common.css" />
+<script type="text/javascript">
+	var discuz_uid = 13019;var IMGDIR = 'images/default';var attackevasive = '0';var gid = 0;var STYLEID = '1';
+	gid = parseInt('3');var fid = parseInt('21');var tid = parseInt('36652');
+</script>
+<script src="include/javascript/common.js" type="text/javascript"></script>
+
+<style>
+ .ChatAutoRefreshStyle {margin-right:0px;}
+ .ChatSubmitButtonStyle {margin-right:0px;}
+ .gwt-Button {margin-right:0px;}
+</style>
+<!-- <script src="../OnlineChat/port.for1984.OnlineChat.nocache.js" type="text/javascript"></script> -->
+<script src="/onlinechat.new/onlinechat.nocache.js" type="text/javascript"></script> 
+
+<script type="text/javascript" language="javascript">
+
+var chat_button;
+var mynickname;
+
+var chat_start_num=0;
+var chat_refresh;
+
+
+
+function getChatViewPage(){
+ return chat_start_num;
+}
+
+function sendChatRefreshButtonObjct(o)
+{
+chat_refresh=o;
+}
+
+function chat_reply_action(Sender)
+{
+ document.getElementById('chat_msg').value=
+ "@"+unescape(Sender)+","+document.getElementById('chat_msg').value;
+}
+
+function receiveChatViewPage(i)
+{
+ chat_start_num=i;
+ var nextpage=document.getElementById('chat_next_page');
+ if (i==0) { 
+   nextpage.style.display = "none";
+   nextpage.style.visibility = "hidden";
+  }
+  else
+  {
+   nextpage.style.display = "inline";   
+   nextpage.style.visibility = "visible";
+  }
+}
+
+function chat_page_next()
+{
+chat_start_num-=getChatListLimit(100);
+if (chat_start_num<0) chat_start_num=0;
+chat_refresh.click();
+}
+
+function chat_page_prev()
+{
+chat_start_num+=getChatListLimit(100);
+chat_refresh.click();
+}
+
+
+function setMyChatNickName(o)
+{
+mynickname=o;
+}
+
+function handleChatChange()
+{
+      try{
+      q=140-document.getElementById('chat_msg').value.length;
+      document.getElementById('chat_msg_length').innerHTML = ""+q;
+      } catch(e) {
+	}
+}
+
+var chat_check_timer;
+
+
+function handleChatEnterKey(e) {
+    if (e.keyCode == 13 || e.keyCode == 10) {
+        if (!chat_button.disabled)
+             chat_button.click();
+        return false;
+    }
+    else 
+   {
+        handleChatChange();
+   }
+}
+
+function getChatRefreshTime()
+{
+ return 6;
+}
+
+function runClearChatBox()
+{
+document.getElementById('chat_msg').value = "";
+}
+
+function replaceButtonText(button, text)
+{
+    if (button)
+    {
+      if (button.childNodes[0])
+      {
+        button.childNodes[0].nodeValue=text;
+      }
+      else if (button.value)
+      {
+        button.value=text;
+      }
+      else //if (button.innerHTML)
+      {
+        button.innerHTML=text;
+      }
+    }
+}
+
+
+function sendChatCommentButtonObjct(o)
+{
+ chat_button=o;
+ replaceButtonText(chat_button, "提交");
+ chat_check_timer= setInterval("handleChatChange()",3000);
+}
+
+function replaceURLWithHTMLLinks(text) {
+var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+return text.replace(exp,"<a href='$1' target='_blank'>$1</a>");
+}
+
+function getChatItemWriteString(Id,Sender,Msg,Time,Reply)
+{
+ var msg;
+ try
+ {
+ msg=replaceURLWithHTMLLinks(Msg.substr(0,140));
+ }
+ catch(e) {
+ msg=Msg.substr(0,140);
+ }
+ h="<span style='width:200px;white-space:normal; word-break:break-all;overflow:hidden;word-wrap:break-word;OVERFLOW-X:hidden;'>";
+   if (Sender==mynickname) {
+  h+="<font color=#ff0000>"+Sender+"</font>(<i>"+Time.substr(11)+"</i>) "+"<font color=#444444>"+msg+"</font>"+"<hr style='border-top-width:0px;border-bottom-width:1px;border-color:#eeeeee;border-right-width:0px;border-left-width:0px;' />";
+   }
+   else {
+      h+="<font color=#000000><b>"+Sender+"</b></font>(<i>"+Time.substr(11)+"</i>) "+"<font color=#555555>"+msg+"</font>"+"<img src='1984chat_re.jpg' border=0 onclick='chat_reply_action(\""+escape(Sender)+"\");'/>"+"<hr style='border-top-width:0px;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;border-color:#eeeeee;' />";
+   } 
+  h+="</span>";
+   return h;
+}
+
+function getChatItemWriteStart()
+{
+ try {
+　document.getElementById('online_chat_box').style.visibility = "visible";
+　document.getElementById('online_chat_loading').style.visibility = "hidden";
+　document.getElementById('online_chat_loading').style.display = "none";
+ } catch(e) {};
+  return "";
+}
+
+function getChatItemWriteEnd()
+{
+return "";
+}
+
+function getChatListLimit(i)
+{
+        return 15;
+}
+</script>
+
+</head>
+
+<body onkeydown="if(event.keyCode==27) return false;">
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+	<div class="wrap">
+		<div id="header">
+			<h2><a href="index.php" title="1984bbs.com"><img src="images/default/logo.gif" alt="1984bbs.com" border="0" /></a></h2>
+			<div id="ad_headerbanner"><b>能截图的截图，喜欢备份的备份。2010年10月12日的某时某刻，1984bbs将关闭。对不起各位，我力所不能及。<br>希望1984bbs再见面的时候，这个世界上再也没有共产党。</b>——张书记 1984bbs</div>
+		</div>
+		<div id="menu">
+			<span class="avataonline">
+							<cite><a class="dropmenu" id="viewpro">vos2010</a></cite>
+				<a href="logging.php?action=logout&amp;formhash=823c9fa2">退出</a>
+						</span>
+					<ul>
+			<li><a href="my.php?item=threads">话题</a></li>
+			<li><a href="my.php?item=polls&amp;type=poll">投票</a></li>
+			<li><a href="my.php?item=posts">回复</a></li>
+			<li><a href="my.php?item=favorites&amp;type=thread">收藏</a></li>
+			<li><a href="pm.php" id="pmnotice" onclick="pmwin('open')"><font style="color:#FF0000">您有新短消息</font></a></li>
+									<li><a href="search.php?srchfid=21">搜索</a></li>									
+				<li><a href="memcp.php?action=profile">个人资料</a></li>				<li><a href="invite.php">邀请</a></li>																<!--				<li><a href="faq.php">关于我们</a></li> -->
+			</ul>
+		</div>
+
+<style type="text/css">
+.defaultpost { height: auto !important; height:120px; min-height:120px !important; }
+.signatures { height: expression(signature(this)); max-height: 100px; }
+</style>
+
+<script src="include/javascript/viewthread.js" type="text/javascript"></script>
+<script type="text/javascript">zoomstatus = parseInt(1);</script>
+
+<div id="foruminfo">
+	<div id="nav">
+		<div class="userinfolist">
+			<p><a href="index.php" id="forumlist" onmouseover="showMenu(this.id)" class="dropmenu">1984bbs.com</a> &raquo; <a href="forumdisplay.php?fid=21">开放社会资料室</a> &raquo; 尋紀錄片《我畢業了》</p>
+		</div>
+	</div>
+	<div id="headsearch">
+			</div>
+</div>
+
+<div class="ad_text" id="ad_text"><table summary="Text Ad" cellpadding="0" cellspacing="1"><tr><td width="100%"><b>发布新话题与讨论建议及审查说明</b><br>
+欢迎发布有讨论和阅读价值的话题；不欢迎嘲弄宗教、种族、地缘、性取向等话题。<br> 
+推崇布拉格公民论坛《对话守则》：对话的目的是寻求真理，不是为了斗争；不做人身攻击；保持主题；辩论时要用证据；要分清对话与只准自己讲话的区别；尽量理解对方。<br>
+遵循《世界人权宣言》第十九条不对用户已发表言论进行删除处理；用户有权限删除本人已发表言论；编辑会合并重复话题。</td></tr>
+</table></div>
+<div class="pages_btns">
+	<div class="threadflow"><a href="redirect.php?fid=21&amp;tid=36652&amp;goto=nextoldset"> &#8249;&#8249; 上一主题</a> | <a href="redirect.php?fid=21&amp;tid=36652&amp;goto=nextnewset">下一主题 &#8250;&#8250;</a></div>
+				<span class="postbtn" id="newspecial" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu(this.id)"><a href="post.php?action=newthread&amp;fid=21&amp;extra="><img src="images/default/newtopic.gif" border="0" alt="发新话题" title="发新话题" /></a></span>
+		<span class="replybtn"><a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;extra="><img src="images/default/reply.gif" border="0" alt="" /></a></span></div>
+
+	<ul class="popupmenu_popup newspecialmenu" id="newspecial_menu" style="display: none">
+		<li><a href="post.php?action=newthread&amp;fid=21&amp;extra=">发新话题</a></li>
+															</ul>
+
+<form method="post" name="modactions">
+	<input type="hidden" name="formhash" value="823c9fa2" />
+	<div class="mainbox viewthread">
+		<span class="headactions">
+					<a href="my.php?item=favorites&amp;tid=36652" id="ajax_favorite" onclick="ajaxmenu(event, this.id, 3000, 0)">收藏</a>
+			<a href="my.php?item=subscriptions&amp;subadd=36652" id="ajax_subscription" onclick="ajaxmenu(event, this.id, 3000, null, 0)">订阅</a>
+			<a href="misc.php?action=emailfriend&amp;tid=36652" id="emailfriend" onclick="ajaxmenu(event, this.id, 9000000, null, 0)">推荐</a>
+				<a href="viewthread.php?action=printable&amp;tid=36652" target="_blank" class="notabs">打印</a>
+				</span>
+		<h1><a href="forumdisplay.php?fid=21&amp;filter=type&amp;typeid=34">[电影]</a> 尋紀錄片《我畢業了》		</h1>
+							<table id="pid462607" summary="pid462607" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12181" target="_blank" id="userinfo462607" class="dropmenu" onmouseover="showMenu(this.id)">FraGile</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">你才成熟了，你全家都成熟了！</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12181">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12181&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_0" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum462607" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid462607', '话题链接已经复制到剪贴板')">1楼</strong>
+													<em onclick="$('postmessage_462607').className='t_bigfont'">大</em>							<em onclick="$('postmessage_462607').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_462607').className='t_smallfont'">小</em>												发表于 2010-2-2 09:43&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12181" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_0"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_0"></div><div id="ad_thread4_0"></div>
+													<h2>尋紀錄片《我畢業了》</h2>
+						
+						
+																											<div id="postmessage_462607" class="t_msgfont">誰那有？<br />
+<br />
+[<i> 本帖最后由 FraGile 于 2010-2-2 09:57 编辑 </i>]</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_462607"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo462607_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12181" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=462607&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 462607)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_0"></div>				</div>
+			</td>
+		</tr>
+		</table>
+		</div><div class="ad_column" id="ad_interthread"><a href="/viewthread.php?tid=54699" target="_blank" style="color:red;">1984bbs是一个非营利项目，它需要您的捐助！</font></a>		</div>
+	<div class="mainbox viewthread">
+			<table id="pid462669" summary="pid462669" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=5157" target="_blank" id="userinfo462669" class="dropmenu" onmouseover="showMenu(this.id)">Len</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">烂烂 @lennyrotten</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=5157">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=5157&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_1" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum462669" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid462669', '话题链接已经复制到剪贴板')">2楼</strong>
+													<em onclick="$('postmessage_462669').className='t_bigfont'">大</em>							<em onclick="$('postmessage_462669').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_462669').className='t_smallfont'">小</em>												发表于 2010-2-2 10:19&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=5157" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_1"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_1"></div><div id="ad_thread4_1"></div>
+													<h2>同寻</h2>
+						
+						
+																											<div id="postmessage_462669" class="t_msgfont">当年有机会看的，可是错过了。看过的朋友都说很震撼。</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_462669"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo462669_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=5157" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=462669&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 462669)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_1"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid462704" summary="pid462704" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12181" target="_blank" id="userinfo462704" class="dropmenu" onmouseover="showMenu(this.id)">FraGile</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">你才成熟了，你全家都成熟了！</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12181">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12181&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_2" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum462704" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid462704', '话题链接已经复制到剪贴板')">3楼</strong>
+													<em onclick="$('postmessage_462704').className='t_bigfont'">大</em>							<em onclick="$('postmessage_462704').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_462704').className='t_smallfont'">小</em>												发表于 2010-2-2 10:46&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12181" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_2"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_2"></div><div id="ad_thread4_2"></div>
+						
+						
+																											<div id="postmessage_462704" class="t_msgfont">現在上哪找啊？</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_462704"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo462704_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12181" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=462704&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 462704)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_2"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid463037" summary="pid463037" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12192" target="_blank" id="userinfo463037" class="dropmenu" onmouseover="showMenu(this.id)">超级皮波</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12192">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12192&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_3" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum463037" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid463037', '话题链接已经复制到剪贴板')">4楼</strong>
+													<em onclick="$('postmessage_463037').className='t_bigfont'">大</em>							<em onclick="$('postmessage_463037').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_463037').className='t_smallfont'">小</em>												发表于 2010-2-2 14:18&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12192" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_3"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_3"></div><div id="ad_thread4_3"></div>
+						
+						
+																											<div id="postmessage_463037" class="t_msgfont">讲的什么内容？</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_463037"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo463037_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12192" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=463037&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 463037)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_3"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid463049" summary="pid463049" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=9191" target="_blank" id="userinfo463049" class="dropmenu" onmouseover="showMenu(this.id)">jason32</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=9191">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=9191&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_4" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum463049" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid463049', '话题链接已经复制到剪贴板')">5楼</strong>
+													<em onclick="$('postmessage_463049').className='t_bigfont'">大</em>							<em onclick="$('postmessage_463049').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_463049').className='t_smallfont'">小</em>												发表于 2010-2-2 14:22&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=9191" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_4"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_4"></div><div id="ad_thread4_4"></div>
+						
+						
+																											<div id="postmessage_463049" class="t_msgfont">同求</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_463049"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo463049_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=9191" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=463049&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 463049)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_4"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid466245" summary="pid466245" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12181" target="_blank" id="userinfo466245" class="dropmenu" onmouseover="showMenu(this.id)">FraGile</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">你才成熟了，你全家都成熟了！</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12181">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12181&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_5" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum466245" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid466245', '话题链接已经复制到剪贴板')">6楼</strong>
+													<em onclick="$('postmessage_466245').className='t_bigfont'">大</em>							<em onclick="$('postmessage_466245').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_466245').className='t_smallfont'">小</em>												发表于 2010-2-4 13:16&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12181" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_5"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_5"></div><div id="ad_thread4_5"></div>
+						
+						
+																											<div id="postmessage_466245" class="t_msgfont">繼續等結果。</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_466245"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo466245_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12181" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=466245&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 466245)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_5"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid466400" summary="pid466400" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=4991" target="_blank" id="userinfo466400" class="dropmenu" onmouseover="showMenu(this.id)">sixapostle</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">闷骚男 我们不要一个被科学游戏污染的天空 我们不要一个被现实生活超越的时空 我们不要一个越来越远模糊的水平线 我们不要一个越来越近沉默的春天 我们不要被你们发明变成电脑儿童 我们不要被你们忘怀变成钥匙儿童</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=4991">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=4991&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_6" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum466400" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid466400', '话题链接已经复制到剪贴板')">7楼</strong>
+													<em onclick="$('postmessage_466400').className='t_bigfont'">大</em>							<em onclick="$('postmessage_466400').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_466400').className='t_smallfont'">小</em>												发表于 2010-2-4 14:53&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=4991" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_6"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_6"></div><div id="ad_thread4_6"></div>
+						
+						
+																											<div id="postmessage_466400" class="t_msgfont">我的老硬盘上有。。。<br />
+我回去找找。。。<br />
+<br />
+是不是有人旁白那部 ？<br />
+毕业题材的太多了</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_466400"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo466400_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=4991" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=466400&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 466400)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_6"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid466704" summary="pid466704" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7495" target="_blank" id="userinfo466704" class="dropmenu" onmouseover="showMenu(this.id)">sabrina</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7495">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7495&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_7" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum466704" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid466704', '话题链接已经复制到剪贴板')">8楼</strong>
+													<em onclick="$('postmessage_466704').className='t_bigfont'">大</em>							<em onclick="$('postmessage_466704').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_466704').className='t_smallfont'">小</em>												发表于 2010-2-4 18:52&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=7495" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_7"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_7"></div><div id="ad_thread4_7"></div>
+						
+						
+																											<div id="postmessage_466704" class="t_msgfont">我也要</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_466704"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo466704_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=7495" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=466704&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 466704)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_7"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid467386" summary="pid467386" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12184" target="_blank" id="userinfo467386" class="dropmenu" onmouseover="showMenu(this.id)">九幽</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">别有用心的不明真相份子</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12184">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12184&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_8" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum467386" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid467386', '话题链接已经复制到剪贴板')">9楼</strong>
+													<em onclick="$('postmessage_467386').className='t_bigfont'">大</em>							<em onclick="$('postmessage_467386').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_467386').className='t_smallfont'">小</em>												发表于 2010-2-5 02:00&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12184" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_8"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_8"></div><div id="ad_thread4_8"></div>
+						
+						
+																											<div id="postmessage_467386" class="t_msgfont">“他的创作小组风格最鲜明的作品是《我毕业了》，表现的是北京1980年代末毕业的那一批大学生对社会、爱情、理想的种种看法和心态，这个题材本身就比较大胆，而表现手法又很前卫，始于纪实但并不止于纪实，特别是大量地运用蒙太奇，既有长镜头的访谈，也有很多运动的长镜头、放慢的镜头，有偷拍和抓拍，还有很多特技，把当年学子的校园歌谣和诗朗诵处理得荡气回肠，整个作品很情感化，激情迸发，对理想丧失的悲痛和缅怀很有感染力，——对正在失去的1980年代理想主义的体认和感伤，《我毕业了》是迄今为止我看到的最好的表达。所代表的这种实验性的风格和趋势，在整个新纪录运动中始于他也止于他。原因是，以后的整个新纪录运动的年代里，其实只有纪实主义风格是唯一最能够存活也最有力的表达。”</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_467386"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo467386_menu" style="display: none;">
+										<div class="imicons">
+												<a href="http://wpa.qq.com/msgrd?V=1&amp;Uin=413386479&amp;Site=1984bbs.com&amp;Menu=yes" target="_blank"><img src="images/default/qq.gif" alt="QQ" /></a>																							</div>
+										<dl></dl>
+										<p><a href="space.php?uid=12184" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=467386&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 467386)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_8"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid467435" summary="pid467435" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=10472" target="_blank" id="userinfo467435" class="dropmenu" onmouseover="showMenu(this.id)">江南一笑</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=10472">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=10472&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_9" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum467435" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid467435', '话题链接已经复制到剪贴板')">10楼</strong>
+													<em onclick="$('postmessage_467435').className='t_bigfont'">大</em>							<em onclick="$('postmessage_467435').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_467435').className='t_smallfont'">小</em>												发表于 2010-2-5 07:38&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=10472" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_9"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_9"></div><div id="ad_thread4_9"></div>
+						
+						
+																											<div id="postmessage_467435" class="t_msgfont">同求！期待中</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_467435"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo467435_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=10472" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=467435&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 467435)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_9"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid467447" summary="pid467447" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=11814" target="_blank" id="userinfo467447" class="dropmenu" onmouseover="showMenu(this.id)">河殇</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">抱歉，根据相关法律法规和政策，本人目前只能低调，不能狂妄。推特@lxkrock </p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=11814">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=11814&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_10" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum467447" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid467447', '话题链接已经复制到剪贴板')">11楼</strong>
+													<em onclick="$('postmessage_467447').className='t_bigfont'">大</em>							<em onclick="$('postmessage_467447').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_467447').className='t_smallfont'">小</em>												发表于 2010-2-5 08:23&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=11814" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_10"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_10"></div><div id="ad_thread4_10"></div>
+						
+						
+																											<div id="postmessage_467447" class="t_msgfont">第一次听说</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_467447"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo467447_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=11814" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=467447&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 467447)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_10"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid470216" summary="pid470216" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12255" target="_blank" id="userinfo470216" class="dropmenu" onmouseover="showMenu(this.id)">zhenhdong</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12255">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12255&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_11" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum470216" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid470216', '话题链接已经复制到剪贴板')">12楼</strong>
+													<em onclick="$('postmessage_470216').className='t_bigfont'">大</em>							<em onclick="$('postmessage_470216').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_470216').className='t_smallfont'">小</em>												发表于 2010-2-7 08:24&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12255" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_11"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_11"></div><div id="ad_thread4_11"></div>
+						
+						
+																											<div id="postmessage_470216" class="t_msgfont">期待</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_470216"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo470216_menu" style="display: none;">
+										<div class="imicons">
+													<a target='_blank' href='http://settings.messenger.live.com/Conversation/IMMe.aspx?invitee=zhenhdong@hotmail.com&mkt=zh-cn'><img style='border-style: none;' src='http://messenger.services.live.com/users/zhenhdong@hotmail.com/presenceimage?mkt=zh-cn' width='16' height='16' /></a>
+																																			</div>
+										<dl></dl>
+											<p><a href="http://twitter.com/zhenhdong" target="_blank">查看个人网站</a></p>
+										<p><a href="space.php?uid=12255" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=470216&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 470216)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_11"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid482770" summary="pid482770" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12181" target="_blank" id="userinfo482770" class="dropmenu" onmouseover="showMenu(this.id)">FraGile</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">你才成熟了，你全家都成熟了！</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12181">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12181&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_12" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum482770" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid482770', '话题链接已经复制到剪贴板')">13楼</strong>
+													<em onclick="$('postmessage_482770').className='t_bigfont'">大</em>							<em onclick="$('postmessage_482770').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_482770').className='t_smallfont'">小</em>												发表于 2010-2-17 14:11&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12181" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_12"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_12"></div><div id="ad_thread4_12"></div>
+						
+						
+																											<div id="postmessage_482770" class="t_msgfont">up</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_482770"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo482770_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12181" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=482770&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 482770)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_12"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid482775" summary="pid482775" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=6592" target="_blank" id="userinfo482775" class="dropmenu" onmouseover="showMenu(this.id)">heifenbrug</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">沉渣泛起，流毒不淺</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=6592">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=6592&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_13" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum482775" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid482775', '话题链接已经复制到剪贴板')">14楼</strong>
+													<em onclick="$('postmessage_482775').className='t_bigfont'">大</em>							<em onclick="$('postmessage_482775').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_482775').className='t_smallfont'">小</em>												发表于 2010-2-17 14:25&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=6592" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_13"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_13"></div><div id="ad_thread4_13"></div>
+						
+						
+																											<div id="postmessage_482775" class="t_msgfont">也是第一次聽說此片 死找不到</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_482775"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo482775_menu" style="display: none;">
+										<div class="imicons">
+													<a target='_blank' href='http://settings.messenger.live.com/Conversation/IMMe.aspx?invitee=yze.von@gmail.com&mkt=zh-cn'><img style='border-style: none;' src='http://messenger.services.live.com/users/yze.von@gmail.com/presenceimage?mkt=zh-cn' width='16' height='16' /></a>
+																																			</div>
+										<dl></dl>
+											<p><a href="http://www.fan-gong.com" target="_blank">查看个人网站</a></p>
+										<p><a href="space.php?uid=6592" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=482775&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 482775)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_13"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid487142" summary="pid487142" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=5823" target="_blank" id="userinfo487142" class="dropmenu" onmouseover="showMenu(this.id)">康波</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">老泪纵横</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=5823">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=5823&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_14" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum487142" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid487142', '话题链接已经复制到剪贴板')">15楼</strong>
+													<em onclick="$('postmessage_487142').className='t_bigfont'">大</em>							<em onclick="$('postmessage_487142').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_487142').className='t_smallfont'">小</em>												发表于 2010-2-21 16:23&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=5823" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_14"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_14"></div><div id="ad_thread4_14"></div>
+						
+						
+																											<div id="postmessage_487142" class="t_msgfont">跪求！</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_487142"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo487142_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=5823" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=487142&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 487142)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_14"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid487476" summary="pid487476" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12422" target="_blank" id="userinfo487476" class="dropmenu" onmouseover="showMenu(this.id)">cinepo</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">我是爱你们的</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12422">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12422&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_15" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum487476" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid487476', '话题链接已经复制到剪贴板')">16楼</strong>
+													<em onclick="$('postmessage_487476').className='t_bigfont'">大</em>							<em onclick="$('postmessage_487476').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_487476').className='t_smallfont'">小</em>												发表于 2010-2-21 21:04&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12422" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_15"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_15"></div><div id="ad_thread4_15"></div>
+						
+						
+																											<div id="postmessage_487476" class="t_msgfont">看了描述，很像欣赏一下，谁能供源啊</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_487476"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo487476_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12422" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=487476&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 487476)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_15"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid493328" summary="pid493328" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=11252" target="_blank" id="userinfo493328" class="dropmenu" onmouseover="showMenu(this.id)">爱在夜雨时</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=11252">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=11252&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_16" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum493328" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid493328', '话题链接已经复制到剪贴板')">17楼</strong>
+													<em onclick="$('postmessage_493328').className='t_bigfont'">大</em>							<em onclick="$('postmessage_493328').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_493328').className='t_smallfont'">小</em>												发表于 2010-2-25 23:54&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=11252" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_16"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_16"></div><div id="ad_thread4_16"></div>
+						
+						
+																											<div id="postmessage_493328" class="t_msgfont">大概，这片没有上传到网络吧。</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_493328"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo493328_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=11252" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=493328&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 493328)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_16"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid494066" summary="pid494066" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12181" target="_blank" id="userinfo494066" class="dropmenu" onmouseover="showMenu(this.id)">FraGile</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">你才成熟了，你全家都成熟了！</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12181">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12181&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_17" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum494066" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid494066', '话题链接已经复制到剪贴板')">18楼</strong>
+													<em onclick="$('postmessage_494066').className='t_bigfont'">大</em>							<em onclick="$('postmessage_494066').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_494066').className='t_smallfont'">小</em>												发表于 2010-2-26 15:36&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12181" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_17"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_17"></div><div id="ad_thread4_17"></div>
+						
+						
+																											<div id="postmessage_494066" class="t_msgfont">繼續繼續~~~~~~~~~~~~~~~</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_494066"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo494066_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12181" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=494066&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 494066)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_17"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid494259" summary="pid494259" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12480" target="_blank" id="userinfo494259" class="dropmenu" onmouseover="showMenu(this.id)">martian286</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12480">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12480&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_18" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum494259" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid494259', '话题链接已经复制到剪贴板')">19楼</strong>
+													<em onclick="$('postmessage_494259').className='t_bigfont'">大</em>							<em onclick="$('postmessage_494259').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_494259').className='t_smallfont'">小</em>												发表于 2010-2-26 18:28&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12480" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_18"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_18"></div><div id="ad_thread4_18"></div>
+						
+						
+																											<div id="postmessage_494259" class="t_msgfont">有两集的，可惜以前看过给删了，现在也想再看一遍。。</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_494259"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo494259_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12480" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=494259&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 494259)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_18"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid495065" summary="pid495065" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=3192" target="_blank" id="userinfo495065" class="dropmenu" onmouseover="showMenu(this.id)">a84809</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=3192">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=3192&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_19" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum495065" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid495065', '话题链接已经复制到剪贴板')">20楼</strong>
+													<em onclick="$('postmessage_495065').className='t_bigfont'">大</em>							<em onclick="$('postmessage_495065').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_495065').className='t_smallfont'">小</em>												发表于 2010-2-27 14:01&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=3192" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_19"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_19"></div><div id="ad_thread4_19"></div>
+						
+						
+																											<div id="postmessage_495065" class="t_msgfont">是王光利的作品么？ 找不到唉............................如有转机请楼主消息我啊</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_495065"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo495065_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=3192" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=495065&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 495065)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_19"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid496618" summary="pid496618" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=4339" target="_blank" id="userinfo496618" class="dropmenu" onmouseover="showMenu(this.id)">131ren</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=4339">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=4339&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_20" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum496618" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid496618', '话题链接已经复制到剪贴板')">21楼</strong>
+													<em onclick="$('postmessage_496618').className='t_bigfont'">大</em>							<em onclick="$('postmessage_496618').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_496618').className='t_smallfont'">小</em>												发表于 2010-2-28 19:46&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=4339" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_20"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_20"></div><div id="ad_thread4_20"></div>
+						
+						
+																											<div id="postmessage_496618" class="t_msgfont">同求~</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_496618"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo496618_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=4339" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=496618&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 496618)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_20"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid504395" summary="pid504395" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12409" target="_blank" id="userinfo504395" class="dropmenu" onmouseover="showMenu(this.id)">社会弃婴</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">我们不能沉默，因为我们爱这个世界爱得如此深沉。我们不能沉默，因为我对明天还存在着一分美好的希望。</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12409">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12409&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_21" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum504395" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid504395', '话题链接已经复制到剪贴板')">22楼</strong>
+													<em onclick="$('postmessage_504395').className='t_bigfont'">大</em>							<em onclick="$('postmessage_504395').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_504395').className='t_smallfont'">小</em>												发表于 2010-3-5 20:51&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12409" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_21"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_21"></div><div id="ad_thread4_21"></div>
+						
+						
+																											<div id="postmessage_504395" class="t_msgfont">up!!!!</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_504395"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo504395_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12409" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=504395&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 504395)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_21"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid511025" summary="pid511025" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12181" target="_blank" id="userinfo511025" class="dropmenu" onmouseover="showMenu(this.id)">FraGile</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">你才成熟了，你全家都成熟了！</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12181">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12181&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_22" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum511025" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid511025', '话题链接已经复制到剪贴板')">23楼</strong>
+													<em onclick="$('postmessage_511025').className='t_bigfont'">大</em>							<em onclick="$('postmessage_511025').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_511025').className='t_smallfont'">小</em>												发表于 2010-3-10 17:14&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12181" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_22"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_22"></div><div id="ad_thread4_22"></div>
+						
+						
+																											<div id="postmessage_511025" class="t_msgfont">就這麼個找法兒，什麼時候能找著啊？！</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_511025"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo511025_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12181" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=511025&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 511025)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_22"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid516141" summary="pid516141" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7495" target="_blank" id="userinfo516141" class="dropmenu" onmouseover="showMenu(this.id)">sabrina</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7495">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7495&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_23" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum516141" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid516141', '话题链接已经复制到剪贴板')">24楼</strong>
+													<em onclick="$('postmessage_516141').className='t_bigfont'">大</em>							<em onclick="$('postmessage_516141').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_516141').className='t_smallfont'">小</em>												发表于 2010-3-14 15:13&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=7495" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_23"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_23"></div><div id="ad_thread4_23"></div>
+						
+						
+																											<div id="postmessage_516141" class="t_msgfont">同 寻</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_516141"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo516141_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=7495" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=516141&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 516141)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_23"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid516683" summary="pid516683" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=7052" target="_blank" id="userinfo516683" class="dropmenu" onmouseover="showMenu(this.id)">辰雨铭</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=7052">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=7052&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_24" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum516683" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid516683', '话题链接已经复制到剪贴板')">25楼</strong>
+													<em onclick="$('postmessage_516683').className='t_bigfont'">大</em>							<em onclick="$('postmessage_516683').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_516683').className='t_smallfont'">小</em>												发表于 2010-3-14 23:48&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=7052" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_24"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_24"></div><div id="ad_thread4_24"></div>
+						
+						
+																											<div id="postmessage_516683" class="t_msgfont">同求中</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_516683"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo516683_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=7052" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=516683&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 516683)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_24"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid517152" summary="pid517152" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12533" target="_blank" id="userinfo517152" class="dropmenu" onmouseover="showMenu(this.id)">AnitaXu</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12533">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12533&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_25" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum517152" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid517152', '话题链接已经复制到剪贴板')">26楼</strong>
+													<em onclick="$('postmessage_517152').className='t_bigfont'">大</em>							<em onclick="$('postmessage_517152').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_517152').className='t_smallfont'">小</em>												发表于 2010-3-15 12:31&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12533" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_25"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_25"></div><div id="ad_thread4_25"></div>
+						
+						
+																											<div id="postmessage_517152" class="t_msgfont">同求。</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_517152"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo517152_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12533" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=517152&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 517152)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_25"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid517214" summary="pid517214" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=1474" target="_blank" id="userinfo517214" class="dropmenu" onmouseover="showMenu(this.id)">左岸←右岸</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">把你的子宫钉到我的墙上，这样我便会记得你。我们必须走了。明天，明天…</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=1474">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=1474&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_26" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum517214" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid517214', '话题链接已经复制到剪贴板')">27楼</strong>
+													<em onclick="$('postmessage_517214').className='t_bigfont'">大</em>							<em onclick="$('postmessage_517214').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_517214').className='t_smallfont'">小</em>												发表于 2010-3-15 13:19&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=1474" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_26"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_26"></div><div id="ad_thread4_26"></div>
+						
+						
+																											<div id="postmessage_517214" class="t_msgfont">求传送门····</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_517214"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo517214_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=1474" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=517214&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 517214)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_26"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid521867" summary="pid521867" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=8171" target="_blank" id="userinfo521867" class="dropmenu" onmouseover="showMenu(this.id)">一小碗茶</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=8171">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=8171&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_27" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum521867" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid521867', '话题链接已经复制到剪贴板')">28楼</strong>
+													<em onclick="$('postmessage_521867').className='t_bigfont'">大</em>							<em onclick="$('postmessage_521867').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_521867').className='t_smallfont'">小</em>												发表于 2010-3-18 20:34&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=8171" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_27"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_27"></div><div id="ad_thread4_27"></div>
+						
+						
+																											<div id="postmessage_521867" class="t_msgfont">同求中</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_521867"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo521867_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=8171" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=521867&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 521867)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_27"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid583091" summary="pid583091" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12181" target="_blank" id="userinfo583091" class="dropmenu" onmouseover="showMenu(this.id)">FraGile</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">你才成熟了，你全家都成熟了！</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12181">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12181&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_28" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum583091" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid583091', '话题链接已经复制到剪贴板')">29楼</strong>
+													<em onclick="$('postmessage_583091').className='t_bigfont'">大</em>							<em onclick="$('postmessage_583091').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_583091').className='t_smallfont'">小</em>												发表于 2010-4-25 23:02&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12181" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_28"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_28"></div><div id="ad_thread4_28"></div>
+						
+						
+																											<div id="postmessage_583091" class="t_msgfont">哎，这是什么型号的杯具，我找片子未遂引来一群跟着等的。谁那有啊？</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_583091"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo583091_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12181" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=583091&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 583091)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_28"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid583958" summary="pid583958" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12906" target="_blank" id="userinfo583958" class="dropmenu" onmouseover="showMenu(this.id)">general.sophia</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">不懂</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12906">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12906&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_29" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum583958" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid583958', '话题链接已经复制到剪贴板')">30楼</strong>
+													<em onclick="$('postmessage_583958').className='t_bigfont'">大</em>							<em onclick="$('postmessage_583958').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_583958').className='t_smallfont'">小</em>												发表于 2010-4-26 14:37&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12906" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_29"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_29"></div><div id="ad_thread4_29"></div>
+						
+						
+																											<div id="postmessage_583958" class="t_msgfont">为什么没有人有啊&nbsp; &nbsp;都求了这么久了</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_583958"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo583958_menu" style="display: none;">
+										<dl></dl>
+											<p><a href="http://www.lyricsophia111.blogspot.com" target="_blank">查看个人网站</a></p>
+										<p><a href="space.php?uid=12906" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=583958&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 583958)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_29"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid583970" summary="pid583970" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=5823" target="_blank" id="userinfo583970" class="dropmenu" onmouseover="showMenu(this.id)">康波</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">老泪纵横</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=5823">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=5823&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_30" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum583970" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid583970', '话题链接已经复制到剪贴板')">31楼</strong>
+													<em onclick="$('postmessage_583970').className='t_bigfont'">大</em>							<em onclick="$('postmessage_583970').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_583970').className='t_smallfont'">小</em>												发表于 2010-4-26 14:45&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=5823" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_30"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_30"></div><div id="ad_thread4_30"></div>
+						
+						
+																											<div id="postmessage_583970" class="t_msgfont">等待中</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_583970"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo583970_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=5823" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=583970&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 583970)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_30"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid589143" summary="pid589143" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=5060" target="_blank" id="userinfo589143" class="dropmenu" onmouseover="showMenu(this.id)">来自苏区</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=5060">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=5060&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_31" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum589143" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid589143', '话题链接已经复制到剪贴板')">32楼</strong>
+													<em onclick="$('postmessage_589143').className='t_bigfont'">大</em>							<em onclick="$('postmessage_589143').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_589143').className='t_smallfont'">小</em>												发表于 2010-4-29 15:07&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=5060" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_31"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_31"></div><div id="ad_thread4_31"></div>
+						
+						
+																											<div id="postmessage_589143" class="t_msgfont">等待……</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_589143"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo589143_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=5060" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=589143&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 589143)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_31"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid589184" summary="pid589184" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12441" target="_blank" id="userinfo589184" class="dropmenu" onmouseover="showMenu(this.id)">维特根斯坦</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">上下求索之人</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12441">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12441&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_32" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum589184" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid589184', '话题链接已经复制到剪贴板')">33楼</strong>
+													<em onclick="$('postmessage_589184').className='t_bigfont'">大</em>							<em onclick="$('postmessage_589184').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_589184').className='t_smallfont'">小</em>												发表于 2010-4-29 15:24&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12441" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_32"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_32"></div><div id="ad_thread4_32"></div>
+						
+						
+																											<div id="postmessage_589184" class="t_msgfont">等待</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_589184"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo589184_menu" style="display: none;">
+										<div class="imicons">
+												<a href="http://wpa.qq.com/msgrd?V=1&amp;Uin=1113625771&amp;Site=1984bbs.com&amp;Menu=yes" target="_blank"><img src="images/default/qq.gif" alt="QQ" /></a>																							</div>
+										<dl></dl>
+										<p><a href="space.php?uid=12441" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=589184&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 589184)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_32"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid589186" summary="pid589186" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=11633" target="_blank" id="userinfo589186" class="dropmenu" onmouseover="showMenu(this.id)">时空过客</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=11633">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=11633&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_33" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum589186" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid589186', '话题链接已经复制到剪贴板')">34楼</strong>
+													<em onclick="$('postmessage_589186').className='t_bigfont'">大</em>							<em onclick="$('postmessage_589186').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_589186').className='t_smallfont'">小</em>												发表于 2010-4-29 15:27&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=11633" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_33"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_33"></div><div id="ad_thread4_33"></div>
+						
+						
+																											<div id="postmessage_589186" class="t_msgfont">同求</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_589186"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo589186_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=11633" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=589186&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 589186)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_33"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid589639" summary="pid589639" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=5823" target="_blank" id="userinfo589639" class="dropmenu" onmouseover="showMenu(this.id)">康波</a></cite>
+																		<p><em></em></p>
+						<p></p>
+						<p class="customstatus">老泪纵横</p>												
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=5823">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=5823&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_34" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum589639" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid589639', '话题链接已经复制到剪贴板')">35楼</strong>
+													<em onclick="$('postmessage_589639').className='t_bigfont'">大</em>							<em onclick="$('postmessage_589639').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_589639').className='t_smallfont'">小</em>												发表于 2010-4-29 19:14&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=5823" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_34"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_34"></div><div id="ad_thread4_34"></div>
+						
+						
+																											<div id="postmessage_589639" class="t_msgfont">我靠，这般难觅，比那年拖拉机进城的镜头都难找么？</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_589639"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo589639_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=5823" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=589639&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 589639)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_34"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid589951" summary="pid589951" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=12212" target="_blank" id="userinfo589951" class="dropmenu" onmouseover="showMenu(this.id)">yuechi</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12212">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12212&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_35" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum589951" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid589951', '话题链接已经复制到剪贴板')">36楼</strong>
+													<em onclick="$('postmessage_589951').className='t_bigfont'">大</em>							<em onclick="$('postmessage_589951').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_589951').className='t_smallfont'">小</em>												发表于 2010-4-29 22:29&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12212" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_35"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_35"></div><div id="ad_thread4_35"></div>
+						
+						
+																											<div id="postmessage_589951" class="t_msgfont">都在说，就没看见分享的。晕</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_589951"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo589951_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12212" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=589951&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 589951)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_35"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid590163" summary="pid590163" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 					<cite>											<a href="space.php?uid=9510" target="_blank" id="userinfo590163" class="dropmenu" onmouseover="showMenu(this.id)">历史系败类</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=9510">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=9510&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_36" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum590163" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid590163', '话题链接已经复制到剪贴板')">37楼</strong>
+													<em onclick="$('postmessage_590163').className='t_bigfont'">大</em>							<em onclick="$('postmessage_590163').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_590163').className='t_smallfont'">小</em>												发表于 2010-4-30 00:36&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=9510" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_36"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_36"></div><div id="ad_thread4_36"></div>
+						
+						
+																											<div id="postmessage_590163" class="t_msgfont">没看见分享的。晕</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_590163"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo590163_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=9510" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=590163&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 590163)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_36"></div>				</div>
+			</td>
+		</tr>
+		</table>
+				</div>
+	<div class="mainbox viewthread">
+			<table id="pid591698" summary="pid591698" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="postauthor">
+					 <a name="lastpost"></a>					<cite>											<a href="space.php?uid=12794" target="_blank" id="userinfo591698" class="dropmenu" onmouseover="showMenu(this.id)">Designer</a></cite>
+																		<p><em></em></p>
+						<p></p>
+																		
+						<ul>
+												<!-- <li class="pm"><a href="pm.php?action=send&amp;uid=12794">发短消息</a></li> -->
+						<!-- <li class="buddy"><a href="my.php?item=buddylist&amp;newbuddyid=12794&amp;buddysubmit=yes" target="_blank" id="ajax_buddy_37" onclick="ajaxmenu(event, this.id, 3000, 0)">加为好友</a></li> -->
+
+						
+						</ul>
+									</td>
+				<td class="postcontent" >
+					<div class="postinfo">
+						<strong title="复制话题链接到剪贴板" id="postnum591698" onclick="setcopy('https://1984bbs.com/viewthread.php?tid=36652&page=1#pid591698', '话题链接已经复制到剪贴板')">38楼</strong>
+													<em onclick="$('postmessage_591698').className='t_bigfont'">大</em>							<em onclick="$('postmessage_591698').className='t_msgfont'">中</em>
+							<em onclick="$('postmessage_591698').className='t_smallfont'">小</em>												发表于 2010-4-30 21:11&nbsp;																					<a href="viewthread.php?tid=36652&amp;page=1&amp;authorid=12794" rel="nofollow">只看该作者</a>
+																		</div>
+					<div id="ad_thread2_37"></div>					<div class="postmessage defaultpost">
+																		<div id="ad_thread3_37"></div><div id="ad_thread4_37"></div>
+						
+						
+																											<div id="postmessage_591698" class="t_msgfont">等待种子</div>
+
+							
+							
+							
+							
+															<div id="post_rate_div_591698"></div>
+																</div>
+							</td>
+		</tr>
+		<tr>
+			<td class="postauthor">
+								<div class="popupmenu_popup userinfopanel" id="userinfo591698_menu" style="display: none;">
+										<dl></dl>
+										<p><a href="space.php?uid=12794" target="_blank">查看详细资料</a></p>
+														</div>
+							</td>
+			<td class="postcontent">
+				<div class="postactions">
+										<p>
+																			<a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;repquote=591698&amp;extra=&amp;page=1">引用</a>
+																																											<a href="###" onclick="fastreply('回复 # 的话题', 591698)">回复</a>
+																		<strong onclick="scroll(0,0)" title="顶部">TOP</strong>
+					</p>
+					<div id="ad_thread1_37"></div>				</div>
+			</td>
+		</tr>
+		</table>
+		</div>
+</form>
+
+
+
+
+
+<div class="pages_btns">
+	<div class="threadflow"><a href="redirect.php?fid=21&amp;tid=36652&amp;goto=nextoldset"> &#8249;&#8249; 上一主题</a> | <a href="redirect.php?fid=21&amp;tid=36652&amp;goto=nextnewset">下一主题 &#8250;&#8250;</a></div>
+				<span class="postbtn" id="newspecialtmp" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu(this.id)"><a href="post.php?action=newthread&amp;fid=21&amp;extra="><img src="images/default/newtopic.gif" border="0" alt="发新话题" title="发新话题" /></a></span>
+		<span class="replybtn"><a href="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;extra="><img src="images/default/reply.gif" border="0" alt="" /></a></span></div>
+
+<!--精华贴打标记-->
+
+	<script src="include/javascript/post.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	var postminchars = parseInt('2');
+	var postmaxchars = parseInt('1000000');
+	var disablepostctrl = parseInt('0');
+	var charset = 'gbk';
+	function validate(theform) {
+		if(theform.message.value == '' && theform.subject.value == '') {
+			alert("请完成标题或内容栏。");
+			theform.message.focus();
+			return false;
+		} else if(mb_strlen(theform.subject.value) > 80) {
+			alert("您的标题超过 80 个字符的限制。");
+			theform.subject.focus();
+			return false;
+		}
+		if(!disablepostctrl && ((postminchars != 0 && mb_strlen(theform.message.value) < postminchars) || (postmaxchars != 0 && mb_strlen(theform.message.value) > postmaxchars))) {
+			alert("您的话题长度不符合要求。\n\n当前长度: "+mb_strlen(theform.message.value)+" 字节\n系统限制: "+postminchars+" 到 "+postmaxchars+" 字节");
+			return false;
+		}
+		if(!fetchCheckbox('parseurloff')) {
+			theform.message.value = parseurl(theform.message.value, 'bbcode');
+		}
+		theform.replysubmit.disabled = true;
+		return true;
+	}
+	</script>
+<!--精华贴打标记-->
+
+	<form method="post" id="postform" action="post.php?action=reply&amp;fid=21&amp;tid=36652&amp;extra=&amp;replysubmit=yes" onSubmit="return validate(this)">
+		<input type="hidden" name="formhash" value="823c9fa2" />
+		<div id="quickpost" class="box">
+			
+			<h4>快速回复主题</h4>
+			<div class="postoptions">
+&nbsp;
+			</div>
+			<div class="postform">
+				<h5><label>标题
+				<input type="text" name="subject" value="" tabindex="1"></label></h5>
+				<p><label>内容</label>
+				<textarea rows="7" cols="80" class="autosave" name="message" id="message" onKeyDown="ctlent(event);" tabindex="2"></textarea>
+				</p>
+				<p class="btns">
+					<button type="submit" name="replysubmit" id="postsubmit" value="replysubmit" tabindex="3">发表话题</button>[完成后可按 Ctrl+Enter 发布]&nbsp;
+					<a href="###" id="previewpost" onclick="$('postform').action=$('postform').action + '&previewpost=yes';$('postform').submit();">预览话题</a>&nbsp;
+					<a href="###" id="restoredata" title="恢复上次自动保存的数据" onclick="loadData()">恢复数据</a>&nbsp;
+					<a href="###" onclick="$('postform').reset()">清空内容</a>
+				</p>
+			</div>
+						<script type="text/javascript">
+				var textobj = $('message');
+				window.onbeforeunload = function () {saveData(textobj.value)};
+				if(is_ie >= 5 || is_moz >= 2) {
+					lang['post_autosave_none'] = "没有可以恢复的数据！";
+					lang['post_autosave_confirm'] = "此操作将覆盖当前话题内容，确定要恢复数据吗？";
+				} else {
+					$('restoredata').style.display = 'none';
+				}
+			</script>
+		</div>
+	</form>
+	<div class="popupmenu_popup" id="forumlist_menu" style="display: none">
+		<dl><dt><a href="index.php?gid=3">沙龙</a></dt><dd><ul><li><a href="forumdisplay.php?fid=2">自由新闻社</a></li><li><a href="forumdisplay.php?fid=37">雅典学院</a></li><li class="current"><a href="forumdisplay.php?fid=21">开放社会资料室</a></li><li><a href="forumdisplay.php?fid=26">国家局域网研究所</a></li><li><a href="forumdisplay.php?fid=35">罗马假日公寓</a></li><li><a href="forumdisplay.php?fid=40">Live!大讲堂</a></li></ul></dd></dl><dl><dt><a href="index.php?gid=11">站务</a></dt><dd><ul><li><a href="forumdisplay.php?fid=9">多功能小黑屋</a></li></ul></dd></dl>	</div>
+
+<script type="text/javascript">
+var maxpage = 1;
+if(maxpage > 1) {
+	document.onkeyup = function(e){
+		e = e ? e : window.event;
+		var tagname = is_ie ? e.srcElement.tagName : e.target.tagName;
+		if(tagname == 'INPUT' || tagname == 'TEXTAREA') return;
+		actualCode = e.keyCode ? e.keyCode : e.charCode;
+					}
+}
+</script></div>	<div class="ad_footerbanner" id="ad_footerbanner1"></div>
+	<div class="ad_footerbanner" id="ad_footerbanner2"><b> 顾问</b>：莫之许、北风、不锈钢老鼠、温克坚、艾未未、冉云飞、安替、崔卫平、闾丘露薇、章立凡 <b> 形象代言</b>：宋石男  <b>法律顾问</b>：浦志强  <b> <br>编辑</b>：张书记、上肛上腺、抑扬、musicool、王祖贤、alix001、核子力量、四夕亚日、炽鸢侯、木火 <br><b>技术</b>：库存袈裟、麦圆、散光     <br> </div>
+	<div class="ad_footerbanner" id="ad_footerbanner3"></div>
+
+<div id="footer">
+	<div class="wrap">
+		<div id="footlinks">
+
+			<p>
+				<a href="viewthread.php?tid=23826" target="_blank">浏览器支持说明</a>　|　<a href="member.php?action=clearcookies&amp;formhash=823c9fa2">清除 Cookies</a>
+				
+							</p>
+		</div>
+		<p id="copyright">
+			CopyRight &#169; 1984bbs.com </p><p id="debuginfo">Processed in  second(s),  queries, Gzip enabled.</p>
+
+	</div>
+</div>
+</body>
+</html>
